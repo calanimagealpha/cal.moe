@@ -44,17 +44,17 @@
         </ul>
         <div class="top-bar-item">
             <a href="https://www.facebook.com/calanimagealpha" target="_blank">
-                <img src='/assets/image/fb.png' alt="Facebook" style="border:0;">
+                <img src='/assets/image/fb.webp' alt="Facebook" style="border:0;">
             </a>
         </div>
         <div class="top-bar-item">
             <a href="https://twitter.com/calanimagealpha" target="_blank">
-                <img src='/assets/image/tw.png' alt="Twitter" style="width:33px;height:33px;border:0;">
+                <img src='/assets/image/tw.webp' alt="Twitter" style="width:33px;height:33px;border:0;">
             </a>
         </div>
         <div class="top-bar-item">
             <a href="https://www.youtube.com/channel/UCqwtuMg539jVEtTYRrtD6kw" target="_blank">
-                <img src='/assets/image/yt.png' alt="Youtube" style="width:33px;height:33px;border:0;">
+                <img src='/assets/image/yt.webp' alt="Youtube" style="width:33px;height:33px;border:0;">
             </a>
         </div>
     </div>
