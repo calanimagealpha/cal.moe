@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <svelte:head>
 	<title>CAA - Showings Schedule</title>
 	<link rel="stylesheet" type="text/css" href="/assets/style/asset-style.css" />

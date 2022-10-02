@@ -1,6 +1,10 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <svelte:head>
     <title>Cal Animage Alpha</title>
-    <link href="/assets/style/style.css" rel="stylesheet" type="text/css"/>
+    <link href="{base}/assets/style/style.css" rel="stylesheet" type="text/css"/>
 </svelte:head>
 
 <div class="home-page dim">
@@ -11,51 +15,51 @@
             <li class="top-bar-item">
                 <a href="#about"><span>About</span></a>
                 <ul>
-                    <li><a href="/officers/">Officers</a></li>
-                    <li><a href="/contact/">Contact Us</a></li>
+                    <li><a href="{base}/officers/">Officers</a></li>
+                    <li><a href="{base}/contact/">Contact Us</a></li>
                 </ul>
             </li>
             <li class="top-bar-item">
                 <a href="#events"><span>Events</span></a>
                 <ul>
                     <li><a href="http://www.calanimedestiny.com" target="_blank">Anime Destiny</a></li>
-                    <li><a href="/schedule/">Club Calendar</a></li>
+                    <li><a href="{base}/schedule/">Club Calendar</a></li>
                 </ul>
             </li>
             <li class="top-bar-item">
                 <a href="#konshuu"><span>Konshuu</span></a>
                 <ul>
-                    <li><a href="/konshuu/">Read Online</a></li>
+                    <li><a href="{base}/konshuu/">Read Online</a></li>
                     <li><a href="http://j.mp/konsub" target="_blank">Contribute</a></li>
                 </ul>
             </li>
             <li class="top-bar-item">
                 <a href="blm/">BLM</a>
                 <ul>
-                    <li><a href="blm/">BLM</a></li>
+                    <li><a href="{base}/blm/">BLM</a></li>
                 </ul>
             </li>
             <li class="top-bar-item">
                 <a href="#membership"><span>Join Us</span></a>
                 <ul>
                     <li><a href="https://discord.gg/Xp4MUjG" style="letter-spacing: 1px;">Discord</a></li>
-                    <li><a href="mail/">Mailing List</a></li>
+                    <li><a href="{base}/mail/">Mailing List</a></li>
                 </ul>
             </li>
         </ul>
         <div class="top-bar-item">
             <a href="https://www.facebook.com/calanimagealpha" target="_blank">
-                <img src='/assets/image/fb.webp' alt="Facebook" style="border:0;">
+                <img src='{base}/assets/image/fb.webp' alt="Facebook" style="border:0;">
                 </a>
         </div>
         <div class="top-bar-item">
             <a href="https://twitter.com/calanimagealpha" target="_blank">
-                <img src='/assets/image/tw.webp' alt="Twitter" style="width:33px;height:33px;border:0;">
+                <img src='{base}/assets/image/tw.webp' alt="Twitter" style="width:33px;height:33px;border:0;">
                 </a>
         </div>
         <div class="top-bar-item">
             <a href="https://www.youtube.com/channel/UCqwtuMg539jVEtTYRrtD6kw" target="_blank">
-                <img src='/assets/image/yt.webp' alt="Youtube" style="width:33px;height:33px;border:0;">
+                <img src='{base}/assets/image/yt.webp' alt="Youtube" style="width:33px;height:33px;border:0;">
             </a>
         </div>
     </div>
@@ -66,7 +70,7 @@
         <div class="info-box" id="first-box">
             <!--                     <div id="next">Next Up
 
-                    <img id="show" src='/assets/image/showing.webp' alt="Next Showing">
+                    <img id="show" src='{base}/assets/image/showing.webp' alt="Next Showing">
 
                     <h1 id="series">
                         TBD</h1>
@@ -85,13 +89,13 @@
     <div class="dummy-spacer"></div>
     <div class="video-bg">
         <video muted autoplay={true} id="bgvid" loop={true} poster="/assets/image/railgun.webp">
-            <source src="/assets/video/2021.mp4">
+            <source src="{base}/assets/video/2021.mp4">
         </video>
     </div>
 </div>
 <div class="below-the-fold">
     <div class="below-the-fold-item" id="about">
-        <img src="/assets/image/annie-banner.webp">
+        <img src="{base}/assets/image/annie-banner.webp">
         <div class="about-text">
             <h2>About CAA</h2> 
             <p>
@@ -122,10 +126,10 @@
         </div>
         <!-- Facebook integration -->
         <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcalanimagealpha%2F&tabs=timeline&width=300&height=600&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=true&appId" width="300" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-        <img src="/assets/image/cal-banner.webp">
+        <img src="{base}/assets/image/cal-banner.webp">
     </div>
     <div class="below-the-fold-item" id="konshuu">
-        <img src="/assets/image/annie-beach.webp">
+        <img src="{base}/assets/image/annie-beach.webp">
         <div class="about-text">
             <h2>Konshuu</h2> 
             <p>
@@ -142,6 +146,6 @@
             <p>New Cal student? Interested in joining Cal Animage Alpha? Join our <a href="https://www.facebook.com/calanimagealpha" target="_blank">Facebook group</a>, like our page, and introduce yourself!</p>
             Also, come to game nights and all our events to meet our officers!
         </div>
-        <img src="/assets/image/cal-beach.webp">
+        <img src="{base}/assets/image/cal-beach.webp">
     </div>
 </div>

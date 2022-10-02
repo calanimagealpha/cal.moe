@@ -1,6 +1,10 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <svelte:head>
     <title>Cal Animage Alpha</title>
-    <link href="/assets/style/style.css" rel="stylesheet" type="text/css"/>
+    <link href="{base}/assets/style/style.css" rel="stylesheet" type="text/css"/>
 </svelte:head>
 
 <div class="home-page" style="background-color: #000000">
@@ -11,8 +15,8 @@
             <li class="top-bar-item">
                 <a href="..#about"><span>About</span></a>
                 <ul>
-                    <li><a href="../officers/">Officers</a></li>
-                    <li><a href="../contact/">Contact Us</a></li>
+                    <li><a href="{base}/officers/">Officers</a></li>
+                    <li><a href="{base}/contact/">Contact Us</a></li>
                 </ul>
             </li>
             <li class="top-bar-item">
@@ -44,17 +48,17 @@
         </ul>
         <div class="top-bar-item">
             <a href="https://www.facebook.com/calanimagealpha" target="_blank">
-                <img src='/assets/image/fb.webp' alt="Facebook" style="border:0;">
+                <img src='{base}/assets/image/fb.webp' alt="Facebook" style="border:0;">
             </a>
         </div>
         <div class="top-bar-item">
             <a href="https://twitter.com/calanimagealpha" target="_blank">
-                <img src='/assets/image/tw.webp' alt="Twitter" style="width:33px;height:33px;border:0;">
+                <img src='{base}/assets/image/tw.webp' alt="Twitter" style="width:33px;height:33px;border:0;">
             </a>
         </div>
         <div class="top-bar-item">
             <a href="https://www.youtube.com/channel/UCqwtuMg539jVEtTYRrtD6kw" target="_blank">
-                <img src='/assets/image/yt.webp' alt="Youtube" style="width:33px;height:33px;border:0;">
+                <img src='{base}/assets/image/yt.webp' alt="Youtube" style="width:33px;height:33px;border:0;">
             </a>
         </div>
     </div>

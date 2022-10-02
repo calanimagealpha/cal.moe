@@ -1,10 +1,14 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <svelte:head>
 	<title>CAA - Contact Us</title>
-	<link rel="stylesheet" type="text/css" href="/assets/style/asset-style.css" />
+	<link rel="stylesheet" type="text/css" href="{base}/assets/style/asset-style.css" />
 </svelte:head>
 
 <video autoplay muted loop id="myVideo">
-	<source src="/assets/video/2020.mp4" type="video/mp4" />
+	<source src="{base}/assets/video/2020.mp4" type="video/mp4" />
 </video>
 
 <div id="wrapper">

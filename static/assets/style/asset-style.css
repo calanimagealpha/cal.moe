@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Cyntho Pro Regular";
-    src: url("/assets/font/CynthoPro-Regular.woff");
+    src: url("../font/CynthoPro-Regular.woff");
 }
 
 body {
@@ -24,7 +24,7 @@ body {
     width: 849px;
     margin: 0 auto;
     min-height: 600px;
-    /* background: url("/assets/image/banner.webp") top center no-repeat; */
+    /* background: url("../image/banner.webp") top center no-repeat; */
     vertical-align: baseline;
 }
 
@@ -400,7 +400,7 @@ table.department {
     width: 96px;
     height: calc(100% - 64px);
     background-color: rgba(0, 0, 0, 0.1);
-    background-image: url("/assets/image/prev-page.svg");
+    background-image: url("../image/prev-page.svg");
     background-repeat: no-repeat;
     background-position: center center;
     cursor: pointer;
@@ -413,7 +413,7 @@ table.department {
     right: 0;
     height: calc(100% - 64px);
     background-color: rgba(0, 0, 0, 0.1);
-    background-image: url("/assets/image/next-page.svg");
+    background-image: url("../image/next-page.svg");
     background-repeat: no-repeat;
     background-position: center center;
     cursor: pointer;

@@ -1,15 +1,17 @@
-<svelte:head>
-    <title>CAA - Officers</title>
-    <link href="/assets/style/asset-style.css" rel="stylesheet" type="text/css" />
-</svelte:head>
-
 <script lang="ts">
+    import { base } from '$app/paths';
     import officers from './officers.json';
     import OfficerList from "./officer-list.svelte";
 </script>
 
+<svelte:head>
+    <title>CAA - Officers</title>
+    <link href="{base}/assets/style/asset-style.css" rel="stylesheet" type="text/css" />
+</svelte:head>
+
+
 <video autoplay muted loop class="fixed right-0 bottom-0 min-w-full min-h-full -z-10 object-cover">
-    <source src="/assets/video/2020.mp4" type="video/mp4">
+    <source src="{base}/assets/video/2020.mp4" type="video/mp4">
 </video>
 
 <div id="wrapper">
@@ -18,11 +20,11 @@
         <div id="navbar">
             <div id="menu-header">
                 <ul id="menu">
-                    <li class="menu-item"><a href="/">Home</a></li>
+                    <li class="menu-item"><a href="{base}/">Home</a></li>
                     <li class="menu-item current-page"><a href="#">Officers</a></li>
-                    <li class="menu-item"><a href="/schedule/">Showings</a></li>
-                    <li class="menu-item"><a href="/konshuu/">Konshuu</a></li>
-                    <li class="menu-item"><a href="/contact/">Contact Us</a></li>
+                    <li class="menu-item"><a href="{base}/schedule/">Showings</a></li>
+                    <li class="menu-item"><a href="{base}/konshuu/">Konshuu</a></li>
+                    <li class="menu-item"><a href="{base}/contact/">Contact Us</a></li>
                 </ul>
             </div>
         </div>
