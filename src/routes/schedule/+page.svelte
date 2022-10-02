@@ -4,11 +4,11 @@
 
 <svelte:head>
 	<title>CAA - Showings Schedule</title>
-	<link rel="stylesheet" type="text/css" href="/assets/style/asset-style.css" />
+	<link rel="stylesheet" type="text/css" href="{base}/assets/style/asset-style.css" />
 </svelte:head>
 
 <video autoplay muted loop id="myVideo">
-	<source src="/assets/video/2020.mp4" type="video/mp4" />
+	<source src="{base}/assets/video/2020.mp4" type="video/mp4" />
 </video>
 
 <div id="wrapper">
@@ -16,11 +16,11 @@
 		<div id="navbar">
 			<div id="menu-header">
 				<ul id="menu">
-					<li class="menu-item"><a href="/">Home</a></li>
-					<li class="menu-item"><a href="/officers/">Officers</a></li>
+					<li class="menu-item"><a href="{base}/">Home</a></li>
+					<li class="menu-item"><a href="{base}/officers/">Officers</a></li>
 					<li class="menu-item current-page"><a href="#">Showings</a></li>
-					<li class="menu-item"><a href="/konshuu/">Konshuu</a></li>
-					<li class="menu-item"><a href="/contact/">Contact Us</a></li>
+					<li class="menu-item"><a href="{base}/konshuu/">Konshuu</a></li>
+					<li class="menu-item"><a href="{base}/contact/">Contact Us</a></li>
 				</ul>
 			</div>
 		</div>

@@ -261,7 +261,7 @@ function hideDropdownContent() {
 
 function initReader() {
     if (typeof pdfjsLib !== "undefined") {
-        pdfjsLib.GlobalWorkerOptions.workerSrc = '/assets/js/pdfjs-dist/build/pdf.worker.js';
+        pdfjsLib.GlobalWorkerOptions.workerSrc = './assets/js/pdfjs-dist/build/pdf.worker.js';
         konshuu_dropdown_content.children[0].click();
     } else {
         setTimeout(initReader, 100);
