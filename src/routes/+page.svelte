@@ -34,7 +34,7 @@
 		/>
 		<div class="paragraph">
 			<h2
-				class="text-3xl font-bold border-lb-4 border-lb-light pl-2 mb-4"
+				class="border-lb-4 border-lb-light pl-2 mb-4"
 			>
 				About CAA
 			</h2>
@@ -45,9 +45,9 @@
 			</p>
 			<details class="group">
 				<summary
-					class="flex border-lb-4 border-lb-light text-3xl font-bold pl-2 mb-4"
+					class="flex border-lb-4 border-lb-light pl-2 mb-4"
 				>
-					A History of CAA by Rodney Romasata
+					<h2>A History of CAA by Rodney Romasata</h2>
 					<button class="ml-auto group-open:rotate-180 pointer-events-none">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +103,7 @@
 	<div class="body bg-slate-500 text-white">
 		<div class="paragraph">
 			<h2
-				class="text-3xl font-bold border-lb-4 border-lb-dark pl-2 mb-2"
+				class="border-lb-4 border-lb-dark pl-2 mb-2"
 			>
 				Events
 			</h2>
@@ -132,7 +132,7 @@
 	<div class="body bg-white">
 		<img class="visual" src="{base}/assets/image/annie-beach.webp" alt="Konshuu visual" />
         <div class="paragraph">
-            <h2 class="text-3xl font-bold border-lb-4 border-lb-light pl-2 mb-2">Konshuu</h2>
+            <h2 class="border-lb-4 border-lb-light pl-2 mb-2">Konshuu</h2>
             <p>
                 Konshuu is Cal Animage Alpha's weekly newsletter, featuring articles and fanworks from both
                 guests and current officers. Each issue includes an overview of the series that will be
@@ -154,14 +154,14 @@
 	</div>
 	<div class="body bg-slate-500 text-white">
 		<div class="paragraph">
-            <h2 class="text-3xl font-bold border-lb-4 border-lb-dark pl-2 mb-2">Join Us</h2>
+            <h2 class="border-lb-4 border-lb-dark pl-2 mb-2">Join Us</h2>
             <p>
                 New Cal student? Interested in joining Cal Animage Alpha? Join our <a
                     href="https://www.facebook.com/calanimagealpha"
                     target="_blank">Facebook group</a
                 >, like our page, and introduce yourself!
             </p>
-            Also, come to game nights and all our events to meet our officers!
+            <p>Also, come to game nights and all our events to meet our officers!</p>
 		</div>
 		<img class="visual" src="{base}/assets/image/cal-beach.webp" alt="Join Us visual" />
 	</div>
@@ -181,7 +181,7 @@
 	}
 
 	.visual {
-		@apply max-w-[25vw] w-auto max-h-[30vh] h-auto object-contain
+		@apply max-w-[25vw] w-auto max-h-[30vh] h-auto my-auto object-contain
 	}
 
 	.body {
@@ -190,5 +190,17 @@
 
 	.paragraph {
 		@apply flex flex-col my-auto max-w-2xl space-y-2
+	}
+
+	.paragraph h2 {
+		@apply text-xl md:text-3xl font-bold
+	}
+
+	.paragraph p {
+		@apply text-xs md:text-lg
+	}
+
+	.paragraph a {
+		@apply underline
 	}
 </style>
