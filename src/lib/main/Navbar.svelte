@@ -10,21 +10,21 @@
 
     const menus: Menu = {
         'About': {
-            href: '#about',
+            href: `${base}/#about`,
             submenu: {
                 'Officers': { href: `${base}/officers/` },
                 'Contact Us': { href: `${base}/contact/` }
             }
         },
         'Events': {
-            href: '#events',
+            href: `${base}/#events`,
             submenu: {
                 'Anime Destiny': { href: 'http://www.calanimedestiny.com' },
                 'Club Calendar': { href: `${base}/schedule/` }
             }
         },
         'Konshuu': {
-            href: '#konshuu',
+            href: `${base}/#konshuu`,
             submenu: {
                 'Read Online': { href: `${base}/konshuu/` },
                 'Contribute': { href: 'http://j.mp/konsub' }
@@ -32,7 +32,7 @@
         },
         'BLM': { href: `${base}/blm/` },
         'Join Us': {
-            href: '#membership',
+            href: `${base}/#membership`,
             submenu: {
                 'Discord': { href: 'https://discord.gg/Xp4MUjG' },
                 'Mailing List': { href: `${base}/mail/` }
