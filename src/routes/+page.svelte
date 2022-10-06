@@ -32,7 +32,7 @@
 			src="{base}/assets/image/annie-banner.webp"
 			alt="About CAA visual"
 		/>
-		<div class="paragraph">
+		<div id="about" class="paragraph">
 			<h2
 				class="border-lb-4 border-lb-light pl-2 mb-4"
 			>
@@ -101,7 +101,7 @@
 		</div>
 	</div>
 	<div class="body bg-slate-500 text-white">
-		<div class="paragraph">
+		<div id="events" class="paragraph">
 			<h2
 				class="border-lb-4 border-lb-dark pl-2 mb-2"
 			>
@@ -131,7 +131,7 @@
 	</div>
 	<div class="body bg-white">
 		<img class="visual" src="{base}/assets/image/annie-beach.webp" alt="Konshuu visual" />
-        <div class="paragraph">
+        <div id="konshuu" class="paragraph">
             <h2 class="border-lb-4 border-lb-light pl-2 mb-2">Konshuu</h2>
             <p>
                 Konshuu is Cal Animage Alpha's weekly newsletter, featuring articles and fanworks from both
@@ -153,7 +153,7 @@
         </div>
 	</div>
 	<div class="body bg-slate-500 text-white">
-		<div class="paragraph">
+		<div id="membership" class="paragraph">
             <h2 class="border-lb-4 border-lb-dark pl-2 mb-2">Join Us</h2>
             <p>
                 New Cal student? Interested in joining Cal Animage Alpha? Join our <a
