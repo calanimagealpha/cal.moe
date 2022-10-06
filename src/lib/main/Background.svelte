@@ -3,6 +3,6 @@
     export let src: string
 </script>
 
-<video class="w-screen h-screen object-cover absolute x-0 y-0" {poster} muted autoplay loop>
+<video class="w-screen h-screen object-cover fixed x-0 y-0 bg-black/50" {poster} muted autoplay loop>
     <source {src} />
 </video>

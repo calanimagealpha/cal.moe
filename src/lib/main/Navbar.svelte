@@ -43,7 +43,7 @@
     let opened = false;
 </script>
 
-<nav class="bg-gray-800/50 tracking-tight">
+<nav class="fixed top-0 z-50 w-full bg-gray-800/50 tracking-tight text-white">
     <div class="flex lg:hidden flex-row p-4">
         <div class="grow text-2xl sm:text-4xl my-auto">
             <a href={base}>Cal Animage Alpha</a>
