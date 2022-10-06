@@ -12,7 +12,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: '/~quaver'
+			base: process.env.CALMOE_BASE_URL || ''
 		}
 	}
 };
