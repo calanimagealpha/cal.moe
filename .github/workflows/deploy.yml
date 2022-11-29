@@ -1,0 +1,28 @@
+name: Deploy cal.moe website
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    env:
+      CALMOE_BASE_URL: ${{ secrets.BASE_URL }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'pnpm'
+      - run: npm install --global pnpm
+      - run: pnpm install
+      - run: pnpm build
+      - uses: burnett01/rsync-deployments@5.2.1
+        with:
+          switches: -avzr --delete --exclude='*.pdf' --exclude='*.mp4'
+          path: build/
+          remote_path: ~/public_html/
+          remote_host: ${{ secrets.HOST }}
+          remote_user: ${{ secrets.USER }}
+          remote_key: ${{ secrets.KEY }}

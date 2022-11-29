@@ -1,19 +1,19 @@
 {
-    "Executive": {
-        "Rachel Min": {
-            "profile": "Rachel",
-            "nickname": "wintergrale",
-            "role": "President"
-        },
-        "Tony T": {
-            "profile": "anthony",
-            "nickname": "「sitic」",
-            "role": "Vice President"
-        },
-        "Heaven Jones": {
-            "profile": "Heaven_jones",
-            "nickname": "Heaven",
-            "role": "Treasurer"
-        }
-    }
+	"Executive": {
+		"Rachel Min": {
+			"profile": "Rachel",
+			"nickname": "wintergrale",
+			"role": "President"
+		},
+		"Tony T": {
+			"profile": "anthony",
+			"nickname": "「sitic」",
+			"role": "Vice President"
+		},
+		"Heaven Jones": {
+			"profile": "Heaven_jones",
+			"nickname": "Heaven",
+			"role": "Treasurer"
+		}
+	}
 }

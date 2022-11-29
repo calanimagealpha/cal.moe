@@ -5,6 +5,7 @@ node_modules
 /package
 .env
 .env.*
+*.secrets
 !.env.example
-*.mp4
-*.pdf
+**/*.pdf
+**/*.mp4
