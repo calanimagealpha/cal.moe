@@ -35,7 +35,7 @@
 	onMount(async () => {
 		ctx = canvas.getContext('2d')!!;
 
-		const res = await fetch(`${base}/assets/konshuu/index.json`);
+		const res = await fetch(`${base}/assets/konshuu/index.php`);
 
 		pdfs = await res.json();
 		pdfs.sort((a, b) => {
@@ -52,9 +52,11 @@
 	<title>CAA - Konshuu</title>
 </svelte:head>
 
-<nav class="sticky top-0 flex flex-col md:flex-row w-full space-y-2 md:space-y-0 md:items-center md:justify-between bg-black p-4 text-white">
+<nav
+	class="sticky top-0 flex flex-col md:flex-row w-full space-y-2 md:space-y-0 md:items-center md:justify-between bg-black p-4 text-white"
+>
 	{#if currentIssue}
-		<a href="{base}" class="text-3xl">
+		<a href={base} class="text-3xl">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
@@ -68,12 +70,14 @@
 			Konshuu!
 		</a>
 		<div class="group">
-			<p class="text-xl h-full md:text-2xl">Volume {currentIssue.volume} Issue {currentIssue.issue}</p>
+			<p class="text-xl h-full md:text-2xl">
+				Volume {currentIssue.volume} Issue {currentIssue.issue}
+			</p>
 			<div
 				class="absolute left-0 md:left-auto md:right-0 hidden max-h-80 w-80 flex-col divide-y overflow-y-auto bg-black/90 text-xl group-hover:flex"
 			>
 				{#each pdfs as { volume, issue }}
-					<button on:click={async () => await load({volume: volume, issue: issue})} class="p-4"
+					<button on:click={async () => await load({ volume: volume, issue: issue })} class="p-4"
 						>Volume {volume} {!isNaN(+issue) ? `Issue ${issue}` : 'Anthology'}</button
 					>
 				{/each}
