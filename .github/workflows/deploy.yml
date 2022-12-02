@@ -1,5 +1,6 @@
 name: Deploy cal.moe website
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
