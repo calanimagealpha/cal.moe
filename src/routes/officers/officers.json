@@ -15,5 +15,12 @@
 			"nickname": "Heaven",
 			"role": "Treasurer"
 		}
+	},
+	"Technology": {
+		"Sebastian Estrada": {
+			"profile": "Sebastian_E",
+			"nickname": "Arrow",
+			"role": "Technology Head"
+		}
 	}
 }
