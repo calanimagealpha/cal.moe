@@ -56,7 +56,7 @@
 	class="sticky top-0 flex flex-col md:flex-row w-full space-y-2 md:space-y-0 md:items-center md:justify-between bg-black p-4 text-white"
 >
 	{#if currentIssue}
-		<a href={base} class="text-3xl">
+		<a href="{base}/" class="text-3xl">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
