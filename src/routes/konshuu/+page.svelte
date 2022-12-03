@@ -35,7 +35,7 @@
 	onMount(async () => {
 		ctx = canvas.getContext('2d')!!;
 
-		const res = await fetch(`${base}/assets/konshuu/index.php`);
+		const res = await fetch(`${base}/assets/konshuu/`);
 
 		pdfs = await res.json();
 		pdfs.sort((a, b) => {
