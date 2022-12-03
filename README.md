@@ -2,12 +2,25 @@
 
 Modernized cal.moe website built with svelte, tailwind and ❤️
 
-## Quickstart
+## How to contribute
 
-1. Clone the repository
+Prerequisite: `git`, `pnpm`
 
-`git clone https://github.com/calanimagealpha/cal.moe.git`
+1. Fork the repository
 
-2. Retrieve the assets
+2. Clone the repository
 
-This repository is not containing large files for c
+- `git clone https://github.com/<YOUR_USERNAME_HERE>/cal.moe.git`
+
+3. Install packages
+
+- Navigate inside the cloned repository, and run  
+`pnpm install`
+
+4. Make changes and commit to the forked repository
+
+- Tip: to run a development server, run `pnpm run dev` and open `https://localhost:5173` on the web browser of your choice
+
+5. Make a Pull Request
+
+... and you're good
