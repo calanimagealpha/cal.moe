@@ -4,7 +4,7 @@ Modernized cal.moe website built with svelte, tailwind and ❤️
 
 ## How to contribute
 
-Prerequisite: `git`, `pnpm`
+Prerequisite: `git`, `node (preferrably by nvm)`, `pnpm`
 
 1. Fork the repository
 
