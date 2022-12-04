@@ -1,5 +1,5 @@
 import { sveltekit } from '@sveltejs/kit/vite';
-import type { UserConfig, ViteDevServer } from 'vite';
+import type { UserConfig } from 'vite';
 
 const config: UserConfig = {
 	plugins: [sveltekit()],
@@ -9,10 +9,10 @@ const config: UserConfig = {
 				target: 'https://cal.moe',
 				changeOrigin: true
 			},
-			'^/fallback/.*': {
-				target: 'http://jsonplaceholder.typicode.com',
+			'^/api/.*': {
+				target: 'http://localhost:5000',
 				changeOrigin: true,
-				rewrite: (path) => path.replace(/^\/fallback/, '')
+				rewrite: (path) => path.replace(/^\/api/, '')
 			}
 		}
 	}

@@ -1,4 +1,6 @@
 <?php declare(strict_types=1);
+session_start();
+
 const API_ENDPOINT = 'https://discord.com/api/v10';
 const CLIENT_ID = '1048301653633290340';
 const CLIENT_SECRET = 'kDa0mhLm1zS7nOBDyZaYS_oEdtM1KpJn';
@@ -47,14 +49,21 @@ function get_guild_member($token)
 }
 
 $code = $_GET['code'];
+$token = exchange_code($code);
 
-// $token = exchange_code($code);
+$_SESSION['access_token'] = $token->access_token;
+$_SESSION['token_type'] = $token->token_type;
+$_SESSION['expires_on'] = time() + $token->expires_in;
+$_SESSION['refresh_token'] = $token->refresh_token;
+$_SESSION['scope'] = $token->scope;
 
-$mysqli = new mysqli('localhost', getenv('DB_USER'), getenv('DB_PASSWORD'), getenv('DB_USER'));
+if (isset($_GET['state'])) {
+    $state = json_decode($_GET['state']);
+    header('Location: ' . $state->redirect_to);
+} else {
+    header('Location: /');
+}
 
-echo $mysqli->host_info;
-
-
-// var_dump($token);
+var_dump($_SESSION);
 
 ?>
