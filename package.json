@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "cross-env DB_USER=mariadb DB_PASSWORD=mariadb concurrently --kill-others \"vite dev\" \"php -S localhost:5000 -t static/api/'\"",
+		"dev": "dotenv -- cross-env DB_USER=mariadb DB_PASSWORD=mariadb concurrently --kill-others \"vite dev\" \"php -S localhost:5000 -t static/api/'\"",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -20,6 +20,7 @@
 		"autoprefixer": "^10.4.13",
 		"concurrently": "^7.6.0",
 		"cross-env": "^7.0.3",
+		"dotenv-cli": "^6.0.0",
 		"eslint": "^8.27.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
