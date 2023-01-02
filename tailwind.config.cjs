@@ -6,7 +6,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['"Cyntho Pro Regular"', ...defaultTheme.fontFamily.sans]
+				// sans: ['"Cyntho Pro Regular"', ...defaultTheme.fontFamily.sans]
 			}
 		}
 	},
