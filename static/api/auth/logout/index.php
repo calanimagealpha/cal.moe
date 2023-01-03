@@ -9,8 +9,8 @@ $redirect = $_POST['redirect'] ?: '/';
 
 if (isset($_SESSION['discord_token'])) {
     $data = [
-        'client_id' => $_ENV['DISCORD_CLIENT_ID'],
-        'client_secret' => $_ENV['DISCORD_CLIENT_SECRET'],
+        'client_id' => getenv('DISCORD_CLIENT_ID'),
+        'client_secret' => getenv('DISCORD_CLIENT_SECRET'),
         'token' => $_SESSION['discord_token']->access_token
     ];
 
