@@ -11,8 +11,8 @@ function exchange_code($code)
     $url = API_ENDPOINT . "/oauth2/token";
 
     $data = [
-        'client_id' => $_ENV['DISCORD_CLIENT_ID'],
-        'client_secret' => $_ENV['DISCORD_CLIENT_SECRET'],
+        'client_id' => getenv('DISCORD_CLIENT_ID'),
+        'client_secret' => getenv('DISCORD_CLIENT_SECRET'),
         'grant_type' => 'authorization_code',
         'code' => $code,
         'redirect_uri' => REDIRECT_URI
