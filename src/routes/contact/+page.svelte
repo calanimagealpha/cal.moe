@@ -41,7 +41,7 @@
 				</tr>
 				<tr>
 					<td>
-						<h3>President: Hlley Halim</h3>
+						<h3>President: Halley Halim</h3>
 					</td>
 					<td>
 						<a href="mailto:rminjy@berkeley.edu">halley.halim@berkeley.edu</a>
