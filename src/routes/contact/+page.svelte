@@ -91,5 +91,5 @@
 		</table>
 	</div>
 
-	<div id="footer">&copy; 2021 Cal Animage Alpha. All Rights Reserved.</div>
+	<div id="footer">&copy; 2023 Cal Animage Alpha. All Rights Reserved.</div>
 </div>
