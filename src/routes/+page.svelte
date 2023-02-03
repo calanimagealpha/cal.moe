@@ -20,8 +20,8 @@
 			</p>
 
 			<div class="mx-auto my-10 flex flex-row text-center">
-				<Event name="Showings" day="Fridays" time="8 PM PST" />
-				<Event name="Socials" day="Tuesdays" time="8 PM PST" />
+				<Event name="Showings" day="Tuesdays" time="8 PM PST" />
+				<Event name="Socials" day="Thursdays" time="8 PM PST" />
 			</div>
 		</div>
 	</div>

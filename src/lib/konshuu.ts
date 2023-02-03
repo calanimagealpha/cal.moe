@@ -1,7 +1,8 @@
 import * as pdfjsLib from 'pdfjs-dist';
 import { base } from '$app/paths';
+import pdfjsWorker from "pdfjs-dist/build/pdf.worker.entry";
 
-pdfjsLib.GlobalWorkerOptions.workerSrc = `${base}/assets/js/pdf.worker.js`;
+pdfjsLib.GlobalWorkerOptions.workerSrc = pdfjsWorker;
 
 export type Issue = {
 	volume: string;

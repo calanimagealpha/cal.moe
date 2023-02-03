@@ -41,15 +41,15 @@
 				</tr>
 				<tr>
 					<td>
-						<h3>President: Rachel Min</h3>
+						<h3>President: Halley Halim</h3>
 					</td>
 					<td>
-						<a href="mailto:rminjy@berkeley.edu">rminjy@berkeley.edu</a>
+						<a href="mailto:rminjy@berkeley.edu">halley.halim@berkeley.edu</a>
 					</td>
 				</tr>
 				<tr
-					><td><h3>Vice President: Tony T</h3></td><td
-						><a href="mailto:tsehou26@berkeley.edu">tsehou26@berkeley.edu</a></td
+					><td><h3>Vice President: Sebastian Estrada</h3></td><td
+						><a href="mailto:tsehou26@berkeley.edu">sebastian34@berkeley.edu</a></td
 					></tr
 				>
 				<tr
@@ -58,38 +58,38 @@
 					></tr
 				>
 				<tr
-					><td><h3>Konshuu: Mitchell Maximillian Manalac Madayag</h3></td><td
-						><a href="mailto:mitchellmmmadayag@berkeley.edu">mitchellmmmadayag@berkeley.edu</a></td
+					><td><h3>Konshuu: Tony T.</h3></td><td
+						><a href="mailto:mitchellmmmadayag@berkeley.edu">tsehou26@berkeley.edu</a></td
 					></tr
 				>
 				<tr
-					><td><h3>Video: Erik Nelson</h3></td><td
-						><a href="mailto:erik.nelson.42@berkeley.edu">erik.nelson.42@berkeley.edu</a></td
+					><td><h3>Video: Angel Mendez</h3></td><td
+						><a href="mailto:erik.nelson.42@berkeley.edu">amendez1205@berkeley.edu</a></td
 					></tr
 				>
 				<tr
-					><td><h3>Events: Cameron Danesh</h3></td><td
-						><a href="mailto:hayatgheibi@berkeley.edu">hayatgheibi@berkeley.edu</a></td
+					><td><h3>Events: Erica Kim</h3></td><td
+						><a href="mailto:hayatgheibi@berkeley.edu">seoyeun3478@berkeley.edu</a></td
 					></tr
 				>
 				<tr
-					><td><h3>Publicity: Abhinav Parameswaran</h3></td><td
-						><a href="mailto:aap2266@berkeley.edu">aap2266@berkeley.edu</a></td
+					><td><h3>Publicity: Lionel Verano</h3></td><td
+						><a href="mailto:aap2266@berkeley.edu">lionel.verano.iv@berkeley.edu</a></td
 					></tr
 				>
 				<tr
-					><td><h3>Anime Destiny: Ihsan Ahmed</h3></td><td
-						><a href="mailto:iahmed1@berkeley.edu">iahmed1@berkeley.edu</a></td
+					><td><h3>Anime Destiny: Jinn Lim</h3></td><td
+						><a href="mailto:iahmed1@berkeley.edu">jinnlk@berkeley.edu</a></td
 					></tr
 				>
 				<tr
-					><td><h3>Technology: Kevin Mo</h3></td><td
-						><a href="mailto:kevmo@berkeley.edu">kevmo@berkeley.edu</a></td
+					><td><h3>Technology: Minseok Son</h3></td><td
+						><a href="mailto:kevmo@berkeley.edu">tom5079@berkeley.edu</a></td
 					></tr
 				>
 			</tbody>
 		</table>
 	</div>
 
-	<div id="footer">&copy; 2021 Cal Animage Alpha. All Rights Reserved.</div>
+	<div id="footer">&copy; 2023 Cal Animage Alpha. All Rights Reserved.</div>
 </div>
