@@ -2,7 +2,7 @@
     "Executive": {
         "Halley Halim": {
             "nickname": "★★",
-            "role": "President, Anime Destiny Head"
+            "role": "President"
         },
         "Sebastian Estrada": {
             "nickname": "Arrow",
@@ -14,16 +14,25 @@
         }
     },
     "Anime Destiny": {
+        "Jinn Lim": {
+            "nickname": "Jinn~",
+            "role": "Anime Destiny Head"
+        },
         "Alexander Tam": {
             "nickname": "alta",
             "role": "Planner"
         },
-        "Ihsan Ahmed": {
-            "nickname": "King-sama",
+        "Daniel Padaoil": {
+            "nickname": "Saitama",
             "role": "Planner"
         },
-        "Jinn Lim": {
-            "nickname": "Jinn~",
+        "David Sanchez Jr": {
+            "nickname": "X Dakushi X",
+            "role": "Planner",
+            "profile": "DavidS"
+        },
+        "Kyle Cheng": {
+            "nickname": "prudent",
             "role": "Planner"
         }
     },
@@ -34,6 +43,10 @@
         },
         "Alexandre Haïoun-Perdrix": {
             "nickname": "AHP",
+            "role": "Writer"
+        },
+        "Blake Morisson": {
+            "nickname": "Blakeモリソン",
             "role": "Writer"
         },
         "Cath Geiger": {
@@ -56,20 +69,12 @@
             "nickname": "Hi5",
             "role": "Writer"
         },
-        "Jasmine Zhang": {
-            "nickname": "SparklyRainbows",
-            "role": "Artist"
-        },
         "Jen Zhao (Zhiyan)": {
             "nickname": "Jen",
             "role": "Artist"
         },
         "José Cuevas (Pipino)": {
             "nickname": "Pipino",
-            "role": "Writer"
-        },
-        "Keanu Morrison (Blake)": {
-            "nickname": "Blakeモリソン",
             "role": "Writer"
         },
         "Max Raffield": {
@@ -98,6 +103,10 @@
             "nickname": "10shi",
             "role": "Writer"
         },
+        "Seoyoung Park": {
+            "nickname": "sy0911",
+            "role": "Graphic Designer"
+        },
         "Skylar Li": {
             "nickname": "BlueCravat",
             "role": "Artist"
@@ -105,6 +114,10 @@
         "Sophia Xue": {
             "nickname": "Yukkkkka",
             "role": "Artist, Graphic Designer"
+        },
+        "Wai Kwan Wu": {
+            "nickname": "krpk",
+            "role": "Writer"
         },
         "Willow Otaka": {
             "nickname": "Nyamen★Ramen",
@@ -124,12 +137,20 @@
             "nickname": "Zucchini",
             "role": "General"
         },
+        "Edwin Vargas Navarro": {
+            "nickname": "Scrub",
+            "role": "General"
+        },
         "Louie Vu": {
             "nickname": "chaos entity",
             "role": "General"
         },
         "Shannon Jay Narsico": {
             "nickname": "SilentXeath",
+            "role": "General"
+        },
+        "Yimo Zhao": {
+            "nickname": "Latter_Day",
             "role": "General"
         }
     },
@@ -142,6 +163,10 @@
         "Ara Cho": {
             "nickname": "🌸🌸",
             "role": "Artist"
+        },
+        "Johnny Lau": {
+            "nickname": "SUGURU",
+            "role": "General"
         },
         "Kai Wu": {
             "nickname": "kaiiste",
@@ -158,10 +183,6 @@
         "Momo Hlaing": {
             "nickname": "Monono",
             "role": "Artist"
-        },
-        "Trinh Tran": {
-            "nickname": "Twen",
-            "role": "General"
         }
     },
     "Events": {
@@ -169,8 +190,8 @@
             "nickname": "Erica",
             "role": "Events Head"
         },
-        "Cameron Danesh": {
-            "nickname": "حیات غیبی",
+        "Dylan Untalan": {
+            "nickname": "duntalan",
             "role": "General"
         },
         "George Fratian": {
@@ -181,12 +202,16 @@
             "nickname": "NarcX",
             "role": "General"
         },
+        "Joshua Chen": {
+            "nickname": "joshua6261",
+            "role": "General"
+        },
         "Katharine Wang": {
             "nickname": "Otaku-san_Kath",
             "role": "General"
         },
-        "Kevin Wolf": {
-            "nickname": "keevyn",
+        "Toshiro Suzuki": {
+            "nickname": "NervousList",
             "role": "General"
         }
     },
@@ -194,6 +219,10 @@
         "Minseok Son": {
             "nickname": "D rank",
             "role": "Technology Head"
+        },
+        "Christian Moran": {
+            "nickname": "LonelySubstrate",
+            "role": "General"
         },
         "Felicity Aktan": {
             "nickname": "feli",
