@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    :root {
+        --bg-translate-x: -20px;
+        --bg-translate-y: -20px;
+        --bg-opacity: 0.25;
+    }
+
+    .hero {
+        background-color: rgb(0, 0, 0, var(--bg-opacity));
+    }
+
+    .hero::before {
+        @apply fixed -z-50 translate-x-[var(--bg-translate-x)] translate-y-[var(--bg-translate-y)] bg-hero bg-cover bg-center blur-sm lg:bg-hero-lg;
+        content: '';
+        width: calc(100vw + 50px);
+        width: calc(100lvw + 50px);
+        height: calc(100vh + 50px);
+        height: calc(100lvh + 50px);
+    }
+}
