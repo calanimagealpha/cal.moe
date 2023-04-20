@@ -24,8 +24,8 @@ jobs:
       - uses: burnett01/rsync-deployments@5.2.1
         with:
           switches: -avzr --delete --exclude='*.pdf' --exclude='*.mp4'
-          path: build/
-          remote_path: ~/public_html/
+          path: ./
+          remote_path: ~/cal.moe
           remote_host: ${{ secrets.HOST }}
           remote_user: ${{ secrets.USER }}
           remote_key: ${{ secrets.KEY }}
