@@ -1,9 +1,9 @@
 name: Deploy cal.moe website
 on:
   workflow_dispatch:
-#   push:
-#     branches:
-#       - master
+  push:
+    branches:
+      - master
 jobs:
   deploy:
     name: Deploy
@@ -17,15 +17,25 @@ jobs:
           version: 7
       - uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: latest
           cache: 'pnpm'
       - run: pnpm install
       - run: pnpm build
+      - run: cp package.json build/
       - uses: burnett01/rsync-deployments@5.2.1
         with:
-          switches: -avzr --delete --exclude='*.pdf' --exclude='*.mp4'
-          path: ./
+          switches: -avzr --delete --exclude='*.pdf' --exclude='*.mp4' --exclude='run' --exclude='node_modules'
+          path: build/
           remote_path: ~/cal.moe
           remote_host: ${{ secrets.HOST }}
           remote_user: ${{ secrets.USER }}
           remote_key: ${{ secrets.KEY }}
+      - uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USER }}
+          key: ${{ secrets.KEY }}
+          script: |
+            cd cal.moe
+            $HOME/.local/share/junest/bin/junest ns -f pnpm i
+            systemctl --user restart calmoe
