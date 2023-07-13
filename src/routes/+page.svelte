@@ -160,9 +160,10 @@
                         New Cal student? Interested in joining Cal Animage Alpha? Join our Discord server and introduce
                         yourself!
                     </p>
-                    <button
-                        class="flex items-center px-3 lg:px-6 py-2 lg:py-4 my-16 border-2 border-cyan-400 text-cyan-400 transition-all duration-500 delay-100 hover:bg-cyan-400 hover:text-white text-sm rounded-full font-bold"
-                        >Join Discord<span class="material-icons-round pl-2">arrow_right_alt</span></button
+                    <a
+                        href='/discord'
+                        class="w-fit flex items-center px-3 lg:px-6 py-2 lg:py-4 my-16 border-2 border-cyan-400 text-cyan-400 transition-all duration-500 delay-100 hover:bg-cyan-400 hover:text-white text-sm rounded-full font-bold"
+                        >Join Discord<span class="material-icons-round pl-2">arrow_right_alt</span></a
                     >
                 </div>
             </div>
