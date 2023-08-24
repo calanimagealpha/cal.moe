@@ -131,7 +131,7 @@
         <section class="grid grid-cols-1 md:grid-cols-2 px-8 md:px-16 gap-x-8 mt-32 mb-32">
             <div class="basis-1/2 pr-0 md:pr-[33%] mb-8 md:mb-0">
                 <img
-                    class="aspect-square md:aspect-auto w-full h-full object-cover overflow-hidden rounded-xl "
+                    class="aspect-square md:aspect-auto w-full h-full object-cover overflow-hidden rounded-xl"
                     src="/assets/image/konshuu.webp"
                     alt="Konshuu"
                 />
@@ -161,7 +161,7 @@
                         yourself!
                     </p>
                     <a
-                        href='/discord'
+                        href="/discord"
                         class="w-fit flex items-center px-3 lg:px-6 py-2 lg:py-4 my-16 border-2 border-cyan-400 text-cyan-400 transition-all duration-500 delay-100 hover:bg-cyan-400 hover:text-white text-sm rounded-full font-bold"
                         >Join Discord<span class="material-icons-round pl-2">arrow_right_alt</span></a
                     >
