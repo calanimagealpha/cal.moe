@@ -17,7 +17,8 @@ module.exports = {
 			},
 			backgroundImage: {
 				'hero': 'url(/assets/image/hero.webp)',
-				'hero-lg': 'url(/assets/image/hero-lg.webp)'
+				'hero-lg': 'url(/assets/image/hero-lg.webp)',
+				'about-anime-destiny': 'url(/assets/image/about/anime_destiny.webp)'
 			}
 		}
 	},
