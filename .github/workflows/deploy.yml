@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CALMOE_BASE_URL: ${{ secrets.BASE_URL }}
+      DISCORD_CLIENT_ID: ${{ secrets.DISCORD_CLIENT_ID }}
+      DISCORD_CLIENT_SECRET: ${{ secrets.DISCORD_CLIENT_SECRET }}
     steps:
       - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2
