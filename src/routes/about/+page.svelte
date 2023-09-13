@@ -13,15 +13,34 @@
 
 <svelte:window bind:scrollY bind:innerHeight />
 
-<div class="hero text-white">
+<div class="hero overflow-clip text-white">
     <Navbar />
-    <header class="max-w-7xl px-8 md:px-16 lg:mx-auto my-8">
-        <section class="text-4xl md:text-6xl lg:text-7xl font-bold tracking-wider leading-tight md:w-3/5">
-            <p class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-pink-400 via-purple-400 to-cyan-400">
-                A place for anime, manga, game lovers at UC Berkeley.
+    <header class="my-8">
+        <section
+            class="pl-8 text-3xl font-bold md:w-3/5 md:pl-16 md:text-6xl/tight lg:mx-auto lg:w-full lg:max-w-7xl lg:text-7xl/tight"
+        >
+            <p class="pb-4">
+                A place for <br />
+                <span class="text-pink-400">anime,</span>
+                <span class="text-emerald-400">manga,</span>
+                <br />
+                <span class="text-cyan-400">game</span> lovers
+                <br />
+                at <span class="text-yellow-400">UC&nbsp;Berkeley&nbsp;🐻</span>
             </p>
         </section>
+        <div
+            class="relative left-1/2 mb-[-16rem] h-60 w-[50%] bg-about-anime-destiny bg-cover bg-center md:left-[20rem] md:mb-[-24rem] md:h-96 md:w-[calc(100%-20rem)] lg:left-[calc((100vw-80rem)/2+20rem)] lg:w-[calc(100%-(100vw-80rem)/2-20rem)]"
+        />
     </header>
-    <main class="p-8" />
+    <main class="max-w-7xl lg:mx-auto">
+        <section>
+            <nav class="lg:px-auto relative pl-8 text-lg font-bold leading-[2.5] underline md:pl-16">
+                <ul><a href="#who">Who&nbsp;Are&nbsp;We</a></ul>
+                <ul><a href="#what">What&nbsp;We&nbsp;Do</a></ul>
+                <ul><a href="#join">How&nbsp;to&nbsp;get&nbsp;involved</a></ul>
+            </nav>
+        </section>
+    </main>
     <Footer />
 </div>

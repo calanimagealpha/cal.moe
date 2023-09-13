@@ -19,5 +19,6 @@
 			}
 		}
 	],
-	"semi": false
+	"semi": false,
+	"htmlWhitespaceSensitivity": "css"
 }
