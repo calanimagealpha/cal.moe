@@ -24,6 +24,7 @@ jobs:
       - run: pnpm install
       - run: pnpm build
       - run: cp package.json build/
+      - run: cp -r prisma build/
       - uses: burnett01/rsync-deployments@5.2.1
         with:
           switches: -avzr --delete --exclude='*.pdf' --exclude='*.mp4' --exclude='run' --exclude='node_modules'
