@@ -27,7 +27,7 @@ jobs:
       - run: cp -r prisma build/
       - uses: burnett01/rsync-deployments@5.2.1
         with:
-          switches: -avzr --delete --exclude='*.pdf' --exclude='*.mp4' --exclude='run' --exclude='node_modules'
+          switches: -avzr --delete --exclude='*.pdf' --exclude='*.mp4' --exclude='run' --exclude=".env" --exclude='node_modules'
           path: build/
           remote_path: ~/cal.moe
           remote_host: ${{ secrets.HOST }}
