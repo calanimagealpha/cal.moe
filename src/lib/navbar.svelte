@@ -1,35 +1,56 @@
 <script lang="ts">
     import Logo from '$lib/logo.svelte'
     import { fade } from 'svelte/transition'
+    import type { User } from './api/discord'
 
     let scrollY: number = 0
     let menuOpened = false
+    export let user: User | undefined
 </script>
 
 <svelte:window bind:scrollY />
 
-<nav class:bg-white={scrollY > 0} class="sticky top-0 z-10 w-full h-24 p-4 transition-all">
+<nav class:bg-white={scrollY > 0} class="sticky top-0 z-10 h-24 w-full p-4 transition-all">
     <div
         class:text-black={scrollY > 0 || menuOpened}
-        class="translation-all h-full flex justify-between items-center z-10"
+        class="translation-all z-10 flex h-full items-center justify-between"
     >
         <a href="/"><Logo /></a>
-        <ul class="hidden lg:flex space-x-4 font-semibold tracking-wider text-sm mr-8">
+        <ul class="mr-8 hidden h-full items-center space-x-4 text-sm font-semibold tracking-wider lg:flex">
             <li><a href="/about" class="transition-colors hover:text-yellow-400">About</a></li>
             <li><a href="/events" class="transition-colors hover:text-yellow-400">Events</a></li>
             <li><a href="/konshuu" class="transition-colors hover:text-yellow-400">Konshuu</a></li>
+            <li>
+                {#if user}
+                    <img
+                        src="https://cdn.discordapp.com/avatars/{user.id}/{user.avatar}.webp"
+                        alt="avatar of {user.username}"
+                        class="h-12 w-12 rounded-full"
+                    />
+                {:else}
+                    <a href="/login" class="transition-colors hover:text-yellow-400">Login</a>
+                {/if}
+            </li>
         </ul>
-        <button class="lg:hidden p-4 flex items-center justify-center" on:click={() => (menuOpened = !menuOpened)}>
-            <span class="material-icons-round">menu</span>
+        <button class="flex items-center justify-center p-4 lg:hidden" on:click={() => (menuOpened = !menuOpened)}>
+            {#if user}
+                <img
+                    src="https://cdn.discordapp.com/avatars/{user.id}/{user.avatar}.webp"
+                    alt="avatar of {user.username}"
+                    class="h-12 w-12 rounded-full"
+                />
+            {:else}
+                <span class="material-icons-round">menu</span>
+            {/if}
         </button>
     </div>
 </nav>
 {#if menuOpened}
     <div
         transition:fade={{ duration: 150 }}
-        class="fixed top-0 z-0 w-full h-full pt-24 bg-white text-black transition-opacity"
+        class="fixed top-0 z-0 h-full w-full bg-white pt-24 text-black transition-opacity"
     >
-        <ul class="text-2xl font-medium border-t">
+        <ul class="border-t text-2xl font-medium">
             <li>
                 <a href="/about" class="flex items-center p-8"> About </a>
             </li>
@@ -38,6 +59,13 @@
             </li>
             <li>
                 <a href="/konshuu" class="flex items-center p-8"> Konshuu </a>
+            </li>
+            <li>
+                {#if user}
+                    <a href="/logout" class="flex items-center p-8">Logout</a>
+                {:else}
+                    <a href="/login" class="flex items-center p-8">Login</a>
+                {/if}
             </li>
         </ul>
     </div>
