@@ -6,7 +6,7 @@ export function load() {
     const authorizeUrl = new URL('https://discord.com/api/oauth2/authorize')
 
     authorizeUrl.searchParams.append('client_id', DISCORD_CLIENT_ID)
-    authorizeUrl.searchParams.append('redirect_url', redirectUrl)
+    authorizeUrl.searchParams.append('redirect_uri', redirectUrl)
     authorizeUrl.searchParams.append('response_type', 'code')
     authorizeUrl.searchParams.append('scope', 'identify guilds')
 
