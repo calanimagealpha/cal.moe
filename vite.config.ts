@@ -9,9 +9,6 @@ const config: UserConfig = {
                 target: 'https://cal.moe',
                 changeOrigin: true
             }
-        },
-        watch: {
-            usePolling: true
         }
     }
 }
