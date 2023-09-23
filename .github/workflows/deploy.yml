@@ -38,4 +38,4 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           key: ${{ secrets.KEY }}
-          script: cd cal.moe && $HOME/.local/share/junest/bin/junest ns -f pnpm i && $HOME/.local/share/junest/bin/junest ns -f pnpm migrate && systemctl --user restart calmoe
+          script: systemctl --user restart calmoe
