@@ -41,11 +41,11 @@
                 <ul><a href="#join">How&nbsp;to&nbsp;get&nbsp;involved</a></ul>
             </nav>
         </section>
-        <section id="who" class="max-w-7xl space-y-8 px-8 pt-32 md:pt-80">
+        <section id="who" class="max-w-7xl space-y-8 pt-32 md:pt-80">
             <h1 class="mx-auto max-w-lg max-w-lg text-2xl lg:max-w-2xl lg:text-4xl">
                 CAA is a community where anime, manga and game lovers unite.
             </h1>
-            <p class="ml-auto max-w-xl rounded bg-white p-8 leading-relaxed text-black">
+            <p class="bg-white p-8 leading-relaxed text-black md:ml-auto md:max-w-xl md:rounded">
                 <span class="mb-4 block text-sm font-semibold tracking-wider text-yellow-400">ABOUT</span>
                 Cal Animage Alpha is the flagship chapter of a loosely organized international conglomeration of anime clubs
                 all of which share the name "Cal Animage".
