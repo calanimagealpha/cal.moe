@@ -5,7 +5,7 @@
 
     let scrollY: number = 0
     let menuOpened = false
-    export let user: User | undefined
+    export let user: User | undefined = undefined
 </script>
 
 <svelte:window bind:scrollY />
