@@ -172,7 +172,6 @@
             </div>
         </section>
     </main>
-    <Footer />
 </div>
 
 <style>
