@@ -62,6 +62,9 @@
                 <a href="/konshuu" class="flex items-center p-8"> Konshuu </a>
             </li>
             <li>
+                <a href="/animedestiny" class="flex items-center p-8"> Anime Destiny </a>
+            </li>
+            <li>
                 {#if user}
                     <a href="/logout" class="flex items-center p-8">Logout</a>
                 {:else}
