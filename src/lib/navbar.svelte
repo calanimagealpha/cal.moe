@@ -5,7 +5,7 @@
 
     let scrollY: number = 0
     let menuOpened = false
-    export let user: User | undefined
+    export let user: User | undefined = undefined
 </script>
 
 <svelte:window bind:scrollY />
@@ -20,6 +20,7 @@
             <li><a href="/about" class="transition-colors hover:text-yellow-400">About</a></li>
             <li><a href="/events" class="transition-colors hover:text-yellow-400">Events</a></li>
             <li><a href="/konshuu" class="transition-colors hover:text-yellow-400">Konshuu</a></li>
+            <li><a href="/animedestiny" class="transition-colors hover:text-yellow-400">Anime Destiny</a></li>
             <li>
                 {#if user}
                     <img
