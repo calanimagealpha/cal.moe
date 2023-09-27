@@ -27,7 +27,7 @@
     }
 
     .heroAD::before {
-        @apply fixed -z-50 translate-x-[var(--bg-translate-x)] translate-y-[var(--bg-translate-y)] bg-heroAD bg-cover bg-center lg:bg-heroAD ;
+        @apply fixed -z-50 translate-x-[var(--bg-translate-x)] translate-y-[var(--bg-translate-y)] bg-heroAD bg-cover bg-[center_right_calc(-40rem+50vw)] md:bg-center lg:bg-heroAD;
         content: '';
         width: calc(100vw + 50px);
         width: calc(100lvw + 50px);

@@ -48,10 +48,14 @@
 >
     <Navbar />
     <header class=" ">
-        <div class="my-[10vh] flex w-full flex-col items-center md:my-[10vh] lg:my-[12vh]">
-            <div>
+        <div class="my-[20vh] flex w-full flex-col items-center md:my-[20vh] lg:my-[25vh]">
+            <div class="relative">
+                <p class="absolute -top-12 text-sm font-bold md:-top-8 md:text-lg">Cal Animage Alpha presents...</p>
                 {#if !loaded}
-                    <p transition:fade class="absolute z-[55] text-5xl font-black leading-none md:text-7xl lg:text-8xl">
+                    <p
+                        transition:fade
+                        class="absolute z-[55] mx-auto text-5xl font-black leading-none md:text-7xl lg:text-8xl"
+                    >
                         Anime <br class="lg:hidden" /><span>Des</span><span>ti</span><span>ny</span>
                         <br class="lg:hidden" />2023
                     </p>
@@ -62,11 +66,17 @@
                     ><span class="text-blue-400">ny</span>
                     <br class="lg:hidden" />2023
                 </p>
+                <p class="pt-8 text-xl font-black leading-none md:text-3xl lg:text-5xl">
+                    <span class="hidden lg:inline">Saturday, </span>November 12th
+                </p>
+                <p class="text-sm font-black leading-tight md:text-xl lg:text-2xl">
+                    at MLK Jr. Building, <br class="md:hidden" />UC Berkeley
+                </p>
             </div>
         </div>
     </header>
     <main class="mx-auto xl:w-[80rem]">
-        Saturday, November 12th! We'll be holding our convention in-person this year, at the MLK Jr. Building on UC
+        <!-- Saturday, November 12th! We'll be holding our convention in-person this year, at the MLK Jr. Building on UC
         Berkeley campus! There'll be performances, panels, games, activities, and more! If you'd like a table in our
         Artist Alley / Dealer's Hall, please fill out this form. More details on the event TBA! Join our Discord for
         more. Pre-sale tickets to the convention are available now, at a price of $15. Tickets will also be sold at the
@@ -77,7 +87,7 @@
         convention, hosted by Cal Animage Alpha. It will be held on at the Martin Luther King Jr. Student Union on the
         south side of campus. We hope to bring together local fans and to provide an enjoyable, cozy experience for our
         attendees through fun events, interesting panels, and awesome merchandise! © 2014-2022 Anime Destiny and Cal
-        Animage Alpha. All rights reserved.
+        Animage Alpha. All rights reserved. -->
     </main>
 </div>
 
