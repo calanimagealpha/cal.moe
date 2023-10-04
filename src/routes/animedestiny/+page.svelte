@@ -67,7 +67,7 @@
                     <br class="lg:hidden" />2023
                 </p>
                 <p class="pt-8 text-xl font-black leading-none md:text-3xl lg:text-5xl">
-                    <span class="hidden lg:inline">Saturday, </span>November 12th
+                    <span class="hidden lg:inline">Saturday, </span>November 5th
                 </p>
                 <p class="text-sm font-black leading-tight md:text-xl lg:text-2xl">
                     at MLK Jr. Building, <br class="md:hidden" />UC Berkeley
