@@ -4,6 +4,8 @@
     import { beforeUpdate, onMount } from 'svelte'
     import { onDeviceOrientation, onPointermove } from '$lib/background'
     import { fade } from 'svelte/transition'
+    import artists from './artists.json'
+    import { base } from '$app/paths'
 
     let scrollY: number = 0
     let innerHeight: number = 1
@@ -47,7 +49,7 @@
     on:pointermove={(e) => onPointermove(e, divWidth, divHeight)}
 >
     <Navbar />
-    <header class=" ">
+    <header class="min-h-screen">
         <div class="my-[20vh] flex w-full flex-col items-center md:my-[20vh] lg:my-[25vh]">
             <div class="relative">
                 <p class="absolute -top-12 text-sm font-bold md:-top-8 md:text-lg">Cal Animage Alpha presents...</p>
@@ -75,7 +77,29 @@
             </div>
         </div>
     </header>
-    <main class="mx-auto xl:w-[80rem]">
+    <main class="mx-auto px-8 xl:w-[80rem]">
+        <section>
+            <h1 class="py-8 text-4xl">Artists</h1>
+            <div class="flex flex-wrap">
+                {#each artists as artist}
+                    <div class="basis-full px-2 py-2 md:basis-1/2 lg:basis-1/4">
+                        <div class="h-full overflow-clip rounded bg-white text-black">
+                            {#if artist.images.length > 0}
+                                <img
+                                    class="aspect-[4/3] object-cover"
+                                    src={`${base}/assets/image/animedestiny/${artist.name}/0.webp`}
+                                    alt={`${artist.name} image`}
+                                />
+                            {/if}
+                            <div class="w-full space-y-4 bg-white p-4">
+                                <h3 class="text-2xl font-bold">{artist.name}</h3>
+                                <p>{artist.bio}</p>
+                            </div>
+                        </div>
+                    </div>
+                {/each}
+            </div>
+        </section>
         <!-- Saturday, November 12th! We'll be holding our convention in-person this year, at the MLK Jr. Building on UC
         Berkeley campus! There'll be performances, panels, games, activities, and more! If you'd like a table in our
         Artist Alley / Dealer's Hall, please fill out this form. More details on the event TBA! Join our Discord for
