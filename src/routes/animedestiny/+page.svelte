@@ -49,7 +49,7 @@
     on:pointermove={(e) => onPointermove(e, divWidth, divHeight)}
 >
     <Navbar />
-    <header class="min-h-screen">
+    <header class="">
         <div class="my-[20vh] flex w-full flex-col items-center md:my-[20vh] lg:my-[25vh]">
             <div class="relative">
                 <p class="absolute -top-12 text-sm font-bold md:-top-8 md:text-lg">Cal Animage Alpha presents...</p>
@@ -78,8 +78,24 @@
         </div>
     </header>
     <main class="mx-auto px-8 xl:w-[80rem]">
+        <div class="bg-base-300 rounded-box bg-opacity-80">
+            <div class="hero-content flex-col lg:flex-row p-8">
+                <img src="/assets/image/chrome_dgLromOorh.png" alt='mika' class="max-w-sm rounded-lg shadow-2xl" />
+                <div class="ml-6">
+                <h1 class="text-5xl font-bold">What is Anime Destiny?</h1>
+                <p class="py-6">There'll be performances, panels, games, activities, and more! Showcase
+        your awesome costumes at our cosplay gathering at the convention! Enjoy fun and informative panels about various
+        anime-related topics along with other exciting events! We hope to bring together local fans and to provide an enjoyable, cozy experience for our
+        attendees through fun events, interesting panels, and awesome merchandise!</p>
+                <a href="https://forms.gle/gsibxHG87FFk1wgn8"><button class="btn btn-primary">Purchase Tickets</button></a>
+                </div>
+            </div>
+        </div>
+
         <section>
-            <h1 class="py-8 text-4xl">Artists</h1>
+            <p class="pt-8 text-xl font-black leading-none md:text-3xl lg:text-5xl">
+                <span class="hidden lg:inline">Featured Artists</span>
+            </p>
             <div class="flex flex-wrap">
                 {#each artists as artist}
                     <div class="basis-full px-2 py-2 md:basis-1/2 lg:basis-1/4">
