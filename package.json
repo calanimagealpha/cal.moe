@@ -39,6 +39,7 @@
 	"type": "module",
 	"dependencies": {
 		"@prisma/client": "5.2.0",
+		"daisyui": "^3.9.3",
 		"material-icons": "^1.13.8",
 		"pdfjs-dist": "^3.8.162",
 		"uuid": "^9.0.0"
