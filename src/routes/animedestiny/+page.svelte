@@ -80,7 +80,7 @@
     <main class="mx-auto px-8 xl:w-[80rem]">
         <div class="bg-base-300 rounded-box bg-opacity-80">
             <div class="hero-content flex-col lg:flex-row p-8">
-                <img src="/assets/image/chrome_dgLromOorh.png" alt='mika' class="max-w-sm rounded-lg shadow-2xl" />
+                <img src="/assets/image/chrome_dgLromOorh.webp" alt='mika' class="max-w-sm rounded-lg shadow-2xl" />
                 <div class="ml-6">
                 <h1 class="text-5xl font-bold">What is Anime Destiny?</h1>
                 <p class="py-6">There'll be performances, panels, games, activities, and more! Showcase
