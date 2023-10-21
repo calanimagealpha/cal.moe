@@ -78,17 +78,19 @@
             </div>
         </div>
     </header>
-    <main class="mx-auto px-8 xl:w-[80rem]">
-        <div class="p-8">
-            <h1 class="text-5xl font-black text-blue-400">What is Anime Destiny &mdash;</h1>
-            <div class="flex flex-col justify-center space-y-8 p-8 lg:flex-row lg:space-x-8">
+    <main class="mx-auto space-y-16 px-8 xl:w-[80rem]">
+        <section class="mx-auto">
+            <h1 class="my-4 text-2xl font-black text-blue-400 md:text-3xl lg:text-5xl">
+                What&nbsp;is Anime&nbsp;Destiny&nbsp;&mdash;
+            </h1>
+            <div class="flex flex-col justify-center space-y-4 md:flex-row md:space-x-8">
                 <img
                     src="/assets/image/chrome_dgLromOorh.webp"
                     alt="mika"
-                    class="h-fit max-w-lg rounded-lg shadow-2xl"
+                    class="max-w-[min(32rem, 100%)] h-fit rounded-lg shadow-2xl md:max-w-[min(24rem,50%)]"
                 />
                 <div>
-                    <p class="max-w-lg py-6">
+                    <p class="max-w-lg">
                         There'll be performances, panels, games, activities, and more! Showcase your awesome costumes at
                         our cosplay gathering at the convention! Enjoy fun and informative panels about various
                         anime-related topics along with other exciting events! We hope to bring together local fans and
@@ -96,30 +98,30 @@
                         panels, and awesome merchandise!
                     </p>
                     <a href="https://forms.gle/gsibxHG87FFk1wgn8"
-                        ><Button class="border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white"
+                        ><Button class="my-4 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white"
                             >Purchase Tickets</Button
                         ></a
                     >
                 </div>
             </div>
-        </div>
+        </section>
 
         <section>
-            <p class="pt-8 text-xl font-black leading-none md:text-3xl lg:text-5xl">
-                <span class="hidden lg:inline">Featured Artists</span>
+            <p class="py-4 text-xl font-black leading-none text-blue-400 md:text-3xl lg:text-5xl">
+                Featured Artists &mdash;
             </p>
             <div class="flex flex-wrap">
                 {#each artists as artist}
-                    <div class="basis-full px-2 py-2 md:basis-1/2 lg:basis-1/4">
+                    <div class="basis-full py-2 md:basis-1/2 md:px-2 lg:basis-1/4">
                         <div class="h-full overflow-clip rounded bg-white text-black">
                             {#if artist.images.length > 0}
                                 <img
-                                    class="aspect-[4/3] object-cover"
+                                    class="aspect-[4/3] w-full object-cover"
                                     src={`${base}/assets/image/animedestiny/${artist.name}/0.webp`}
                                     alt={`${artist.name} image`}
                                 />
                             {/if}
-                            <div class="w-full space-y-4 bg-white p-4">
+                            <div class="space-y-4 bg-white p-4">
                                 <h3 class="text-2xl font-bold">{artist.name}</h3>
                                 <p>{artist.bio}</p>
                             </div>
