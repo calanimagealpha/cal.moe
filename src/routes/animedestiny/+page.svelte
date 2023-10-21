@@ -6,6 +6,7 @@
     import { fade } from 'svelte/transition'
     import artists from './artists.json'
     import { base } from '$app/paths'
+    import Button from '$lib/button.svelte'
 
     let scrollY: number = 0
     let innerHeight: number = 1
@@ -78,16 +79,27 @@
         </div>
     </header>
     <main class="mx-auto px-8 xl:w-[80rem]">
-        <div class="bg-base-300 rounded-box bg-opacity-80">
-            <div class="hero-content flex-col lg:flex-row p-8">
-                <img src="/assets/image/chrome_dgLromOorh.webp" alt='mika' class="max-w-sm rounded-lg shadow-2xl" />
-                <div class="ml-6">
-                <h1 class="text-5xl font-bold">What is Anime Destiny?</h1>
-                <p class="py-6">There'll be performances, panels, games, activities, and more! Showcase
-        your awesome costumes at our cosplay gathering at the convention! Enjoy fun and informative panels about various
-        anime-related topics along with other exciting events! We hope to bring together local fans and to provide an enjoyable, cozy experience for our
-        attendees through fun events, interesting panels, and awesome merchandise!</p>
-                <a href="https://forms.gle/gsibxHG87FFk1wgn8"><button class="btn btn-primary">Purchase Tickets</button></a>
+        <div class="p-8">
+            <h1 class="text-5xl font-black text-blue-400">What is Anime Destiny &mdash;</h1>
+            <div class="flex flex-col justify-center space-y-8 p-8 lg:flex-row lg:space-x-8">
+                <img
+                    src="/assets/image/chrome_dgLromOorh.webp"
+                    alt="mika"
+                    class="h-fit max-w-lg rounded-lg shadow-2xl"
+                />
+                <div>
+                    <p class="max-w-lg py-6">
+                        There'll be performances, panels, games, activities, and more! Showcase your awesome costumes at
+                        our cosplay gathering at the convention! Enjoy fun and informative panels about various
+                        anime-related topics along with other exciting events! We hope to bring together local fans and
+                        to provide an enjoyable, cozy experience for our attendees through fun events, interesting
+                        panels, and awesome merchandise!
+                    </p>
+                    <a href="https://forms.gle/gsibxHG87FFk1wgn8"
+                        ><Button class="border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white"
+                            >Purchase Tickets</Button
+                        ></a
+                    >
                 </div>
             </div>
         </div>
