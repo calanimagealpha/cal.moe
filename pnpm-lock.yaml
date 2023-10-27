@@ -1,13 +1,18 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
+  '@fullcalendar/resource':
+    specifier: ^6.1.9
+    version: 6.1.9(@fullcalendar/core@6.1.9)
+  '@fullcalendar/resource-timegrid':
+    specifier: ^6.1.9
+    version: 6.1.9(@fullcalendar/core@6.1.9)(@fullcalendar/resource@6.1.9)
   '@prisma/client':
     specifier: 5.2.0
     version: 5.2.0(prisma@5.2.0)
+  fullcalendar:
+    specifier: ^6.1.9
+    version: 6.1.9
   material-icons:
     specifier: ^1.13.8
     version: 1.13.8
@@ -19,6 +24,9 @@ dependencies:
     version: 9.0.0
 
 devDependencies:
+  '@fullcalendar/core':
+    specifier: ^6.1.9
+    version: 6.1.9
   '@sveltejs/adapter-auto':
     specifier: 2.1.0
     version: 2.1.0(@sveltejs/kit@1.22.3)
@@ -70,6 +78,9 @@ devDependencies:
   svelte-check:
     specifier: ^3.4.6
     version: 3.4.6(postcss@8.4.26)(svelte@4.0.5)
+  svelte-fullcalendar:
+    specifier: ^3.0.0
+    version: 3.0.0(@fullcalendar/core@6.1.9)
   svelte-preprocess:
     specifier: ^5.0.4
     version: 5.0.4(postcss@8.4.26)(svelte@4.0.5)(typescript@5.1.6)
@@ -340,6 +351,94 @@ packages:
     resolution: {integrity: sha512-Ag+9YM4ocKQx9AarydN0KY2j0ErMHNIocPDrVo8zAE44xLTjEtz81OdR68/cydGtk6m6jDb5Za3r2useMzYmSw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
+
+  /@fullcalendar/core@6.1.9:
+    resolution: {integrity: sha512-eeG+z9BWerdsU9Ac6j16rpYpPnE0wxtnEHiHrh/u/ADbGTR3hCOjCD9PxQOfhOTHbWOVs7JQunGcksSPu5WZBQ==}
+    dependencies:
+      preact: 10.12.1
+
+  /@fullcalendar/daygrid@6.1.9(@fullcalendar/core@6.1.9):
+    resolution: {integrity: sha512-o/6joH/7lmVHXAkbaa/tUbzWYnGp/LgfdiFyYPkqQbjKEeivNZWF1WhHqFbhx0zbFONSHtrvkjY2bjr+Ef2quQ==}
+    peerDependencies:
+      '@fullcalendar/core': ~6.1.9
+    dependencies:
+      '@fullcalendar/core': 6.1.9
+    dev: false
+
+  /@fullcalendar/interaction@6.1.9(@fullcalendar/core@6.1.9):
+    resolution: {integrity: sha512-I3FGnv0kKZpIwujg3HllbKrciNjTqeTYy3oJG226oAn7lV6wnrrDYMmuGmA0jPJAGN46HKrQqKN7ItxQRDec4Q==}
+    peerDependencies:
+      '@fullcalendar/core': ~6.1.9
+    dependencies:
+      '@fullcalendar/core': 6.1.9
+
+  /@fullcalendar/list@6.1.9(@fullcalendar/core@6.1.9):
+    resolution: {integrity: sha512-OCKdC1Gz26cJ5QsXdQyXVyzVu23ypT2xzyAR+Wc8jEytcJLWXw2a914m/MVax8n8EHuaIYY2exhsy/eaSU0XNA==}
+    peerDependencies:
+      '@fullcalendar/core': ~6.1.9
+    dependencies:
+      '@fullcalendar/core': 6.1.9
+    dev: false
+
+  /@fullcalendar/multimonth@6.1.9(@fullcalendar/core@6.1.9):
+    resolution: {integrity: sha512-YpH1NL6RzdM1wO2nFJ3pNMo9xhd6i2WuE+e7SnGi7q1lO+ZZ77h5Fja5JKcpuIQUFHpi+m6vTzihIV8DT44NnQ==}
+    peerDependencies:
+      '@fullcalendar/core': ~6.1.9
+    dependencies:
+      '@fullcalendar/core': 6.1.9
+      '@fullcalendar/daygrid': 6.1.9(@fullcalendar/core@6.1.9)
+    dev: false
+
+  /@fullcalendar/premium-common@6.1.9(@fullcalendar/core@6.1.9):
+    resolution: {integrity: sha512-hbyXAPU0r9psO0oH22ge0GCxQhlHQ0KJRJhAM2KkTTfYUSAYgaaYfX9cUC6ysNE7T1gZ5JDlYDu/xskwPymyvA==}
+    peerDependencies:
+      '@fullcalendar/core': ~6.1.9
+    dependencies:
+      '@fullcalendar/core': 6.1.9
+    dev: false
+
+  /@fullcalendar/resource-daygrid@6.1.9(@fullcalendar/core@6.1.9)(@fullcalendar/resource@6.1.9):
+    resolution: {integrity: sha512-u+A2jDzzXPkyOOTnjcuCtKQezi4KnJCw/n8ryMdOHj/oPw2HXUxGbZwV77WxdeaJEZSOLaIvHqZPG7Lqxc7f4g==}
+    peerDependencies:
+      '@fullcalendar/core': ~6.1.9
+      '@fullcalendar/resource': ~6.1.9
+    dependencies:
+      '@fullcalendar/core': 6.1.9
+      '@fullcalendar/daygrid': 6.1.9(@fullcalendar/core@6.1.9)
+      '@fullcalendar/premium-common': 6.1.9(@fullcalendar/core@6.1.9)
+      '@fullcalendar/resource': 6.1.9(@fullcalendar/core@6.1.9)
+    dev: false
+
+  /@fullcalendar/resource-timegrid@6.1.9(@fullcalendar/core@6.1.9)(@fullcalendar/resource@6.1.9):
+    resolution: {integrity: sha512-gbd/iI7HLhP9j7pqzoTYS+z41ZvT0N0WbOjTgRhCTdZoeKLfrZ+owYh05wS3ZB+EsRRBdgXUJH/9y3CvwUA5mw==}
+    peerDependencies:
+      '@fullcalendar/core': ~6.1.9
+      '@fullcalendar/resource': ~6.1.9
+    dependencies:
+      '@fullcalendar/core': 6.1.9
+      '@fullcalendar/premium-common': 6.1.9(@fullcalendar/core@6.1.9)
+      '@fullcalendar/resource': 6.1.9(@fullcalendar/core@6.1.9)
+      '@fullcalendar/resource-daygrid': 6.1.9(@fullcalendar/core@6.1.9)(@fullcalendar/resource@6.1.9)
+      '@fullcalendar/timegrid': 6.1.9(@fullcalendar/core@6.1.9)
+    dev: false
+
+  /@fullcalendar/resource@6.1.9(@fullcalendar/core@6.1.9):
+    resolution: {integrity: sha512-A0yQs08WNxx7XeQlAZ9gkmiJOuNOjwpiusnnNSWw/xriNoXmWasDih9ury3GcTjJ8T13Y9d+E6IgxLZgBejTZQ==}
+    peerDependencies:
+      '@fullcalendar/core': ~6.1.9
+    dependencies:
+      '@fullcalendar/core': 6.1.9
+      '@fullcalendar/premium-common': 6.1.9(@fullcalendar/core@6.1.9)
+    dev: false
+
+  /@fullcalendar/timegrid@6.1.9(@fullcalendar/core@6.1.9):
+    resolution: {integrity: sha512-le7UV05wVE1Trdr054kgJXTwa+A1pEI8nlCBnPWdcyrL+dTLoPvQ4AWEVCnV7So+4zRYaCqnqGXfCJsj0RQa0g==}
+    peerDependencies:
+      '@fullcalendar/core': ~6.1.9
+    dependencies:
+      '@fullcalendar/core': 6.1.9
+      '@fullcalendar/daygrid': 6.1.9(@fullcalendar/core@6.1.9)
+    dev: false
 
   /@humanwhocodes/config-array@0.11.10:
     resolution: {integrity: sha512-KVVjQmNUepDVGXNuoRRdmmEjruj0KfiGSbS8LVc12LMsWDQzRXJ0qdhN8L8uUigKpfEHRhlaQFY0ib1tnUbNeQ==}
@@ -1455,6 +1554,17 @@ packages:
     dev: true
     optional: true
 
+  /fullcalendar@6.1.9:
+    resolution: {integrity: sha512-b3y22EqOtV1cGjOlPE6krs1CwQA/8p5lsylllp35tqDLOK7kLIXDQotpXgsDBY4qAKTgdiSauqzdkdvyrbjAgQ==}
+    dependencies:
+      '@fullcalendar/core': 6.1.9
+      '@fullcalendar/daygrid': 6.1.9(@fullcalendar/core@6.1.9)
+      '@fullcalendar/interaction': 6.1.9(@fullcalendar/core@6.1.9)
+      '@fullcalendar/list': 6.1.9(@fullcalendar/core@6.1.9)
+      '@fullcalendar/multimonth': 6.1.9(@fullcalendar/core@6.1.9)
+      '@fullcalendar/timegrid': 6.1.9(@fullcalendar/core@6.1.9)
+    dev: false
+
   /function-bind@1.1.1:
     resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==}
     dev: true
@@ -2179,6 +2289,9 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
+  /preact@10.12.1:
+    resolution: {integrity: sha512-l8386ixSsBdbreOAkqtrwqHwdvR35ID8c3rKPa8lCWuO86dBi32QWHV4vfsZK1utLLFMvw+Z5Ad4XLkZzchscg==}
+
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
@@ -2564,6 +2677,16 @@ packages:
       svelte: 4.0.5
     dev: true
 
+  /svelte-fullcalendar@3.0.0(@fullcalendar/core@6.1.9):
+    resolution: {integrity: sha512-dYRExMFQVTR+a/k6xv2TVUU3WddGdW3HhHPKx6xMzyJnQe6hDjdSAeZ4fMcP/vg2HEVL17Zgzio4hAMczVUpDA==}
+    peerDependencies:
+      '@fullcalendar/core': ^6.0.0
+    dependencies:
+      '@fullcalendar/core': 6.1.9
+    optionalDependencies:
+      '@fullcalendar/interaction': 6.1.9(@fullcalendar/core@6.1.9)
+    dev: true
+
   /svelte-hmr@0.15.2(svelte@4.0.5):
     resolution: {integrity: sha512-q/bAruCvFLwvNbeE1x3n37TYFb3mTBJ6TrCq6p2CoFbSTNhDE9oAtEfpy+wmc9So8AG0Tja+X0/mJzX9tSfvIg==}
     engines: {node: ^12.20 || ^14.13.1 || >= 16}
@@ -2884,3 +3007,7 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
