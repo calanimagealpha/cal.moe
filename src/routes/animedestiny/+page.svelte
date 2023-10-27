@@ -5,6 +5,7 @@
     import { onDeviceOrientation, onPointermove } from '$lib/background'
     import { fade } from 'svelte/transition'
     import artists from './artists.json'
+    import eventsAD from './events.json'
     import { base } from '$app/paths'
     import Button from '$lib/button.svelte'
 
@@ -27,7 +28,33 @@
             clearInterval(loadCheck)
         }, 100)
     })
+
+    import FullCalendar, { type CalendarOptions } from 'svelte-fullcalendar';
+    import resourceTimeGridPlugin from '@fullcalendar/resource-timegrid';
+
+
+    let options = {
+        initialView: 'resourceTimeGridDay',
+        googleCalendarApiKey: 'AIzaSyDusHGppUCT5Yj2rVwgbwJ-Ke1uGmkck7k',
+        events: eventsAD,
+        slotMinTime: "09:00:00",
+        slotMaxTime: "19:00:00",
+        expandRows: true,
+        nowIndicator: true,
+        
+        resources: [
+        { id: 'a', title: 'Stephens Room' },
+        { id: 'b', title: 'Tilden Patio'},
+        { id: 'c', title: 'East Pauley' },
+        { id: 'd', title: 'West Pauley' }
+        ],
+        plugins: [resourceTimeGridPlugin],
+        schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives'
+  };
+  
 </script>
+
+
 
 <svelte:head>
     <title>Cal Animage Alpha</title>
@@ -105,7 +132,7 @@
                 </div>
             </div>
         </section>
-
+            <FullCalendar {options} />
         <section>
             <p class="py-4 text-xl font-black leading-none text-blue-400 md:text-3xl lg:text-5xl">
                 Featured Artists &mdash;
