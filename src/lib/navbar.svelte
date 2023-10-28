@@ -19,7 +19,7 @@
         <ul class="mr-8 hidden h-full items-center space-x-4 text-sm font-semibold tracking-wider lg:flex">
             <li><a href="/about" class="transition-colors hover:text-yellow-400">About</a></li>
             <li><a href="/events" class="transition-colors hover:text-yellow-400">Events</a></li>
-            <li><a href="/konshuu" class="transition-colors hover:text-yellow-400">Konshuu</a></li>
+            <li><a href="https://issuu.com/konshuu-caa" class="transition-colors hover:text-yellow-400">Konshuu</a></li>
             <li><a href="/animedestiny" class="transition-colors hover:text-yellow-400">Anime Destiny</a></li>
             <li>
                 {#if user}
@@ -59,7 +59,7 @@
                 <a href="/events" class="flex items-center p-8"> Events </a>
             </li>
             <li>
-                <a href="/konshuu" class="flex items-center p-8"> Konshuu </a>
+                <a href="https://issuu.com/konshuu-caa" class="flex items-center p-8"> Konshuu </a>
             </li>
             <li>
                 <a href="/animedestiny" class="flex items-center p-8"> Anime Destiny </a>
