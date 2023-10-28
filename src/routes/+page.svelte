@@ -147,9 +147,9 @@
                         Konshuu, Cal Animage Alpha's magazine featuring articles and illustrations on anime culture,
                         from both guests and current officers.
                     </p>
-                    <button
+                    <a href="https://issuu.com/konshuu-caa"
                         class="my-16 flex items-center rounded-full border-2 border-emerald-400 px-3 py-2 text-sm font-bold text-emerald-400 transition-all delay-100 duration-500 hover:bg-emerald-400 hover:text-white lg:px-6 lg:py-4"
-                        >Read Konshuu<span class="material-icons-round pl-2">arrow_right_alt</span></button
+                        >Read Konshuu<span class="material-icons-round pl-2">arrow_right_alt</span></a
                     >
                 </div>
             </div>
