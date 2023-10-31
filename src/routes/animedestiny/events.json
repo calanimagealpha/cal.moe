@@ -1,111 +1,120 @@
-
-[{
-    "id": 1,
-    "title"  : "Gekkou",
-    "start": "2023-11-05",
-    "end": "2023-11-05",
-    "resourceId": "a",
-    "startTime": "10:30",
-    "endTime": "11:30"
-},
-{
-    "id": 2,
-    "title"  : "Naisu Ami",
-    "start": "2023-11-05",
-    "end": "2023-11-05",
-    "resourceId": "a",
-    "startTime": "12:00",
-    "endTime": "13:00"
-},
-{
-    "id": 3,
-    "title"  : "DICA",
-    "start": "2023-11-05",
-    "end": "2023-11-05",
-    "resourceId": "a",
-    "startTime": "13:30",
-    "endTime": "14:30"
-},
-{
-    "id": 4,
-    "title"  : "NiCE",
-    "start": "2023-11-05",
-    "end": "2023-11-05",
-    "resourceId": "a",
-    "startTime": "15:30",
-    "endTime": "16:00"
-},
-{
-    "id": 5,
-    "title"  : "VFleet Vtuber Panel",
-    "start": "2023-11-05",
-    "end": "2023-11-05",
-    "resourceId": "a",
-    "startTime": "16:30",
-    "endTime": "17:30"
-},
-{
-    "id": 6,
-    "title"  : "Anime Taboo! Game Show",
-    "start": "2023-11-05",
-    "end": "2023-11-05",
-    "resourceId": "a",
-    "startTime": "18:00",
-    "endTime": "19:00"
-},
-{
-    "id": 7,
-    "title"  : "Genshin @ Berkeley",
-    "start": "2023-11-05",
-    "end": "2023-11-05",
-    "resourceId": "b",
-    "startTime": "09:00",
-    "endTime": "11:30"
-},
-{
-    "id": 8,
-    "title"  : "Cosplay Masquerade",
-    "start": "2023-11-05",
-    "end": "2023-11-05",
-    "resourceId": "b",
-    "startTime": "12:00",
-    "endTime": "13:30"
-},
-{
-    "id": 9,
-    "title"  : "The Intermission Berkeley",
-    "start": "2023-11-05",
-    "end": "2023-11-05",
-    "resourceId": "b",
-    "startTime": "14:00",
-    "endTime": "15:30"
-},
-{
-    "id": 10,
-    "title"  : "AniKura: Otaku Rave",
-    "start": "2023-11-05",
-    "end": "2023-11-05",
-    "resourceId": "b",
-    "startTime": "16:00",
-    "endTime": "19:00"
-},
-{
-    "id": 11,
-    "title"  : "Gaming Area",
-    "description": "smash at berkley, fighting games at berkeley, extended reality at berekely, board games berkeley, DDR, majong",
-    "start": "2023-11-05",
-    "end": "2023-11-05",
-    "resourceId": "c",
-    "startTime": "09:00",
-    "endTime": "19:00"
-},
-{
-    "id": 12,
-    "title"  : "Artist Alley",
-    "start": "2023-11-05",
-    "end": "2023-11-05",
-    "resourceId": "d",
-    "startTime": "09:00",
-    "endTime": "19:00"
-}
+[
+    {
+        "id": 1,
+        "title": "Gekkou",
+        "start": "2023-11-05",
+        "end": "2023-11-05",
+        "resourceId": "a",
+        "startTime": "10:30",
+        "endTime": "11:30"
+    },
+    {
+        "id": 2,
+        "title": "Naisu Ami",
+        "start": "2023-11-05",
+        "end": "2023-11-05",
+        "resourceId": "a",
+        "startTime": "12:00",
+        "endTime": "13:00"
+    },
+    {
+        "id": 3,
+        "title": "DICA",
+        "start": "2023-11-05",
+        "end": "2023-11-05",
+        "resourceId": "a",
+        "startTime": "13:30",
+        "endTime": "14:30"
+    },
+    {
+        "id": 4,
+        "title": "NiCE",
+        "start": "2023-11-05",
+        "end": "2023-11-05",
+        "resourceId": "a",
+        "startTime": "15:30",
+        "endTime": "16:00"
+    },
+    {
+        "id": 5,
+        "title": "VFleet Vtuber Panel",
+        "start": "2023-11-05",
+        "end": "2023-11-05",
+        "resourceId": "a",
+        "startTime": "16:30",
+        "endTime": "17:30"
+    },
+    {
+        "id": 6,
+        "title": "Anime Taboo! Game Show",
+        "start": "2023-11-05",
+        "end": "2023-11-05",
+        "resourceId": "a",
+        "startTime": "18:00",
+        "endTime": "19:00"
+    },
+    {
+        "id": 7,
+        "title": "Genshin @ Berkeley",
+        "start": "2023-11-05",
+        "end": "2023-11-05",
+        "resourceId": "b",
+        "startTime": "09:00",
+        "endTime": "11:30"
+    },
+    {
+        "id": 8,
+        "title": "Genshin @ Berkeley",
+        "start": "2023-11-05",
+        "end": "2023-11-05",
+        "resourceId": "b",
+        "startTime": "12:00",
+        "endTime": "13:30"
+    },
+    {
+        "id": 9,
+        "title": "The Intermission Berkeley",
+        "start": "2023-11-05",
+        "end": "2023-11-05",
+        "resourceId": "b",
+        "startTime": "14:00",
+        "endTime": "15:30"
+    },
+    {
+        "id": 10,
+        "title": "AniKura: Otaku Rave",
+        "start": "2023-11-05",
+        "end": "2023-11-05",
+        "resourceId": "b",
+        "startTime": "16:00",
+        "endTime": "19:00"
+    },
+    {
+        "id": 11,
+        "title": "Gaming Area",
+        "description": "smash at berkley, fighting games at berkeley, extended reality at berekely, board games berkeley, DDR, majong",
+        "start": "2023-11-05",
+        "end": "2023-11-05",
+        "resourceId": "c",
+        "startTime": "09:00",
+        "endTime": "19:00"
+    },
+    {
+        "id": 12,
+        "title": "Artist Alley",
+        "start": "2023-11-05",
+        "end": "2023-11-05",
+        "resourceId": "d",
+        "startTime": "09:00",
+        "endTime": "19:00"
+    },
+    {
+        "id": 13,
+        "title": "CAA Anime Trivia",
+        "start": "2023-11-05",
+        "end": "2023-11-05",
+        "resourceId": "a",
+        "startTime": "09:00",
+        "endTime": "10:00"
+    }
 ]
