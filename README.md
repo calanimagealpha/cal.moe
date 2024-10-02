@@ -16,6 +16,8 @@ Prerequisite: `git`, `node (preferrably by nvm)`, `pnpm`
 
 - Navigate inside the cloned repository, and run  
 `pnpm install`
+- then do
+`npx prisma generate`
 
 4. Make changes and commit to the forked repository
 
