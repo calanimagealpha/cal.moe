@@ -17,11 +17,10 @@
     >
         <a href="/"><Logo /></a>
         <ul class="mr-8 hidden h-full items-center space-x-4 text-sm font-semibold tracking-wider lg:flex">
-            <li><a href="/about"                             class="transition-colors hover:text-yellow-400">About</a></li>
-            <li><a href="/events"                            class="transition-colors hover:text-yellow-400">Events</a></li>
-            <li><a href="https://issuu.com/konshuu-caa"      class="transition-colors hover:text-yellow-400">Konshuu</a></li>
-            <li><a href="/animedestiny"                      class="transition-colors hover:text-yellow-400">Anime Destiny</a></li>
-            <li><a href="https://discord.com/invite/Xp4MUjG" class="transition-colors hover:text-yellow-400">Discord</a></li>
+            <li><a href="/about" class="transition-colors hover:text-yellow-400">About</a></li>
+            <li><a href="/events" class="transition-colors hover:text-yellow-400">Events</a></li>
+            <li><a href="https://issuu.com/konshuu-caa" class="transition-colors hover:text-yellow-400">Konshuu</a></li>
+            <li><a href="/animedestiny" class="transition-colors hover:text-yellow-400">Anime Destiny</a></li>
             <li>
                 {#if user}
                     <img
@@ -53,11 +52,18 @@
         class="fixed top-0 z-0 h-full w-full bg-white pt-24 text-black transition-opacity"
     >
         <ul class="border-t text-2xl font-medium">
-            <li><a href="/about"                             class="flex items-center p-8"> About </a></li>
-            <li><a href="/events"                            class="flex items-center p-8"> Events </a></li>
-            <li><a href="https://issuu.com/konshuu-caa"      class="flex items-center p-8"> Konshuu </a></li>
-            <li><a href="/animedestiny"                      class="flex items-center p-8"> Anime Destiny </a></li>
-            <li><a href="https://discord.com/invite/Xp4MUjG" class="flex items-center p-8"> Discord </a></li>
+            <li>
+                <a href="/about" class="flex items-center p-8"> About </a>
+            </li>
+            <li>
+                <a href="/events" class="flex items-center p-8"> Events </a>
+            </li>
+            <li>
+                <a href="https://issuu.com/konshuu-caa" class="flex items-center p-8"> Konshuu </a>
+            </li>
+            <li>
+                <a href="/animedestiny" class="flex items-center p-8"> Anime Destiny </a>
+            </li>
             <li>
                 {#if user}
                     <a href="/logout" class="flex items-center p-8">Logout</a>

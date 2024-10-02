@@ -74,5 +74,5 @@
             </p>
         </section>
     </main>
-    <!-- <Footer /> -->
+    <Footer />
 </div>
