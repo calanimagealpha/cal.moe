@@ -10,11 +10,13 @@ Prerequisite: `git`, `node (preferably by nvm)`, `pnpm`
    
    What's the difference?
    - Fork: A fork is a copy of the repository in your own GitHub account. It allows you to freely experiment with changes without affecting the original project.
-   - Branch: A branch is a separate line of development within the same repository. It's useful for developing features or fixing bugs in isolation without affecting the original project.
+   - Branch: A branch is a separate line of development within the same repository. It's useful for developing features or fixing bugs in isolation.
 
 2. Clone the repository
    - If you forked: `git clone https://github.com/<YOUR_USERNAME_HERE>/cal.moe.git`
-   - If you're branching: `git clone https://github.com/calanimagealpha/cal.moe.git`
+   - If you're branching: 
+     1. `git clone https://github.com/calanimagealpha/cal.moe`
+     2. `git checkout -b your-branch-name`
 
 3. Install packages
    - Navigate inside the cloned repository, and run:  
