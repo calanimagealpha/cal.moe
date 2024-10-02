@@ -14,7 +14,7 @@ Prerequisite: `git`, `node (preferably by nvm)`, `pnpm`
 
 2. Clone the repository
    - If you forked: `git clone https://github.com/<YOUR_USERNAME_HERE>/cal.moe.git`
-   - If you're branching: `git clone https://github.com/original-repo/cal.moe.git`
+   - If you're branching: `git clone https://github.com/calanimagealpha/cal.moe.git`
 
 3. Install packages
    - Navigate inside the cloned repository, and run:  
