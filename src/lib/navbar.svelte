@@ -21,6 +21,7 @@
             <li><a href="/events" class="transition-colors hover:text-yellow-400">Events</a></li>
             <li><a href="https://issuu.com/konshuu-caa" class="transition-colors hover:text-yellow-400">Konshuu</a></li>
             <li><a href="/animedestiny" class="transition-colors hover:text-yellow-400">Anime Destiny</a></li>
+            <li><a href="https://discord.com/invite/Xp4MUjG" class="transition-colors hover:text-yellow-400">Discord</a></li>
             <li>
                 {#if user}
                     <img
@@ -63,6 +64,9 @@
             </li>
             <li>
                 <a href="/animedestiny" class="flex items-center p-8"> Anime Destiny </a>
+            </li>
+            <li>
+                <a href="https://discord.com/invite/Xp4MUjG" class="flex items-center p-8"> Discord </a>
             </li>
             <li>
                 {#if user}
