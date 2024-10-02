@@ -87,21 +87,23 @@
                         class="absolute z-[55] mx-auto text-5xl font-black leading-none md:text-7xl lg:text-8xl"
                     >
                         Anime <br class="lg:hidden" /><span>Des</span><span>ti</span><span>ny</span>
-                        <br class="lg:hidden" />2023
+                        <br class="lg:hidden" />2024
                     </p>
                 {/if}
                 <p class="text-5xl font-black leading-none md:text-7xl lg:text-8xl">
                     Anime <br class="lg:hidden" /><span class="text-violet-600">Des</span><span class="text-indigo-400"
                         >ti</span
                     ><span class="text-blue-400">ny</span>
-                    <br class="lg:hidden" />2023
+                    <br class="lg:hidden" />2024
                 </p>
-                <p class="pt-8 text-xl font-black leading-none md:text-3xl lg:text-5xl">
+                <!-- <p class="pt-8 text-xl font-black leading-none md:text-3xl lg:text-5xl">
                     <span class="hidden lg:inline">Sunday, </span>November 5th
                 </p>
                 <p class="text-sm font-black leading-tight md:text-xl lg:text-2xl">
                     at MLK Jr. Building, <br class="md:hidden" />UC Berkeley
-                </p>
+                </p> -->
+                <p class="text-sm font-black leading-tight md:text-xl lg:text-2xl"> Details coming soon. <br class="md:hidden" />
+                </p> 
             </div>
         </div>
     </header>
@@ -118,21 +120,24 @@
                 />
                 <div>
                     <p class="max-w-lg">
-                        There'll be performances, panels, games, activities, and more! Showcase your awesome costumes at
+                        We're cooking atm. Please come back later! - Sincerely, the CAA Tech Team (owo)
+                        <!-- There'll be performances, panels, games, activities, and more! Showcase your awesome costumes at
                         our cosplay gathering at the convention! Enjoy fun and informative panels about various
                         anime-related topics along with other exciting events! We hope to bring together local fans and
                         to provide an enjoyable, cozy experience for our attendees through fun events, interesting
-                        panels, and awesome merchandise!
+                        panels, and awesome merchandise! -->
                     </p>
-                    <a href="https://forms.gle/gsibxHG87FFk1wgn8"
+                    <a href="/animedestiny"
                         ><Button class="my-4 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white"
-                            >Purchase Tickets</Button
+                            >Coming Soon</Button
                         ></a
                     >
                 </div>
             </div>
         </section>
-            <FullCalendar {options} />
+        <div style="height: 50rem;"></div>
+        <p>wow such empty space</p>
+            <!-- <FullCalendar {options} />
         <section>
             <p class="py-4 text-xl font-black leading-none text-blue-400 md:text-3xl lg:text-5xl">
                 Featured Artists &mdash;
@@ -156,7 +161,7 @@
                     </div>
                 {/each}
             </div>
-        </section>
+        </section> -->
         <!-- Saturday, November 12th! We'll be holding our convention in-person this year, at the MLK Jr. Building on UC
         Berkeley campus! There'll be performances, panels, games, activities, and more! If you'd like a table in our
         Artist Alley / Dealer's Hall, please fill out this form. More details on the event TBA! Join our Discord for
