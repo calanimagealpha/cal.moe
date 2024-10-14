@@ -73,13 +73,13 @@
                         <p><span class="text-white">Ga</span>me</p>
                     </div>
                     <p class="text-xs md:text-base">...since 1989!</p>
-                    <p class="text-xs md:text-base">
-                        Background source: 
-                        <a href="https://www.reddit.com/r/wallpapers/comments/b8t4o7/kame_house_dragon_ball_z_3032x1706/" target="_blank" class="underline text-blue-400">
-                            Kame House, Dragon Ball Z
-                        </a>
-                    </p>
                 </div>
+                <p class="text-xs md:text-base">
+                    Background source: 
+                    <a href="https://www.reddit.com/r/wallpapers/comments/b8t4o7/kame_house_dragon_ball_z_3032x1706/" target="_blank" class="underline text-blue-400">
+                        Kame House, Dragon Ball Z
+                    </a>
+                </p>
             </div>
         </div>
         <div class="flex flex-col items-center">
