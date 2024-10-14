@@ -20,16 +20,13 @@
             class="pl-8 text-3xl font-bold md:w-3/5 md:pl-16 md:text-6xl/tight lg:mx-auto lg:w-full lg:max-w-7xl lg:text-7xl/tight"
         >
             <p class="pb-4">
-            A place for <br />
-            <span class="text-pink-400">anime,</span>
-            <span class="text-emerald-400">manga,</span>
-            <br />
-            <span class="text-cyan-400">game</span> lovers
-            <br />
-            at <span class="text-yellow-400">UC&nbsp;Berkeley&nbsp;🐻</span>
-            </p>
-            <p class="text-sm mt-4">
-            Background source: <a href="https://www.reddit.com/r/wallpapers/comments/b8t4o7/kame_house_dragon_ball_z_3032x1706/" target="_blank" class="underline text-blue-400">Kame House, Dragon Ball Z</a>
+                A place for <br />
+                <span class="text-pink-400">anime,</span>
+                <span class="text-emerald-400">manga,</span>
+                <br />
+                <span class="text-cyan-400">game</span> lovers
+                <br />
+                at <span class="text-yellow-400">UC&nbsp;Berkeley&nbsp;🐻</span>
             </p>
         </section>
         <div
