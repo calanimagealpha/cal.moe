@@ -19,6 +19,7 @@
         <ul class="mr-8 hidden h-full items-center space-x-4 text-sm font-semibold tracking-wider lg:flex">
             <li><a href="/about" class="transition-colors hover:text-yellow-400">About</a></li>
             <li><a href="/events" class="transition-colors hover:text-yellow-400">Events</a></li>
+            <li><a href="/officers" class="transition-colors hover:text-yellow-400">Officers</a></li>
             <li><a href="https://issuu.com/konshuu-caa" class="transition-colors hover:text-yellow-400">Konshuu</a></li>
             <li><a href="https://animedestiny.cal.moe/" class="transition-colors hover:text-yellow-400">Anime Destiny 2024</a></li>
             <li><a href="https://discord.com/invite/Xp4MUjG" class="transition-colors hover:text-yellow-400">Discord</a></li>
@@ -58,6 +59,9 @@
             </li>
             <li>
                 <a href="/events" class="flex items-center p-8"> Events </a>
+            </li>
+            <li>
+                <a href="/officers" class="flex items-center p-8"> Officers </a>
             </li>
             <li>
                 <a href="https://issuu.com/konshuu-caa" class="flex items-center p-8"> Konshuu </a>
