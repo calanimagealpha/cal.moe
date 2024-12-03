@@ -22,18 +22,8 @@
             <li><a href="/officers" class="transition-colors hover:text-yellow-400">Officers</a></li>
             <li><a href="https://issuu.com/konshuu-caa" class="transition-colors hover:text-yellow-400">Konshuu</a></li>
             <li><a href="https://animedestiny.cal.moe/" class="transition-colors hover:text-yellow-400">Anime Destiny 2024</a></li>
+            <li><a href="/contact" class="transition-colors hover:text-yellow-400">Contact Us</a></li>
             <li><a href="https://discord.com/invite/Xp4MUjG" class="transition-colors hover:text-yellow-400">Discord</a></li>
-            <li>
-                {#if user}
-                    <img
-                        src="https://cdn.discordapp.com/avatars/{user.id}/{user.avatar}.webp"
-                        alt="avatar of {user.username}"
-                        class="h-12 w-12 rounded-full"
-                    />
-                {:else}
-                    <a href="/login" class="transition-colors hover:text-yellow-400">Login</a>
-                {/if}
-            </li>
         </ul>
         <button class="flex items-center justify-center p-4 lg:hidden" on:click={() => (menuOpened = !menuOpened)}>
             {#if user}
