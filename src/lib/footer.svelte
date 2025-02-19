@@ -3,11 +3,11 @@
 </script>
 
 <footer class="p-8 text-black bg-zinc-300">
-    <Logo />
-    <p class="w-full my-4 text-right">
+    <p class="flex items-center justify-between w-full my-4">
+        <Logo />
         <a href="https://www.ocf.berkeley.edu">
             <img
-                class="inline"
+                class="h-[60px] w-auto"
                 src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin.svg"
                 alt="Hosted by the OCF"
             />
