@@ -1,0 +1,430 @@
+{
+    "semester": "Spring 2025",
+    "departments": [
+        {
+            "name": "Executive Leadership",
+            "members": [
+                {
+                    "name": "Kai Kupper",
+                    "handle": "KeyeballTheBeholder#9155",
+                    "position": "Vice President, Events - Head (Planning)",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "officer_imgs/Z1AMCUe1Fvmyrbeo7.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Marcus Clemens",
+                    "handle": "jagdpanzer2000",
+                    "position": "Treasurer",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "https://cdn.discordapp.com/attachments/681743704117346491/1209008237635051531/arashpadoru.png?ex=65e55baa&is=65d2e6aa&hm=b3c6de4c5b00f7056e7608b3ea7319b8068fad1c13afc97ac1a3537c006cf014&",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Scarlett Lemieux",
+                    "handle": "hikarilavender",
+                    "position": "President, Publicity - Head",
+                    "grad_date": "Spring 2027",
+                    "website_picture": "officer_imgs/1QJBtHUlUbOa1WIE_INJBtrCYE0uamlvw.jpg",
+                    "personal_website": ""
+                }
+            ]
+        },
+        {
+            "name": "Heads",
+            "members": [
+                {
+                    "name": "Devon Nguyen",
+                    "handle": "violetlunablossom",
+                    "position": "Konshuu - Head",
+                    "grad_date": "Spring 2025",
+                    "website_picture": "officer_imgs/5abe34df501f21b0ac0d3297aa7be5fb590bab7a.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Kai Kupper",
+                    "handle": "KeyeballTheBeholder#9155",
+                    "position": "Vice President, Events - Head (Planning)",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "officer_imgs/Z1AMCUe1Fvmyrbeo7.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Kevin Shen",
+                    "handle": "neptunia",
+                    "position": "Technology - Head",
+                    "grad_date": "Spring 2025",
+                    "website_picture": "officer_imgs/__raiden_shogun_acheron_and_sawashiro_miyuki_genshin_impact_and_3_more_drawn_by_endshadiaoyibzhanhua__8de6a781a9ab5a572797b620c4130700.png",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Owen Lin",
+                    "handle": "owen60943.",
+                    "position": "Video - Head",
+                    "grad_date": "Spring 2028",
+                    "website_picture": "officer_imgs/13605794-89e40030-c524-48c5-bee7-6220be2c9912.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Scarlett Lemieux",
+                    "handle": "hikarilavender",
+                    "position": "President, Publicity - Head",
+                    "grad_date": "Spring 2027",
+                    "website_picture": "officer_imgs/1QJBtHUlUbOa1WIE_INJBtrCYE0uamlvw.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Shang Wu",
+                    "handle": "oblivvion_23",
+                    "position": "Anime Destiny - Head",
+                    "grad_date": "Spring 2027",
+                    "website_picture": "officer_imgs/1FQ_16HFsEmDyDyfQ4FhHoO8sXigPlHER.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Tristan Lau",
+                    "handle": "iheartramen (Tristan)",
+                    "position": "Events - Head (Managing)",
+                    "grad_date": "Spring 2025",
+                    "website_picture": "officer_imgs/11mBOa0zeN93S0l_cMr8LYYOcjC3nmwuo.jpg",
+                    "personal_website": ""
+                }
+            ]
+        },
+        {
+            "name": "Konshuu",
+            "members": [
+                {
+                    "name": "Anje Chimura",
+                    "handle": "animeri_",
+                    "position": "Konshuu - Writer",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "officer_imgs/anje chimura.jpeg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Atlas Heal",
+                    "handle": "chthonicarchivist ",
+                    "position": "Konshuu - Artist",
+                    "grad_date": "Spring 2025",
+                    "website_picture": "officer_imgs/1TxtfDEH8i-WNR6z9VDFUSt8C_zLfCHOs.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Cas Geiger",
+                    "handle": "cas#5905",
+                    "position": "Konshuu - Artist",
+                    "grad_date": "Spring 2025",
+                    "website_picture": "officer_imgs/du4ks47D62hKsPt5A.jpg",
+                    "personal_website": "https://mousec1ub.carrd.co/"
+                },
+                {
+                    "name": "Catherine Chen",
+                    "handle": "kitcat#0973",
+                    "position": "Konshuu - Artist, Konshuu - Graphic Designer",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "officer_imgs/19eW1H8pTm7SedTotn899IBBAdf3h0mX6.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Devon Nguyen",
+                    "handle": "violetlunablossom",
+                    "position": "Konshuu - Head",
+                    "grad_date": "Spring 2025",
+                    "website_picture": "officer_imgs/5abe34df501f21b0ac0d3297aa7be5fb590bab7a.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Ellya Kim",
+                    "handle": "stummyache#9974",
+                    "position": "Konshuu - Artist",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "officer_imgs/1WwDR1hq4jP6DehPWwx13TrEkJOpwHFGT.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Johanna Liu",
+                    "handle": "rollingthunderx",
+                    "position": "Konshuu - Graphic Designer",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "officer_imgs/1B5tfYyZ7B8oA4Omg3BzFn3bfEf0t4-Qb.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Lu He",
+                    "handle": "Lu02346",
+                    "position": "Konshuu - Writer",
+                    "grad_date": "Spring 2027",
+                    "website_picture": "officer_imgs/lu he.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Samuel Kim",
+                    "handle": "slitid",
+                    "position": "Konshuu - Writer",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "officer_imgs/samuel kim.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Tatum Ekstrom",
+                    "handle": "tokitem",
+                    "position": "Konshuu - Artist",
+                    "grad_date": "Spring 2025",
+                    "website_picture": "officer_imgs/1AAdgWUaC-3EwqccA2ui7Lr088Ay4a3Ff.jpg",
+                    "personal_website": "https://myanimelist.net/profile/tokitem"
+                },
+                {
+                    "name": "Wai Kwan Wu",
+                    "handle": "krpk#8472",
+                    "position": "Konshuu - Writer",
+                    "grad_date": "Spring 2025",
+                    "website_picture": "officer_imgs/wai kwan hu.jpeg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Willow Otaka",
+                    "handle": "Nyamen\u2605Ramen#8187",
+                    "position": "Konshuu - Artist",
+                    "grad_date": "Spring 2025",
+                    "website_picture": "officer_imgs/aXbQ1gb.png",
+                    "personal_website": "https://myanimelist.net/animelist/Nyamen-Ramen"
+                },
+                {
+                    "name": "Zeyang Zhu (Jackson)",
+                    "handle": "Rem_Inory#rinadeshiko",
+                    "position": "Konshuu - Writer",
+                    "grad_date": "Spring 2028",
+                    "website_picture": "officer_imgs/iMTr3JvS_400x400.jpg",
+                    "personal_website": ""
+                }
+            ]
+        },
+        {
+            "name": "Events",
+            "members": [
+                {
+                    "name": "Chuli Dai",
+                    "handle": "Set ur Dream on Fire#7464",
+                    "position": "Events - General",
+                    "grad_date": "Spring 2025",
+                    "website_picture": "https://cdn.discordapp.com/avatars/885458296683757609/3dd82e38023b868c302392385a1498aa.webp?size=128",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Ian Delos Santos",
+                    "handle": "lucid_exsion",
+                    "position": "Events - General",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "officer_imgs/anime-anime-boys-tensei-shitara-slime-datta-ken-rimuru-hd-wallpaper-preview.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Jesse Chang",
+                    "handle": "jesse2k2",
+                    "position": "Events - General",
+                    "grad_date": "Spring 2025",
+                    "website_picture": "officer_imgs/1uqNzLc6HPt7t8XJzJXo2SY7JFHpqpPTo.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Joey Chao",
+                    "handle": "NarcX#1268",
+                    "position": "Events - General",
+                    "grad_date": "Fall 2024",
+                    "website_picture": "officer_imgs/bNc2vk8.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Kai Kupper",
+                    "handle": "KeyeballTheBeholder#9155",
+                    "position": "Vice President, Events - Head (Planning)",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "officer_imgs/Z1AMCUe1Fvmyrbeo7.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Katharine Wang",
+                    "handle": "Otaku-san_Kath#2331",
+                    "position": "Events - General",
+                    "grad_date": "Spring 2025",
+                    "website_picture": "officer_imgs/935fa8bcfcb7379194911eee2274a97edf9c37aa.png",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Ryuu Imeal Lee Jones",
+                    "handle": "Zerogravitydragon#4444",
+                    "position": "Events - General",
+                    "grad_date": "Spring 2028",
+                    "website_picture": "officer_imgs/ryuu jones.png",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Tristan Lau",
+                    "handle": "iheartramen (Tristan)",
+                    "position": "Events - Head (Managing)",
+                    "grad_date": "Spring 2025",
+                    "website_picture": "officer_imgs/11mBOa0zeN93S0l_cMr8LYYOcjC3nmwuo.jpg",
+                    "personal_website": ""
+                }
+            ]
+        },
+        {
+            "name": "Anime Destiny",
+            "members": [
+                {
+                    "name": "Cindy Tong",
+                    "handle": "cindyteehee#6195",
+                    "position": "Anime Destiny - Planner",
+                    "grad_date": "Spring 2027",
+                    "website_picture": "officer_imgs/f8d488ca48f0bd4599a2f0ebf22dee62.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Kaixin Han (Victoria)",
+                    "handle": "Weiduo#3699",
+                    "position": "Anime Destiny - Planner",
+                    "grad_date": "Fall 2025",
+                    "website_picture": "officer_imgs/GVql7CuXsAALSIe.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Shang Wu",
+                    "handle": "oblivvion_23",
+                    "position": "Anime Destiny - Head",
+                    "grad_date": "Spring 2027",
+                    "website_picture": "officer_imgs/1FQ_16HFsEmDyDyfQ4FhHoO8sXigPlHER.jpg",
+                    "personal_website": ""
+                }
+            ]
+        },
+        {
+            "name": "Technology",
+            "members": [
+                {
+                    "name": "Daniel Dongon",
+                    "handle": "roroxes",
+                    "position": "Technology - General",
+                    "grad_date": "Fall 2025",
+                    "website_picture": "https://cdn.discordapp.com/attachments/549485815437197325/1287755460975398944/3d47c4abf14c2e8ea47d28f016c683c5.png?ex=66f2b33b&is=66f161bb&hm=5eb02f52ba2e2bca81ca8673f4d6e4a1ee8b65efe4e304849fc76c6242ac51d9&",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Fiona Chen",
+                    "handle": "fiooona",
+                    "position": "Technology - General",
+                    "grad_date": "Spring 2025",
+                    "website_picture": "officer_imgs/fiona chen.png",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Kevin Shen",
+                    "handle": "neptunia",
+                    "position": "Technology - Head",
+                    "grad_date": "Spring 2025",
+                    "website_picture": "officer_imgs/__raiden_shogun_acheron_and_sawashiro_miyuki_genshin_impact_and_3_more_drawn_by_endshadiaoyibzhanhua__8de6a781a9ab5a572797b620c4130700.png",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Lionel Verano IV",
+                    "handle": "OrionLyon#3092",
+                    "position": "Technology - General",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "officer_imgs/95c34e14a62b5a47424bc866a676d6da.jpg",
+                    "personal_website": "https://www.instagram.com/moeistheonlyway/"
+                },
+                {
+                    "name": "Sasha Lopez",
+                    "handle": "hajajus001",
+                    "position": "Technology - General",
+                    "grad_date": "Spring 2028",
+                    "website_picture": "officer_imgs/b169251c94c696393c896bc237de38e4.jpg",
+                    "personal_website": ""
+                }
+            ]
+        },
+        
+        {
+            "name": "Publicity",
+            "members": [
+                {
+                    "name": "Francis Basco",
+                    "handle": "K0BR4S#3551; k0br4s",
+                    "position": "Publicity - Artist",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "officer_imgs/1SCgO2EgrkSRMpuBHkaz7JY3kOAjjqMdp.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Jae Lee",
+                    "handle": "jaenari_",
+                    "position": "Publicity - Artist",
+                    "grad_date": "Spring 2027",
+                    "website_picture": "officer_imgs/Eylda4-VoAEL1sB.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Madison Monbleau",
+                    "handle": "pleasePortgasDAcejustonechance#2053",
+                    "position": "Publicity - General",
+                    "grad_date": "Spring 2025",
+                    "website_picture": "https://images.app.goo.gl/5YstaTpi1EEVL1Me8",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Sadie Laster",
+                    "handle": "perfect_lavender.",
+                    "position": "Publicity - Artist",
+                    "grad_date": "Spring 2028",
+                    "website_picture": "officer_imgs/82bc590c9f9a5f11e1b33968eaeb23dba2390519r1-512-512v2_00.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Scarlett Lemieux",
+                    "handle": "hikarilavender",
+                    "position": "President, Publicity - Head",
+                    "grad_date": "Spring 2027",
+                    "website_picture": "officer_imgs/1QJBtHUlUbOa1WIE_INJBtrCYE0uamlvw.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Sebastian Garcia",
+                    "handle": "topsteak",
+                    "position": "Publicity - General",
+                    "grad_date": "Spring 2028",
+                    "website_picture": "officer_imgs/sebastian garcia.jpeg",
+                    "personal_website": ""
+                }
+            ]
+        },
+        {
+            "name": "Video",
+            "members": [
+                {
+                    "name": "Kyle Link",
+                    "handle": "kaiel0904",
+                    "position": "Video - Content Creator",
+                    "grad_date": "Spring 2027",
+                    "website_picture": "officer_imgs/kyle link.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Matthew Sulistijowadi",
+                    "handle": "matthewsul",
+                    "position": "Video - Content Creator",
+                    "grad_date": "Spring 2025",
+                    "website_picture": "officer_imgs/1JeU66VwPm2NCvOPIWEaaQq6kRMOAMtxc.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Owen Lin",
+                    "handle": "owen60943.",
+                    "position": "Video - Head",
+                    "grad_date": "Spring 2028",
+                    "website_picture": "officer_imgs/13605794-89e40030-c524-48c5-bee7-6220be2c9912.jpg",
+                    "personal_website": ""
+                }
+            ]
+        }
+    ]
+}
