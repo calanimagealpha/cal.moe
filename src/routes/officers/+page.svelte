@@ -44,6 +44,12 @@
 
     {#if officersData}
         <div class="max-w-6xl mx-auto p-4">
+            
+            <p class="max-w-4xl text-lg text-gray-300 mt-4 pb-8">
+                Learn more about the different departments of our club, and the dedicated officers who help run our club! Each department plays a key role in organizing events, managing outreach, and keeping things running smoothly.
+            </p>
+
+
             <!-- Tabs -->
             <div class="flex overflow-x-auto border-b border-gray-500">
                 {#each officersData.departments as department, index}
@@ -58,28 +64,36 @@
                 {/each}
             </div>
 
-            <!-- Officers Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-                {#each officersData.departments[activeTab].members as officer}
-                    <div class="bg-white text-black rounded-lg shadow-md p-4 flex flex-col items-center">
-                        <div class="w-32 h-32 overflow-hidden rounded-full bg-gray-200">
-                            <img 
-                                src="{getImageSrc(officer.website_picture)}" 
-                                alt="{officer.name}" 
-                                class="object-cover w-full h-full"
-                            />
+            <div class="flex flex-col min-h-[60vh]">
+                <p class="mt-4 text-lg text-gray-300">
+                    {officersData.departments[activeTab].description}
+                </p>
+                <!-- Officers Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 pb-8">
+                    {#each officersData.departments[activeTab].members as officer}
+                        <div class="bg-white text-black rounded-lg shadow-md p-4 flex flex-col items-center">
+                            <div class="w-32 h-32 overflow-hidden rounded-full bg-gray-200">
+                                <img 
+                                    src="{getImageSrc(officer.website_picture)}" 
+                                    alt="{officer.name}" 
+                                    class="object-cover w-full h-full"
+                                />
+                            </div>
+                            <h3 class="mt-3 text-xl font-bold">{officer.name}</h3>
+                            <p class="text-sm text-gray-600">{officer.position}</p>
+                            <p class="text-xs text-gray-500">Graduation: {officer.grad_date}</p>
+                            {#if officer.personal_website}
+                                <a href="{officer.personal_website}" target="_blank" class="mt-2 text-blue-600 hover:underline">
+                                    Personal Website
+                                </a>
+                            {/if}
                         </div>
-                        <h3 class="mt-3 text-xl font-bold">{officer.name}</h3>
-                        <p class="text-sm text-gray-600">{officer.position}</p>
-                        <p class="text-xs text-gray-500">Graduation: {officer.grad_date}</p>
-                        {#if officer.personal_website}
-                            <a href="{officer.personal_website}" target="_blank" class="mt-2 text-blue-600 hover:underline">
-                                Personal Website
-                            </a>
-                        {/if}
-                    </div>
-                {/each}
+                    {/each}
+                </div>
             </div>
+
+
+            
         </div>
     {/if}
 </div>
