@@ -17,7 +17,7 @@
         }, 100);
 
         try {
-            const response = await fetch('/json/caa_next_event.json');
+            const response = await fetch('/api/events.json');
             const events = await response.json();
             if (events.length > 0) {
                 nextEvent = events[0]; // Assume first event is the next upcoming
