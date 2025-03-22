@@ -9,4 +9,4 @@ node_modules
 !.env.example
 **/*.pdf
 **/*.mp4
-.pnpm-store/**
+.pnpm-store/**.idea/

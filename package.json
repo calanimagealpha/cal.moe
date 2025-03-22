@@ -41,6 +41,7 @@
 	"dependencies": {
 		"@fullcalendar/resource": "^6.1.9",
 		"@fullcalendar/resource-timegrid": "^6.1.9",
+		"@prisma/client": "5.22.0",
 		"fullcalendar": "^6.1.9",
 		"material-icons": "^1.13.8"
 	}
