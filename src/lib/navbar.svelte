@@ -19,7 +19,8 @@
             <li><a href="/events" class="transition-colors hover:text-yellow-400">Events</a></li>
             <li><a href="/officers" class="transition-colors hover:text-yellow-400">Officers</a></li>
             <li><a href="https://issuu.com/konshuu-caa" class="transition-colors hover:text-yellow-400">Konshuu</a></li>
-            <li><a href="https://animedestiny.cal.moe/" class="transition-colors hover:text-yellow-400">Anime Destiny 2024</a></li>
+            <li><a href="/maidcafe" class="transition-colors hover:text-yellow-400">Maid Cafe 2025</a></li>
+            <!-- <li><a href="https://animedestiny.cal.moe/" class="transition-colors hover:text-yellow-400">Anime Destiny 2024</a></li> -->
             <li><a href="https://discord.com/invite/Xp4MUjG" class="transition-colors hover:text-yellow-400">Discord</a></li>
         </ul>
     </div>
@@ -42,9 +43,11 @@
             <li>
                 <a href="https://issuu.com/konshuu-caa" class="flex items-center p-8"> Konshuu </a>
             </li>
-            <li>
+            <!-- <li>
                 <a href="https://animedestiny.cal.moe/" class="flex items-center p-8"> Anime Destiny 2024 </a>
-            </li>
+            </li> -->
+            <li>
+                <a href="/maidcafe" class="flex items-center p-8">Maid Cafe 2025</a></li>
             <li>
                 <a href="https://discord.com/invite/Xp4MUjG" class="flex items-center p-8"> Discord </a>
             </li>
