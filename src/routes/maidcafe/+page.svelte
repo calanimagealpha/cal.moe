@@ -58,6 +58,15 @@ setInterval(() => {
         Photos from Maid Cafe 2024
       </p>
 
+        <a
+          href="https://forms.gle/3prmJgSKuX5AMqz46"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block rounded-full border border-pink-500 bg-white text-pink-500 font-fredoka px-6 py-2 text-sm hover:bg-pink-50 transition-colors duration-200"
+        >
+          RSVP
+        </a>
+
       <!-- When & Where Bubble -->
       <div class="bg-white border-4 border-dashed border-pink-300 rounded-3xl p-8 mb-14 shadow-xl shadow-pink-100 text-left">
         <h2 class="font-fun text-blue-500 text-4xl font-bold mb-6">🎀 When & Where</h2>
@@ -127,6 +136,15 @@ setInterval(() => {
         <p class="text-lg text-gray-700 leading-relaxed">
           Guests are welcome to dress in cosplay or cute cafe-style outfits! We’ll even have a mini photo booth corner. 📷
         </p>
+
+        <a
+          href="https://forms.gle/3prmJgSKuX5AMqz46"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block rounded-full border border-pink-500 bg-white text-pink-500 font-fredoka px-6 py-2 text-sm hover:bg-pink-50 transition-colors duration-200"
+        >
+          RSVP
+        </a>
         <img src="/assets/image/maidcafe/cosplay.jpg" alt="Cosplay fun" class="rounded-3xl mt-6 w-full object-cover" />
       </div>
   
