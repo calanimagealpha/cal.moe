@@ -62,7 +62,8 @@ setInterval(() => {
           href="https://forms.gle/3prmJgSKuX5AMqz46"
           target="_blank"
           rel="noopener noreferrer"
-          class="inline-block rounded-full border border-pink-500 bg-white text-pink-500 font-fredoka px-6 py-2 text-sm hover:bg-pink-50 transition-colors duration-200"
+          class="inline-block my-4 rounded-full border border-pink-500 bg-white text-pink-500 px-6 py-2 text-lg hover:bg-pink-50 transition-colors duration-200"
+          style="font-family: 'Fredoka', sans-serif;"
         >
           RSVP
         </a>
@@ -141,7 +142,8 @@ setInterval(() => {
           href="https://forms.gle/3prmJgSKuX5AMqz46"
           target="_blank"
           rel="noopener noreferrer"
-          class="inline-block rounded-full border border-pink-500 bg-white text-pink-500 font-fredoka px-6 py-2 text-sm hover:bg-pink-50 transition-colors duration-200"
+          class="inline-block my-4 rounded-full border border-pink-500 bg-white text-pink-500 px-6 py-2 text-lg hover:bg-pink-50 transition-colors duration-200"
+          style="font-family: 'Fredoka', sans-serif;"
         >
           RSVP
         </a>
