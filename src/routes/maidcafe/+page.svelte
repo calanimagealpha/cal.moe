@@ -1,3 +1,4 @@
+<title>CAA Maid Cafe 2025</title>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap" rel="stylesheet">
 <script>
     import Navbar from '$lib/navbar.svelte';
@@ -58,14 +59,15 @@ setInterval(() => {
         Photos from Maid Cafe 2024
       </p>
 
+      
         <a
           href="https://forms.gle/3prmJgSKuX5AMqz46"
           target="_blank"
           rel="noopener noreferrer"
-          class="inline-block my-4 rounded-full border border-pink-500 bg-white text-pink-500 px-6 py-2 text-lg hover:bg-pink-50 transition-colors duration-200"
+          class="inline-block mb-8 rounded-full border border-pink-500 bg-white text-pink-500 px-6 py-2 text-lg hover:bg-pink-50 transition-colors duration-200"
           style="font-family: 'Fredoka', sans-serif;"
         >
-          RSVP
+          RSVP Now!
         </a>
 
       <!-- When & Where Bubble -->
@@ -93,7 +95,7 @@ setInterval(() => {
               referrerpolicy="no-referrer-when-downgrade">
             </iframe>
           </div>
-        <img src="/assets/image/maidcafe/venue.jpg" alt="Venue" class="rounded-3xl mt-6 w-full object-cover" />
+        <img src="/assets/image/maidcafe/senior_center.png" alt="Venue" class="rounded-3xl mt-8 w-2/3 object-cover mx-auto" />
       </div>
   
       <!-- What's Happening Bubble -->
@@ -105,9 +107,8 @@ setInterval(() => {
         <ul class="list-disc pl-6 text-lg text-gray-700 leading-relaxed mt-4">
           <li>✨ Table-side games and performances</li>
           <li>📸 Photo ops with maids and props</li>
-          <li>🎁 Raffles and prizes</li>
         </ul>
-        <img src="/assets/image/maidcafe/activities.jpg" alt="Activities" class="rounded-3xl mt-6 w-full object-cover" />
+        <!-- img src="/assets/image/maidcafe/activities.jpg" alt="Activities" class="rounded-3xl mt-6 w-full object-cover" /-->
       </div>
   
       <!-- Pricing & Add-Ons Bubble -->
@@ -120,6 +121,7 @@ setInterval(() => {
           <li>🎟️ Admission to the event</li>
           <li>🍰 Food and drinks</li>
           <li>📸 One Polaroid with a maid or butler</li>
+          <li>✨ Performances and activities, like decorating polaroids</li>
         </ul>
         <p class="text-lg text-gray-700 leading-relaxed mt-6">
           You can also purchase exciting extras, such as:
@@ -128,7 +130,7 @@ setInterval(() => {
           <li>📸 Additional Polaroids</li>
           <li>💃 Personalized maid/butler dance performances</li>
         </ul>
-        <img src="/assets/image/maidcafe/pricing.jpg" alt="Pricing options" class="rounded-3xl mt-6 w-full object-cover" />
+        <!--img src="/assets/image/maidcafe/pricing.jpg" alt="Pricing options" class="rounded-3xl mt-6 w-full object-cover" /-->
       </div>
   
       <!-- Dress Up Bubble -->
@@ -137,6 +139,17 @@ setInterval(() => {
         <p class="text-lg text-gray-700 leading-relaxed">
           Guests are welcome to dress in cosplay or cute cafe-style outfits! We’ll even have a mini photo booth corner. 📷
         </p>
+
+      </div>
+
+
+      <div class="bg-white border-4 border-dashed border-pink-300 rounded-3xl p-8 mb-14 shadow-xl shadow-pink-100 text-left">
+        <h2 class="font-fun text-blue-500 text-4xl font-bold mb-6">💌 Reserve your seat now!</h2>
+        <p class="text-lg text-gray-700 leading-relaxed">
+          To get an accurate headcount, we prefer our guests to RSVP in advance, but guests without reservations are also welcome! We are unable to accept cash at the door, so we <b>require virtual payments</b> via Venmo, PayPal, or Zelle.
+        </p>
+        
+        <h3 class="font-fun text-blue-500 text-2xl font-bold mb-2 mt-4">We look forward to your presence, ojou/goshujin-sama! (*´∀`)~♥</h3>
 
         <a
           href="https://forms.gle/3prmJgSKuX5AMqz46"
@@ -147,7 +160,7 @@ setInterval(() => {
         >
           RSVP
         </a>
-        <img src="/assets/image/maidcafe/cosplay.jpg" alt="Cosplay fun" class="rounded-3xl mt-6 w-full object-cover" />
+        
       </div>
   
     </div>
