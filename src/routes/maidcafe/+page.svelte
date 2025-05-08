@@ -3,7 +3,9 @@
 <script>
     import Navbar from '$lib/navbar.svelte';
     import Footer from '$lib/footer.svelte';
-    import { fade } from 'svelte/transition';
+    import { fly, fade } from 'svelte/transition';
+    import { cubicOut } from 'svelte/easing';
+    import { onMount } from 'svelte';
 
 let slideIndex = 0;
 const slides = [
@@ -11,6 +13,48 @@ const slides = [
   "/assets/image/maidcafe/2.jpg",
   "/assets/image/maidcafe/3.jpg"
 ];
+
+const images = [
+    '/assets/image/maidcafe/cards/1.png',
+    '/assets/image/maidcafe/cards/6.png',
+    '/assets/image/maidcafe/cards/2.png',
+    '/assets/image/maidcafe/cards/7.png',
+    '/assets/image/maidcafe/cards/5.png',
+    '/assets/image/maidcafe/cards/3.png',
+    '/assets/image/maidcafe/cards/8.png',
+    '/assets/image/maidcafe/cards/4.png'
+  ];
+
+  let stack = [];
+  let currentIndex = 0;
+  function flyFade(node, params) {
+  return {
+    delay: params.delay || 0,
+    duration: params.duration || 400,
+    css: (t, u) => {
+      const fadeCss = fade(node, params).css(t, u);
+      const flyCss = fly(node, { ...params, easing: cubicOut }).css(t, u);
+      return `${fadeCss}; ${flyCss}`;
+    }
+  };
+}
+  const maxImages = 8; // Limit the number of images to 8
+  function addImage() {
+    const angle = Math.floor(Math.random() * 12) - 6; // -10 to +10
+    const nextImage = {
+      src: images[currentIndex],
+      rotation: angle,
+      id: Date.now() // ensures unique key for transition
+    };
+
+    stack = [...stack.slice(-maxImages + 1), nextImage];
+
+    currentIndex = (currentIndex + 1) % images.length;
+  }
+
+  // Deal a new photo every 8 seconds
+  const interval = setInterval(addImage, 8000);
+  onMount(addImage); // show first image right away
 
 function plusSlides(n) {
   slideIndex = (slideIndex + n + slides.length) % slides.length;
@@ -110,6 +154,30 @@ setInterval(() => {
         </ul>
         <!-- img src="/assets/image/maidcafe/activities.jpg" alt="Activities" class="rounded-3xl mt-6 w-full object-cover" /-->
       </div>
+
+
+      <div class="bg-white border-4 border-dashed border-pink-300 rounded-3xl p-8 mb-14 shadow-xl shadow-pink-100 text-left">
+
+        <h2 class="font-fun text-blue-500 text-4xl font-bold mb-6">👀 Meet our cast!</h2>
+        <p class="text-lg text-gray-700 leading-relaxed">
+          Here's a brief introduction of a few of the maids and butlers who are looking forward to your visit!
+        </p>
+
+        <div class="photo-stack relative w-[450px] h-[600px] mx-auto mt-11 mb-5">
+          {#each stack as photo (photo.id)}
+            <img
+              src={photo.src}
+              alt="Maid Cafe"
+              class="absolute top-0 left-0 w-full rounded-lg shadow-xl transition-transform duration-700 ease-out"
+              style="transform: rotate({photo.rotation}deg);"
+              transition:flyFade="{{ x: 100, duration: 700 }}"
+            />
+          {/each}
+        </div>
+
+      </div>
+
+
   
       <!-- Pricing & Add-Ons Bubble -->
       <div class="bg-white border-4 border-dashed border-pink-300 rounded-3xl p-8 mb-14 shadow-xl shadow-pink-100 text-left">
@@ -199,4 +267,9 @@ setInterval(() => {
       -2px 2px 0 white,
       2px 2px 0 white;
   }
+
+  .photo-stack {
+    perspective: 1000px;
+  }
+
   </style>

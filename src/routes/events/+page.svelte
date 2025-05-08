@@ -79,5 +79,40 @@
                 allowfullscreen>
             </iframe>
         </section>
+
+        <!-- Horizontal Line -->
+        <hr class="my-12 border-t-2 border-gray-400">
+
+        <!-- Major Events Section -->
+        <section class="mb-12">
+            <h2 class="text-4xl font-bold mb-6">Major Events</h2>
+
+            <!-- Anime Destiny -->
+            <div class="mb-6 p-6 bg-zinc-200 rounded-lg shadow-md text-black">
+                <h3 class="text-2xl font-bold">Anime Destiny</h3>
+                <p class="mt-2">
+                    Anime Destiny is our annual anime convention held at UC Berkeley, featuring panels, artists, vendors, and performances.
+                    Join us for an exciting day celebrating anime culture! You can learn more by visiting our <a href="https://animedestiny.cal.moe" class="text-blue-400 font-semibold underline transition-colors duration-300 ease-in-out hover:text-blue-300">main AD site.</a>
+                </p>
+            </div>
+
+            <!-- Art Mart -->
+            <div class="mb-6 p-6 bg-zinc-200 rounded-lg shadow-md text-black">
+                <h3 class="text-2xl font-bold">CAA Art Mart</h3>
+                <p class="mt-2">
+                    The CAA Art Mart is an artist alley-style event held on Upper Sproul where student and local artists sell their artwork and merchandise.
+                    It's a great opportunity to support small creators and find unique anime-themed goods! Admission is free for this event!
+                </p>
+            </div>
+
+            <!-- Maid Cafe -->
+            <div class="mb-6 p-6 bg-zinc-200 rounded-lg shadow-md text-black">
+                <h3 class="text-2xl font-bold">Maid Cafe</h3>
+                <p class="mt-2">
+                    Each year we host a maid cafe experience in collaboration with a local shop. Experience a charming and fun maid cafe event run by our club members! 
+                    Enjoy themed performances, delicious treats, and a welcoming atmosphere.
+                </p>
+            </div>
+        </section>
     </main>
 </div>
