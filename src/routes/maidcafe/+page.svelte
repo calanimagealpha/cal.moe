@@ -161,14 +161,14 @@ setInterval(() => {
       </div>
 
 
-      <div class="bg-white border-4 border-dashed border-pink-300 rounded-3xl p-8 mb-14 shadow-xl shadow-pink-100 text-left">
+      <div class="bg-white border-4 border-dashed border-pink-300 rounded-3xl p-8 mb-4 shadow-xl shadow-pink-100 text-left overflow-x-hidden">
 
         <h2 class="font-fun text-blue-500 text-4xl font-bold mb-6">👀 Meet our cast!</h2>
         <p class="text-lg text-gray-700 leading-relaxed">
           Here's a brief introduction of a few of the maids and butlers who are looking forward to your visit!
         </p>
 
-        <div class="photo-stack relative w-[450px] h-[600px] mx-auto mt-11 mb-5">
+        <div class="photo-stack relative max-w-[450px] aspect-[4/5] mx-auto mt-11 mb-5 max-w-sm mx-auto">
           {#each stack as photo (photo.id)}
             <img
               src={photo.src}
