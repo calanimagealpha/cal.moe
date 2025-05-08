@@ -127,6 +127,11 @@ setInterval(() => {
             <strong>Walking Directions:</strong> From UC Berkeley campus, head north on Oxford Street until you reach the northwest corner of campus by Barker Hall. 
             Turn left on Hearst Avenue and continue west for 5 minutes — the Senior Center will be on your right!
           </p>
+
+          <p class="text-lg text-gray-700 leading-relaxed mt-4">
+            <strong>Transit Directions:</strong> AC Transit route 79 from the south side of campus takes you directly outside the North Berkeley Senior Center. From the Downtown Berkeley BART plaza, you can also take bus 51B or 52 to University Ave.
+            at Martin Luther King Jr. Way (by Trader Joe's), and walk 2 blocks north.
+          </p>
         
           <div class="mt-6 rounded-3xl overflow-hidden shadow-md">
             <iframe
