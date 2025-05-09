@@ -66,9 +66,9 @@ setInterval(() => {
 }, 6000);
 </script>
   <Navbar />
-  <div class="bg-yellow-200 text-yellow-900 text-center py-2 font-semibold">
+  <!--div class="bg-yellow-200 text-yellow-900 text-center py-2 font-semibold">
     🚧 This page is under construction! Check back for updates. 🚧
-  </div>
+  </div-->
   <div class="bg-gradient-to-br from-blue-100 to-pink-100 font-sans">
     <div class="px-6 py-14 max-w-5xl mx-auto text-center">
         <h1 class="text-pink-600 text-5xl font-bold mb-1 font-fun">Cal Animage Alpha presents</h1>
@@ -144,7 +144,7 @@ setInterval(() => {
               referrerpolicy="no-referrer-when-downgrade">
             </iframe>
           </div>
-        <img src="/assets/image/maidcafe/senior_center.png" alt="Venue" class="rounded-3xl mt-8 w-2/3 object-cover mx-auto" />
+        <img src="/assets/image/maidcafe/senior_center.png" alt="Venue" class="rounded-3xl mt-8 object-cover mx-auto w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl" />
       </div>
   
       <!-- What's Happening Bubble -->
@@ -157,7 +157,7 @@ setInterval(() => {
           <li>✨ Table-side games and performances</li>
           <li>📸 Photo ops with maids and props</li>
         </ul>
-        <!-- img src="/assets/image/maidcafe/activities.jpg" alt="Activities" class="rounded-3xl mt-6 w-full object-cover" /-->
+        <img src="/assets/image/maidcafe/Food.png" alt="Menu" class="rounded-3xl mt-6 object-cover w-full mx-auto max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl" >
       </div>
 
 
@@ -219,7 +219,9 @@ setInterval(() => {
       <div class="bg-white border-4 border-dashed border-pink-300 rounded-3xl p-8 mb-14 shadow-xl shadow-pink-100 text-left">
         <h2 class="font-fun text-blue-500 text-4xl font-bold mb-6">💌 Reserve your seat now!</h2>
         <p class="text-lg text-gray-700 leading-relaxed">
-          To get an accurate headcount, we prefer our guests to RSVP in advance, but guests without reservations are also welcome! We are unable to accept cash at the door, so we <b>require virtual payments</b> via Venmo, PayPal, or Zelle.
+          To get an accurate headcount, we prefer our guests to RSVP in advance, but guests without reservations are also welcome!<br>
+          
+          <b>Update 5/8/2025:</b> We are now able to <b>accept cash</b> at the door, alongside virtual payment methods of Venmo, PayPal, or Zelle. RSVP still requires virtual payment.
         </p>
         
         <h3 class="font-fun text-blue-500 text-2xl font-bold mb-2 mt-4">We look forward to your presence, ojou/goshujin-sama! (*´∀`)~♥</h3>
