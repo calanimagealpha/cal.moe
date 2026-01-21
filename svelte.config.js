@@ -10,7 +10,9 @@ const config = {
 	}),
 
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			out: 'build'
+		}),
 		paths: {
 			base: process.env.CALMOE_BASE_URL || ''
 		}
