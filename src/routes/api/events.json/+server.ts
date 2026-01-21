@@ -4,24 +4,29 @@ import ical from 'node-ical';
 const ICS_URL =
   'https://calendar.google.com/calendar/ical/c_9c8420f291a30bc204033d90832c4e054144f53f37a70966e76f36d3f6058388%40group.calendar.google.com/public/basic.ics';
 
+const TIMEZONE = 'America/Los_Angeles';
+
 function formatDate(date: Date): string {
-  return date.toLocaleDateString('en-US', {
+  return new Intl.DateTimeFormat('en-US', {
     weekday: 'long',
     month: 'long',
     day: 'numeric',
-    year: 'numeric'
-  });
+    year: 'numeric',
+    timeZone: TIMEZONE
+  }).format(date);
 }
 
 function formatTimeRange(start: Date, end?: Date): string {
   const options: Intl.DateTimeFormatOptions = {
     hour: 'numeric',
-    minute: '2-digit'
+    minute: '2-digit',
+    hour12: true,
+    timeZone: TIMEZONE
   };
 
-  const startTime = start.toLocaleTimeString('en-US', options);
+  const startTime = new Intl.DateTimeFormat('en-US', options).format(start);
   const endTime = end
-    ? end.toLocaleTimeString('en-US', options)
+    ? new Intl.DateTimeFormat('en-US', options).format(end)
     : '';
 
   return endTime ? `${startTime} - ${endTime}` : startTime;
@@ -34,6 +39,7 @@ export const GET: RequestHandler = async () => {
   const data = ical.parseICS(icsText);
   const now = new Date();
 
+  // Filter for future events
   const upcomingEvents = Object.values(data)
     .filter(
       (e: any) =>
