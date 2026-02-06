@@ -13,5 +13,5 @@
             />
         </a>
     </p>
-    <p class="mt-4 text-xs text-center">© 2024 Cal Animage Alpha. All Rights Reserved.</p>
+    <p class="mt-4 text-xs text-center">© 2026 Cal Animage Alpha. All Rights Reserved.</p>
 </footer>
