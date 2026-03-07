@@ -98,59 +98,75 @@
             "description": "Konshuu is our club's own biweekly publication! Each issue includes information about future events and an assortment of articles on anime culture. Officers in this department handle their respective roles within Konshuu, whether it be writing the articles, drawing illustrations, or designing the layout of an issue.",
             "members": [
                 {
-                    "name": "Devon Nguyen",
-                    "handle": "violetlunablossom",
-                    "position": "Konshuu - Head",
-                    "grad_date": "Spring 2025",
-                    "website_picture": "officer_imgs/5abe34df501f21b0ac0d3297aa7be5fb590bab7a.jpg",
-                    "personal_website": ""
-                },
-                {
-                    "name": "Anje Chimura",
-                    "handle": "animeri_",
-                    "position": "Konshuu - Writer",
+                    "name": "Kai Kupper",
+                    "handle": "keyeballthebeholder",
+                    "position": "Konshuu - Editor in Chief",
                     "grad_date": "Spring 2026",
-                    "website_picture": "officer_imgs/anje chimura.jpeg",
-                    "personal_website": ""
+                    "website_picture": "officer_imgs/Z1AMCUe1Fvmyrbeo7.jpg",
+                    "personal_website": "https://youtu.be/M8FLKLeoFng?si=UfbinRxz0zTAn_Aa"
                 },
                 {
-                    "name": "Atlas Heal",
-                    "handle": "chthonicarchivist ",
-                    "position": "Konshuu - Artist",
-                    "grad_date": "Spring 2025",
-                    "website_picture": "officer_imgs/1TxtfDEH8i-WNR6z9VDFUSt8C_zLfCHOs.jpg",
+                    "name": "Alex Munoz",
+                    "handle": "Kneesore.",
+                    "position": "Konshuu - Writer",
+                    "grad_date": "Fall 2028",
+                    "website_picture": "officer_imgs/alex munoz.png",
                     "personal_website": ""
-                },
-                {
-                    "name": "Cas Geiger",
-                    "handle": "cas#5905",
-                    "position": "Konshuu - Artist",
-                    "grad_date": "Spring 2025",
-                    "website_picture": "officer_imgs/du4ks47D62hKsPt5A.jpg",
-                    "personal_website": "https://mousec1ub.carrd.co/"
                 },
                 {
                     "name": "Catherine Chen",
-                    "handle": "kitcat#0973",
-                    "position": "Konshuu - Artist, Konshuu - Graphic Designer",
-                    "grad_date": "Spring 2026",
-                    "website_picture": "officer_imgs/19eW1H8pTm7SedTotn899IBBAdf3h0mX6.jpg",
-                    "personal_website": ""
-                },
-                {
-                    "name": "Ellya Kim",
-                    "handle": "stummyache#9974",
+                    "handle": "kitkat#0973",
                     "position": "Konshuu - Artist",
                     "grad_date": "Spring 2026",
-                    "website_picture": "officer_imgs/1WwDR1hq4jP6DehPWwx13TrEkJOpwHFGT.jpg",
+                    "website_picture": "officer_imgs/catherine chen.jpg",
                     "personal_website": ""
                 },
                 {
-                    "name": "Johanna Liu",
-                    "handle": "rollingthunderx",
+                    "name": "Dante Atiliano",
+                    "handle": "thecertifiedscholar",
                     "position": "Konshuu - Graphic Designer",
-                    "grad_date": "Spring 2026",
-                    "website_picture": "brokenlink",
+                    "grad_date": "Spring 2027",
+                    "website_picture": "officer_imgs/dante atiliano.png",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Harry Tran",
+                    "handle": ".refreeze",
+                    "position": "Konshuu - Graphic Designer",
+                    "grad_date": "Spring 2029",
+                    "website_picture": "officer_imgs/harry tran.webp",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Jamie Kim",
+                    "handle": "snufkepo",
+                    "position": "Konshuu - Artist",
+                    "grad_date": "Spring 2024",
+                    "website_picture": "officer_imgs/jamie kim.jpeg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Josiah Lee",
+                    "handle": "leelee_xs",
+                    "position": "Konshuu - Artist",
+                    "grad_date": "Spring 2028",
+                    "website_picture": "officer_imgs/josiah lee.png",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Karina Hernandez",
+                    "handle": "RandommRatt#3565",
+                    "position": "Konshuu - Writer",
+                    "grad_date": "Spring 2029",
+                    "website_picture": "officer_imgs/",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Kat Yi",
+                    "handle": "squeegs",
+                    "position": "Konshuu - Artist",
+                    "grad_date": "Spring 2029",
+                    "website_picture": "officer_imgs/kat yi.webp",
                     "personal_website": ""
                 },
                 {
@@ -162,113 +178,27 @@
                     "personal_website": ""
                 },
                 {
-                    "name": "Samuel Kim",
-                    "handle": "slitid",
-                    "position": "Konshuu - Writer",
+                    "name": "Rachel Chen",
+                    "handle": "Shigezaki",
+                    "position": "Konshuu - Artist",
                     "grad_date": "Spring 2026",
-                    "website_picture": "officer_imgs/samuel kim.png",
+                    "website_picture": "officer_imgs/rachel chen.png",
                     "personal_website": ""
                 },
                 {
-                    "name": "Tatum Ekstrom",
-                    "handle": "tokitem",
+                    "name": "Teresa Kuang",
+                    "handle": "bxbal",
                     "position": "Konshuu - Artist",
-                    "grad_date": "Spring 2025",
-                    "website_picture": "officer_imgs/1AAdgWUaC-3EwqccA2ui7Lr088Ay4a3Ff.jpg",
-                    "personal_website": "https://myanimelist.net/profile/tokitem"
-                },
-                {
-                    "name": "Wai Kwan Wu",
-                    "handle": "krpk#8472",
-                    "position": "Konshuu - Writer",
-                    "grad_date": "Spring 2025",
-                    "website_picture": "officer_imgs/wai kwan hu.jpeg",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "officer_imgs/teresa kuang.jpg",
                     "personal_website": ""
-                },
-                {
-                    "name": "Willow Otaka",
-                    "handle": "Nyamen\u2605Ramen#8187",
-                    "position": "Konshuu - Artist",
-                    "grad_date": "Spring 2025",
-                    "website_picture": "officer_imgs/aXbQ1gb.png",
-                    "personal_website": "https://myanimelist.net/animelist/Nyamen-Ramen"
                 },
                 {
                     "name": "Zeyang Zhu (Jackson)",
                     "handle": "Rem_Inory#rinadeshiko",
                     "position": "Konshuu - Writer",
                     "grad_date": "Spring 2028",
-                    "website_picture": "officer_imgs/iMTr3JvS_400x400.jpg",
-                    "personal_website": ""
-                }
-            ]
-        },
-        {
-            "name": "Events",
-            "description": "The events department primarily organizes the weekly showings and social events for the club, along with some of the other activities we do. Events officers both design and host activities, and are automatically granted general member status.",
-            "members": [
-                {
-                    "name": "Kai Kupper",
-                    "handle": "KeyeballTheBeholder#9155",
-                    "position": "Vice President, Events - Head (Planning)",
-                    "grad_date": "Spring 2026",
-                    "website_picture": "officer_imgs/Z1AMCUe1Fvmyrbeo7.jpg",
-                    "personal_website": ""
-                },
-                {
-                    "name": "Tristan Lau",
-                    "handle": "iheartramen (Tristan)",
-                    "position": "Events - Head (Managing)",
-                    "grad_date": "Spring 2025",
-                    "website_picture": "officer_imgs/tristan lau.jpg",
-                    "personal_website": ""
-                },
-                {
-                    "name": "Chuli Dai",
-                    "handle": "Set ur Dream on Fire#7464",
-                    "position": "Events - General",
-                    "grad_date": "Spring 2025",
-                    "website_picture": "https://cdn.discordapp.com/avatars/885458296683757609/3dd82e38023b868c302392385a1498aa.webp?size=128",
-                    "personal_website": ""
-                },
-                {
-                    "name": "Ian Delos Santos",
-                    "handle": "lucid_exsion",
-                    "position": "Events - General",
-                    "grad_date": "Spring 2026",
-                    "website_picture": "officer_imgs/anime-anime-boys-tensei-shitara-slime-datta-ken-rimuru-hd-wallpaper-preview.jpg",
-                    "personal_website": ""
-                },
-                {
-                    "name": "Jesse Chang",
-                    "handle": "jesse2k2",
-                    "position": "Events - General",
-                    "grad_date": "Spring 2025",
-                    "website_picture": "officer_imgs/1uqNzLc6HPt7t8XJzJXo2SY7JFHpqpPTo.jpg",
-                    "personal_website": ""
-                },
-                {
-                    "name": "Joey Chao",
-                    "handle": "NarcX#1268",
-                    "position": "Events - General",
-                    "grad_date": "Fall 2024",
-                    "website_picture": "officer_imgs/bNc2vk8.jpg",
-                    "personal_website": ""
-                },
-                {
-                    "name": "Katharine Wang",
-                    "handle": "Otaku-san_Kath#2331",
-                    "position": "Events - General",
-                    "grad_date": "Spring 2025",
-                    "website_picture": "officer_imgs/935fa8bcfcb7379194911eee2274a97edf9c37aa.png",
-                    "personal_website": ""
-                },
-                {
-                    "name": "Ryuu Imeal Lee Jones",
-                    "handle": "Zerogravitydragon#4444",
-                    "position": "Events - General",
-                    "grad_date": "Spring 2028",
-                    "website_picture": "officer_imgs/ryuu jones.png",
+                    "website_picture": "officer_imgs/zeyang zhu.jpg",
                     "personal_website": ""
                 }
             ]
