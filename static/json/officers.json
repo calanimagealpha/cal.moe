@@ -346,6 +346,13 @@
                     "grad_date": "Spring 2028",
                     "website_picture": "officer_imgs/b169251c94c696393c896bc237de38e4.jpg",
                     "personal_website": ""
+                },
+                {   "name": "Jose Castillo",
+                    "handle": "mission03_53253",
+                    "position": "Technology - General",
+                    "grad_date": "Spring 2029",
+                    "website_picture": "officer_imgs/castillojose.jpeg",
+                    "personal_website": ""
                 }
             ]
         },
