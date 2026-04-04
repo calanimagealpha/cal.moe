@@ -347,11 +347,36 @@
                     "website_picture": "officer_imgs/b169251c94c696393c896bc237de38e4.jpg",
                     "personal_website": ""
                 },
-                {   "name": "Jose Castillo",
+                {
+                    "name": "Brett Li",
+                    "handle": "fakintosh",
+                    "position": "Technology - General",
+                    "grad_date": "Spring 2029",
+                    "website_picture": "officer_imgs/LiBrett.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Ethan Zheng",
+                    "handle": "High_Lighter",
+                    "position": "Technology - General",
+                    "grad_date": "Spring 2029",
+                    "website_picture": "https://cdn.discordapp.com/attachments/549485815437197325/1287755460975398944/3d47c4abf14c2e8ea47d28f016c683c5.png?ex=66f2b33b&is=66f161bb&hm=5eb02f52ba2e2bca81ca8673f4d6e4a1ee8b65efe4e304849fc76c6242ac51d9&",
+                    "personal_website": ""
+                },
+                {
+                   "name": "Jose Castillo",
                     "handle": "mission03_53253",
                     "position": "Technology - General",
                     "grad_date": "Spring 2029",
-                    "website_picture": "officer_imgs/castillojose.jpeg",
+                    "website_picture": "officer_imgs/CastilloJose.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Onogiede Omoko",
+                    "handle": "ipokelegend",
+                    "position": "Technology - General",
+                    "grad_date": "Spring 2029",
+                    "website_picture": "officer_imgs/OmokoOnogiede.jpg",
                     "personal_website": ""
                 }
             ]
@@ -362,11 +387,11 @@
             "description": "The publicity department creates promotional materials for the club. Officers in this department design flyers for events, manage our social media accounts, and take pictures/videos at our events.",
             "members": [
                 {
-                    "name": "Scarlett Lemieux",
-                    "handle": "hikarilavender",
-                    "position": "President, Publicity - Head",
+                    "name": "Jae Lee",
+                    "handle": "jaenari_",
+                    "position": "Publicity - Head",
                     "grad_date": "Spring 2027",
-                    "website_picture": "officer_imgs/1QJBtHUlUbOa1WIE_INJBtrCYE0uamlvw.jpg",
+                    "website_picture": "officer_imgs/Eylda4-VoAEL1sB.jpg",
                     "personal_website": ""
                 },
                 {
@@ -377,36 +402,45 @@
                     "website_picture": "officer_imgs/1SCgO2EgrkSRMpuBHkaz7JY3kOAjjqMdp.jpg",
                     "personal_website": ""
                 },
+                
                 {
-                    "name": "Jae Lee",
-                    "handle": "jaenari_",
-                    "position": "Publicity - Artist",
+                    "name": "Andrew Urgel",
+                    "handle": "sandpudddle",
+                    "position": "Publicity - General",
                     "grad_date": "Spring 2027",
-                    "website_picture": "officer_imgs/Eylda4-VoAEL1sB.jpg",
+                    "website_picture": "brokenlink",
                     "personal_website": ""
                 },
                 {
-                    "name": "Madison Monbleau",
-                    "handle": "pleasePortgasDAcejustonechance#2053",
-                    "position": "Publicity - General",
-                    "grad_date": "Spring 2025",
-                    "website_picture": "https://images.app.goo.gl/5YstaTpi1EEVL1Me8",
-                    "personal_website": ""
-                },
-                {
-                    "name": "Sadie Laster",
-                    "handle": "perfect_lavender.",
-                    "position": "Publicity - Artist",
-                    "grad_date": "Spring 2028",
-                    "website_picture": "officer_imgs/82bc590c9f9a5f11e1b33968eaeb23dba2390519r1-512-512v2_00.jpg",
-                    "personal_website": ""
-                },
-                {
-                    "name": "Sebastian Garcia",
-                    "handle": "topsteak",
+                    "name": "Ashley Hong",
+                    "handle": "yesolup",
                     "position": "Publicity - General",
                     "grad_date": "Spring 2028",
-                    "website_picture": "officer_imgs/sebastian garcia.jpeg",
+                    "website_picture": "officer_imgs/HongAshley.JPEG",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Hieu Hoang",
+                    "handle": "hieu2004",
+                    "position": "Publicity - General",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "officer_imgs/HoangHieu.jpeg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Janelle Cruz",
+                    "handle": "neneumzin#4705",
+                    "position": "Publicity - General",
+                    "grad_date": "Spring 2029",
+                    "website_picture": "officer_imgs/CruzJanelle.PNG",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Sarah Hinckley",
+                    "handle": "NERV_KS#3780",
+                    "position": "Publicity - General",
+                    "grad_date": "Spring 2029",
+                    "website_picture": "brokenlink",
                     "personal_website": ""
                 }
             ]
@@ -416,27 +450,11 @@
             "description": "The video department creates Youtube videos for our channel. Officers have a lot of freedom to make videos about whatever they are passionate about related to anime, as long as they make at least one video each semester.",
             "members": [
                 {
-                    "name": "Owen Lin",
-                    "handle": "owen60943.",
-                    "position": "Video - Head",
-                    "grad_date": "Spring 2028",
-                    "website_picture": "officer_imgs/OwenLin.jpg",
-                    "personal_website": ""
-                },
-                {
-                    "name": "Kyle Link",
-                    "handle": "kaiel0904",
+                    "name": "Jenny Hsieh",
+                    "handle": "hsiehx",
                     "position": "Video - Content Creator",
                     "grad_date": "Spring 2027",
-                    "website_picture": "officer_imgs/kyle link.jpg",
-                    "personal_website": ""
-                },
-                {
-                    "name": "Matthew Sulistijowadi",
-                    "handle": "matthewsul",
-                    "position": "Video - Content Creator",
-                    "grad_date": "Spring 2025",
-                    "website_picture": "brokenlink",
+                    "website_picture": "officer_imgs/HsiehJenny.jpeg",
                     "personal_website": ""
                 }
             ]
