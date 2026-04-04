@@ -216,19 +216,43 @@
                     "personal_website": ""
                 },
                 {
-                    "name": "Cindy Tong",
-                    "handle": "cindyteehee#6195",
+                    "name": "Karlsen Nguyen",
+                    "handle": "wulu",
                     "position": "Anime Destiny - Planner",
-                    "grad_date": "Spring 2027",
-                    "website_picture": "officer_imgs/f8d488ca48f0bd4599a2f0ebf22dee62.jpg",
+                    "grad_date": "Spring 2028",
+                    "website_picture": "officer_imgs/karlsen nguyen.jpeg",
                     "personal_website": ""
                 },
                 {
-                    "name": "Kaixin Han (Victoria)",
-                    "handle": "Weiduo#3699",
+                    "name": "Kyle Link",
+                    "handle": "kaiel0904",
                     "position": "Anime Destiny - Planner",
-                    "grad_date": "Fall 2025",
-                    "website_picture": "officer_imgs/GVql7CuXsAALSIe.jpg",
+                    "grad_date": "Spring 2027",
+                    "website_picture": "officer_imgs/kyle link.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Luisa Ochoa",
+                    "handle": "haloluisa",
+                    "position": "Anime Destiny - Planner",
+                    "grad_date": "Spring 2027",
+                    "website_picture": "officer_imgs/luisa ochoa.png",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Marissa Shoji",
+                    "handle": "Knightmare#8598",
+                    "position": "Anime Destiny - Planner",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "officer_imgs/marissa shoji.jpeg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Phoenix Nguyen",
+                    "handle": "wanderingflames",
+                    "position": "Anime Destiny - Planner",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "officer_imgs/placeholder.png",
                     "personal_website": ""
                 }
             ]
@@ -362,6 +386,69 @@
                     "website_picture": "brokenlink",
                     "personal_website": ""
                 }
+            ]
+        },
+        {
+            "name": "Events",
+            "description": "The events team helps plan and manage our events.",
+            "members": [
+                {
+                    "name": "Ian Delos Santos",
+                    "handle": "lucid_exsion",
+                    "position": "Events - Head (Managing)",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "officer_imgs/anime-anime-boys-tensei-shitara-slime-datta-ken-rimuru-hd-wallpaper-preview.jpg",
+                    "personal_website": "<@385208183607787520> https://www.roblox.com/users/29159759/profile"
+                },
+                {
+                    "name": "Eins \"MC\" Besmanos",
+                    "handle": "einsawa",
+                    "position": "Events - Head (Planning)",
+                    "grad_date": "Spring 2027",
+                    "website_picture": "officer_imgs/aliendog.png",
+                    "personal_website": "https://www.instagram.com/einsawa/"
+                },
+                {
+                    "name": "Alan Chen",
+                    "handle": "ac87953",
+                    "position": "Events",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "officer_imgs/alan chen.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Jaylene Tuazon",
+                    "handle": "jay.the.realest #0596",
+                    "position": "Events",
+                    "grad_date": "Spring 2028",
+                    "website_picture": "officer_imgs/placeholder.png",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Roselyn Bautista",
+                    "handle": "Unknown_Person#8194",
+                    "position": "Events",
+                    "grad_date": "Spring 2026",
+                    "website_picture": "officer_imgs/roselyn bautista.jpg_large",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Ryuu Imeal Lee Jones",
+                    "handle": "Zerogravitydragon#4444",
+                    "position": "Events",
+                    "grad_date": "Spring 2028",
+                    "website_picture": "officer_imgs/ryuu imeal lee jones.png",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Yifei Zhao (Anne)",
+                    "handle": "Anne",
+                    "position": "Events",
+                    "grad_date": "Spring 2027",
+                    "website_picture": "officer_imgs/yifei zhao.jpeg",
+                    "personal_website": ""
+                }
+
             ]
         }
     ]
