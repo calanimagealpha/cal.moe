@@ -108,7 +108,7 @@ setInterval(() => {
         >
       </div>
       <p class="text-center text-gray-600 text-sm mb-8">
-        Photos from Maid Cafe 2024
+        Photos from Maid Cafe 2025
       </p>
 
       
