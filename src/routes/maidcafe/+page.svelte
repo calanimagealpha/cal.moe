@@ -9,9 +9,16 @@
 
 let slideIndex = 0;
 const slides = [
-  "/assets/image/maidcafe/1.jpg",
-  "/assets/image/maidcafe/2.jpg",
-  "/assets/image/maidcafe/3.jpg"
+  "/assets/image/maidcafe2025/1.jpg",
+  "/assets/image/maidcafe2025/2.jpg",
+  "/assets/image/maidcafe2025/3.jpg",
+  "/assets/image/maidcafe2025/4.JPG",
+  "/assets/image/maidcafe2025/5.JPG",
+  "/assets/image/maidcafe2025/6.JPG",
+  "/assets/image/maidcafe2025/7.JPG",
+  "/assets/image/maidcafe2025/8.JPG",
+  "/assets/image/maidcafe2025/9.JPG",
+  
 ];
 
 const images = [
@@ -38,7 +45,7 @@ const images = [
     }
   };
 }
-  const maxImages = 8; // Limit the number of images to 8
+  const maxImages = 9; // Limit the number of images to 9
   function addImage() {
     const angle = Math.floor(Math.random() * 12) - 6; // -10 to +10
     const nextImage = {
