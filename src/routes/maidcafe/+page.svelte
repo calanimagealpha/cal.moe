@@ -164,9 +164,12 @@ setInterval(() => {
           <li>✨ Table-side games and performances</li>
           <li>📸 Photo ops with maids and props</li>
         </ul>
-        <img src="/assets/image/maidcafe/Food.png" alt="Menu" class="rounded-3xl mt-6 object-cover w-full mx-auto max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl" >
+        <!-- 
+        <img src="/assets/image/maidcafe/Food.png" alt="Menu" class="rounded-3xl mt-6 object-cover w-full mx-auto max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl"> 
+        -->
       </div>
 
+      <!--
 
       <div class="bg-white border-4 border-dashed border-pink-300 rounded-3xl p-8 mb-4 shadow-xl shadow-pink-100 text-left overflow-x-hidden">
 
@@ -189,17 +192,18 @@ setInterval(() => {
 
       </div>
 
+      -->
+
 
   
       <!-- Pricing & Add-Ons Bubble -->
       <div class="bg-white border-4 border-dashed border-pink-300 rounded-3xl p-8 mb-14 shadow-xl shadow-pink-100 text-left">
         <h2 class="font-fun text-blue-500 text-4xl font-bold mb-6">💸 Pricing & Add-Ons</h2>
         <p class="text-lg text-gray-700 leading-relaxed">
-          Our standard <strong>$20 package</strong> includes:
+          Our standard <strong>$8 ($10 at the door) package</strong> includes:
         </p>
         <ul class="list-disc pl-6 text-lg text-gray-700 leading-relaxed mt-4">
           <li>🎟️ Admission to the event</li>
-          <li>🍰 Food and drinks</li>
           <li>📸 One Polaroid with a maid or butler</li>
           <li>✨ Performances and activities, like decorating polaroids</li>
         </ul>
@@ -210,6 +214,9 @@ setInterval(() => {
           <li>📸 Additional Polaroids</li>
           <li>💃 Personalized maid/butler dance performances</li>
         </ul>
+        <p class="text-lg text-gray-700 leading-relaxed mt-6">
+          (🍹 Food and drinks sold separately)
+        </p>
         <!--img src="/assets/image/maidcafe/pricing.jpg" alt="Pricing options" class="rounded-3xl mt-6 w-full object-cover" /-->
       </div>
   
