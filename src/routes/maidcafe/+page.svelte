@@ -108,12 +108,12 @@ setInterval(() => {
         >
       </div>
       <p class="text-center text-gray-600 text-sm mb-8">
-        Photos from Maid Cafe 2024
+        Photos from Maid Cafe 2025
       </p>
 
       
         <a
-          href="https://forms.gle/3prmJgSKuX5AMqz46"
+          href="https://buy.stripe.com/8x200k4vS7P06xX9urbAs03"
           target="_blank"
           rel="noopener noreferrer"
           class="inline-block mb-8 rounded-full border border-pink-500 bg-white text-pink-500 px-6 py-2 text-lg hover:bg-pink-50 transition-colors duration-200"
@@ -127,18 +127,16 @@ setInterval(() => {
         <h2 class="font-fun text-blue-500 text-4xl font-bold mb-6">🎀 When & Where</h2>
 
         <p class="text-lg text-gray-700 leading-relaxed">
-            Join us on <strong>Friday, May 9th, 2025</strong> from <strong>5 PM – 9 PM</strong> at the 
-            <strong>North Berkeley Senior Center</strong> located at <strong>1901 Hearst Ave, Berkeley, CA</strong>! 💕
+            Join us on <strong>Sunday, April 26th, 2026</strong> from <strong>1 PM – 7 PM</strong> at the 
+            <strong>Plentea's Back Room</strong> located at <strong>2430 Durant Ave, Berkeley, CA</strong>! 💕
           </p>
         
           <p class="text-lg text-gray-700 leading-relaxed mt-4">
-            <strong>Walking Directions:</strong> From UC Berkeley campus, head north on Oxford Street until you reach the northwest corner of campus by Barker Hall. 
-            Turn left on Hearst Avenue and continue west for 5 minutes — the Senior Center will be on your right!
+            <strong>Walking Directions:</strong> From UC Berkeley's MLK building, head south on Telegraph Avenue until you reach Durant Avenue, then turn right and continue west for 2 minutes — Plentea will be on your left!
           </p>
 
           <p class="text-lg text-gray-700 leading-relaxed mt-4">
-            <strong>Transit Directions:</strong> AC Transit route 79 from the south side of campus takes you directly outside the North Berkeley Senior Center. From the Downtown Berkeley BART plaza, you can also take bus 51B or 52 to University Ave.
-            at Martin Luther King Jr. Way (by Trader Joe's), and walk 2 blocks north.
+            <strong>Transit Directions:</strong> AC Transit route 52 from the north side of campus takes you directly outside the Plantea. From the Downtown Berkeley BART plaza, you can also take bus 51B, 27, and 22 at Shattuck at Allston to Durant Ave. and walk 3 minutes East to Plantea.
           </p>
         
           <div class="mt-6 rounded-3xl overflow-hidden shadow-md">
