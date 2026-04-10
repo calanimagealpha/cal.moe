@@ -72,7 +72,7 @@ setInterval(() => {
   <div class="bg-gradient-to-br from-blue-100 to-pink-100 font-sans">
     <div class="px-6 py-14 max-w-5xl mx-auto text-center">
         <h1 class="text-pink-600 text-5xl font-bold mb-1 font-fun">Cal Animage Alpha presents</h1>
-        <h1 class="text-pink-500 text-8xl font-bold mb-8 font-fun">Maid Cafe 2025</h1>
+        <h1 class="text-pink-500 text-8xl font-bold mb-8 font-fun">Maid Cafe 2026</h1>
   
       <!-- Slideshow Container -->
       <div class="slideshow-container relative mb-4">
