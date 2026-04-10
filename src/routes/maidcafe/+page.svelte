@@ -143,7 +143,7 @@ setInterval(() => {
         
           <div class="mt-6 rounded-3xl overflow-hidden shadow-md">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2226.9894638571445!2d-122.27032306395039!3d37.87342194490234!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857e9897690f3b%3A0x32927cbae7ff54df!2sNorth%20Berkeley%20Senior%20Center!5e0!3m2!1sen!2sus!4v1745907712131!5m2!1sen!2sus"
+              src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.6897877150154!2d-122.26214692266542!3d37.867548306808125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857c2f357a5935%3A0x8b63f4b93a8290f5!2sPlentea!5e0!3m2!1sen!2sus!4v1775862463802!5m2!1sen!2sus""
               width="100%"
               height="350"
               style="border:0;"
