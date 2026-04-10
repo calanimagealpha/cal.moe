@@ -73,14 +73,15 @@ setInterval(() => {
 }, 6000);
 </script>
   <Navbar />
+  <!--
   <div class="bg-yellow-200 text-yellow-900 text-center py-2 font-semibold">
     🚧 Maid Cafe 2025 is over! A big thanks to everyone who came and participated! Look forward to our large-scale events next academic year, starting with AD 2025! 🚧
   </div>
+  -->
   <div class="bg-gradient-to-br from-blue-100 to-pink-100 font-sans">
     <div class="px-6 py-14 max-w-5xl mx-auto text-center">
         <h1 class="text-pink-600 text-5xl font-bold mb-1 font-fun">Cal Animage Alpha presents</h1>
-        <h1 class="text-pink-500 text-8xl font-bold mb-8 font-fun">Maid Cafe 2025</h1>
-  
+        <h1 class="text-pink-500 text-8xl font-bold mb-8 font-fun">Maid Cafe 2026</h1>
       <!-- Slideshow Container -->
       <div class="slideshow-container relative mb-4">
         {#each slides as slide, index}
