@@ -151,10 +151,13 @@ setInterval(() => {
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade">
             </iframe>
-            
+
           </div>
+          <!--
         <img src="/assets/image/maidcafe/senior_center.png" alt="Venue" class="rounded-3xl mt-8 object-cover mx-auto w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl" />
+        -->
       </div>
+
       <!-- What's Happening Bubble -->
       <div class="bg-white border-4 border-dashed border-pink-300 rounded-3xl p-8 mb-14 shadow-xl shadow-pink-100 text-left">
         <h2 class="font-fun text-blue-500 text-4xl font-bold mb-6">☕ What’s Happening?</h2>
