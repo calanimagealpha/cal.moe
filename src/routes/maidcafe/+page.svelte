@@ -113,7 +113,7 @@ setInterval(() => {
 
       
         <a
-          href="https://forms.gle/3prmJgSKuX5AMqz46"
+          href="https://buy.stripe.com/8x200k4vS7P06xX9urbAs03"
           target="_blank"
           rel="noopener noreferrer"
           class="inline-block mb-8 rounded-full border border-pink-500 bg-white text-pink-500 px-6 py-2 text-lg hover:bg-pink-50 transition-colors duration-200"
@@ -245,7 +245,7 @@ setInterval(() => {
         <h3 class="font-fun text-blue-500 text-2xl font-bold mb-2 mt-4">We look forward to your presence, ojou/goshujin-sama! (*´∀`)~♥</h3>
 
         <a
-          href="https://forms.gle/3prmJgSKuX5AMqz46"
+          href="https://buy.stripe.com/8x200k4vS7P06xX9urbAs03"
           target="_blank"
           rel="noopener noreferrer"
           class="inline-block my-4 rounded-full border border-pink-500 bg-white text-pink-500 px-6 py-2 text-lg hover:bg-pink-50 transition-colors duration-200"
