@@ -49,6 +49,7 @@
                     >
                         <a href="/#who-we-are" class="dropdown-item">About Us</a>
                         <a href="/officers" class="dropdown-item">Officers</a>
+                        <a href="/maidcafe" class="dropdown-item">Maid Cafe</a>
                     </div>
                 {/if}
             </li>
