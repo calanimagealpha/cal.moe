@@ -5,6 +5,15 @@
   const heroImages = [
     { 
       id: 1, 
+      src: 'assets/image/maidcafe2025/6.JPG', 
+      alt: 'Anime club members at an event',
+      title: 'MAID CAFE 2026',
+      subtitle: 'moe moe kyun!',
+      description: 'Join us April 26th at Plentea in Berkeley!',
+      link: '/maidcafe'
+    }, 
+    { 
+      id: 2, 
       src: 'assets/image/hero1.png', 
       alt: 'Anime club members at an event',
       title: 'CAL ANIMAGE ALPHA ',
@@ -13,7 +22,7 @@
       link: '/about'
     },
     { 
-      id: 2, 
+      id: 3, 
       src: 'assets/image/hero2.jpg',  
       alt: 'Dangan-Werewolf event',
       title: 'EVENTS',
@@ -22,7 +31,7 @@
       link: '/events'
     },
     { 
-      id: 3, 
+      id: 4, 
       src: 'assets/image/hero3.jpg',  
       alt: 'Anime Destiny 2026',
       title: 'UPCOMING EVENTS',
