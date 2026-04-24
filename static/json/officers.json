@@ -262,38 +262,6 @@
             "description": "The technology department is tasked with maintaining and building supporting technology for the club. Tech officers work on the general club website, the anime destiny website, payment systems, and bots and tools to support other departments.",
             "members": [
                 {
-                    "name": "Kevin Shen",
-                    "handle": "neptunia",
-                    "position": "Technology - Head",
-                    "grad_date": "Spring 2025",
-                    "website_picture": "officer_imgs/__raiden_shogun_acheron_and_sawashiro_miyuki_genshin_impact_and_3_more_drawn_by_endshadiaoyibzhanhua__8de6a781a9ab5a572797b620c4130700.png",
-                    "personal_website": "https://nowaru.moe"
-                },
-                {
-                    "name": "Daniel Dongon",
-                    "handle": "roroxes",
-                    "position": "Technology - General",
-                    "grad_date": "Fall 2025",
-                    "website_picture": "https://cdn.discordapp.com/attachments/549485815437197325/1287755460975398944/3d47c4abf14c2e8ea47d28f016c683c5.png?ex=66f2b33b&is=66f161bb&hm=5eb02f52ba2e2bca81ca8673f4d6e4a1ee8b65efe4e304849fc76c6242ac51d9&",
-                    "personal_website": ""
-                },
-                {
-                    "name": "Fiona Chen",
-                    "handle": "fiooona",
-                    "position": "Technology - General",
-                    "grad_date": "Spring 2025",
-                    "website_picture": "officer_imgs/fiona chen.png",
-                    "personal_website": ""
-                },
-                {
-                    "name": "Lionel Verano IV",
-                    "handle": "OrionLyon#3092",
-                    "position": "Technology - General",
-                    "grad_date": "Spring 2026",
-                    "website_picture": "officer_imgs/95c34e14a62b5a47424bc866a676d6da.jpg",
-                    "personal_website": "https://www.instagram.com/moeistheonlyway/"
-                },
-                {
                     "name": "Sasha Lopez",
                     "handle": "hajajus001",
                     "position": "Technology - General",
