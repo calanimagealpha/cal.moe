@@ -49,13 +49,14 @@
                     >
                         <a href="/#who-we-are" class="dropdown-item">About Us</a>
                         <a href="/officers" class="dropdown-item">Officers</a>
+                        <!--<a href="/maidcafe" class="dropdown-item">Maid Cafe</a>-->
                     </div>
                 {/if}
             </li>
+            <li><a href="https://animedestiny.cal.moe/" class="transition-colors hover:text-yellow-400">Anime Destiny 2026</a></li>
             <li><a href="/events" class="transition-colors hover:text-yellow-400">Calendar</a></li>
             <li><a href="/#konshuu" class="transition-colors hover:text-yellow-400">Konshuu</a></li>
-            <li><a href="/maidcafe" class="transition-colors hover:text-yellow-400">Maid Cafe 2026</a></li>
-            <!-- <li><a href="https://animedestiny.cal.moe/" class="transition-colors hover:text-yellow-400">Anime Destiny 2024</a></li> -->
+            <!-- <li><a href="/maidcafe" class="transition-colors hover:text-yellow-400">Maid Cafe 2025</a></li> -->
             <li><a href="/#get-involved" class="transition-colors hover:text-yellow-400">Discord</a></li>
         </ul>
     </div>

@@ -8,7 +8,7 @@
                 {
                     "name": "Sebastian Garcia",
                     "handle": "topsteak",
-                    "position": "President, Technology - Head",
+                    "position": "President",
                     "grad_date": "Spring 2028",
                     "website_picture": "officer_imgs/sebastian garcia.jpeg",
                     "personal_website": "https://en.wikipedia.org/wiki/Halo_3:_ODST"
@@ -39,17 +39,17 @@
                     "name": "Shang Wu",
                     "handle": "oblivvion_23",
                     "position": "Vice President, Anime Destiny - Director",
-                    "grad_date": "Spring 2026",
+                    "grad_date": "Fall 2027",
                     "website_picture": "officer_imgs/1FQ_16HFsEmDyDyfQ4FhHoO8sXigPlHER.jpg",
                     "personal_website": "https://www.instagram.com/oblivvion.cosart"
                 },
                 {
-                    "name": "Ian Delos Santos",
-                    "handle": "lucid_exsion",
+                    "name": "Jaylene Tuazon",
+                    "handle": "jay.the.realest #0596",
                     "position": "Events - Head (Managing)",
-                    "grad_date": "Spring 2026",
-                    "website_picture": "officer_imgs/anime-anime-boys-tensei-shitara-slime-datta-ken-rimuru-hd-wallpaper-preview.jpg",
-                    "personal_website": "<@385208183607787520> https://www.roblox.com/users/29159759/profile"
+                    "grad_date": "Spring 2028",
+                    "website_picture": "officer_imgs/jaylene tuazon.jpg",
+                    "personal_website": ""
                 },
                 {
                     "name": "Eins \"MC\" Besmanos",
@@ -60,20 +60,20 @@
                     "personal_website": "https://www.instagram.com/einsawa/"
                 },
                 {
-                    "name": "Kai Kupper",
-                    "handle": "keyeballthebeholder",
+                    "name": "Dante Atiliano",
+                    "handle": "thecertifiedscholar",
                     "position": "Konshuu - Editor in Chief",
-                    "grad_date": "Spring 2026",
-                    "website_picture": "officer_imgs/Z1AMCUe1Fvmyrbeo7.jpg",
-                    "personal_website": "https://youtu.be/M8FLKLeoFng?si=UfbinRxz0zTAn_Aa"
+                    "grad_date": "Spring 2027",
+                    "website_picture": "officer_imgs/dante atiliano.png",
+                    "personal_website": ""
                 },
                 {
-                    "name": "Jae Lee",
-                    "handle": "jaenari_",
+                    "name": "Janelle Cruz",
+                    "handle": "neneumzin#4705",
                     "position": "Publicity General - Head",
-                    "grad_date": "Spring 2027",
-                    "website_picture": "officer_imgs/JaeMii.png",
-                    "personal_website": "https://www.instagram.com/aeson_coser/"
+                    "grad_date": "Spring 2029",
+                    "website_picture": "officer_imgs/CruzJanelle.PNG",
+                    "personal_website": ""
                 },
                 {
                     "name": "Emily Ren",
@@ -84,12 +84,12 @@
                     "personal_website": "https://www.instagram.com/issei_bando/"
                 },
                 {
-                    "name": "Sebastian Garcia",
-                    "handle": "topsteak",
-                    "position": "Technology Lead",
-                    "grad_date": "Spring 2028",
-                    "website_picture": "officer_imgs/sebastian garcia.jpeg",
-                    "personal_website": "https://en.wikipedia.org/wiki/Halo_3:_ODST"
+                    "name": "Brett Li",
+                    "handle": "fakintosh",
+                    "position": "Technology - Head",
+                    "grad_date": "Spring 2029",
+                    "website_picture": "officer_imgs/LiBrett.jpg",
+                    "personal_website": ""
                 }
             ]
         },
@@ -309,26 +309,17 @@
             "description": "The publicity department creates promotional materials for the club. Officers in this department design flyers for events, manage our social media accounts, and take pictures/videos at our events.",
             "members": [
                 {
-                    "name": "Jae Lee",
-                    "handle": "jaenari_",
-                    "position": "Publicity - Head",
-                    "grad_date": "Spring 2027",
-                    "website_picture": "officer_imgs/Eylda4-VoAEL1sB.jpg",
+                    "name": "Janelle Cruz",
+                    "handle": "neneumzin#4705",
+                    "position": "Publicity General - Head",
+                    "grad_date": "Spring 2029",
+                    "website_picture": "officer_imgs/CruzJanelle.PNG",
                     "personal_website": ""
                 },
-                {
-                    "name": "Francis Basco",
-                    "handle": "K0BR4S#3551; k0br4s",
-                    "position": "Publicity - Artist",
-                    "grad_date": "Spring 2026",
-                    "website_picture": "officer_imgs/1SCgO2EgrkSRMpuBHkaz7JY3kOAjjqMdp.jpg",
-                    "personal_website": ""
-                },
-                
                 {
                     "name": "Andrew Urgel",
                     "handle": "sandpudddle",
-                    "position": "Publicity - General",
+                    "position": "Publicity - Artist",
                     "grad_date": "Spring 2027",
                     "website_picture": "brokenlink",
                     "personal_website": ""
@@ -342,27 +333,35 @@
                     "personal_website": ""
                 },
                 {
-                    "name": "Hieu Hoang",
-                    "handle": "hieu2004",
+                    "name": "Melanya",
+                    "handle": "laynainthegrass",
                     "position": "Publicity - General",
-                    "grad_date": "Spring 2026",
-                    "website_picture": "officer_imgs/HoangHieu.jpeg",
+                    "grad_date": "Spring 2030",
+                    "website_picture": "officer_imgs/Melanya.jpg",
                     "personal_website": ""
                 },
                 {
-                    "name": "Janelle Cruz",
-                    "handle": "neneumzin#4705",
+                    "name": "Rollin YiLin Zhang",
+                    "handle": "suddenlyrollin",
                     "position": "Publicity - General",
-                    "grad_date": "Spring 2029",
-                    "website_picture": "officer_imgs/CruzJanelle.PNG",
+                    "grad_date": "Spring 2030",
+                    "website_picture": "officer_imgs/RollinYiLinZhang.jpeg",
                     "personal_website": ""
                 },
                 {
                     "name": "Sarah Hinckley",
                     "handle": "NERV_KS#3780",
-                    "position": "Publicity - General",
+                    "position": "Publicity - Artist",
                     "grad_date": "Spring 2029",
                     "website_picture": "brokenlink",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Scarlett Lemieux",
+                    "handle": "hikarilavender",
+                    "position": "Publicity - Artist",
+                    "grad_date": "Spring 2027",
+                    "website_picture": "officer_imgs/ScarlettLemieux.png",
                     "personal_website": ""
                 }
             ]
@@ -372,11 +371,27 @@
             "description": "The video department creates Youtube videos for our channel. Officers have a lot of freedom to make videos about whatever they are passionate about related to anime, as long as they make at least one video each semester.",
             "members": [
                 {
+                    "name": "Emily Ren",
+                    "handle": "renpie_10",
+                    "position": "Video - Head",
+                    "grad_date": "Spring 2028",
+                    "website_picture": "officer_imgs/EmilyRen.png",
+                    "personal_website": "https://www.instagram.com/issei_bando/"
+                },
+                {
                     "name": "Jenny Hsieh",
                     "handle": "hsiehx",
                     "position": "Video - Content Creator",
                     "grad_date": "Spring 2027",
-                    "website_picture": "officer_imgs/HsiehJenny.jpeg",
+                    "website_picture": "officer_imgs/JennyHsieh.jpeg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Jose Hernandez Mundo",
+                    "handle": "josey_owo",
+                    "position": "Video - Content Creator",
+                    "grad_date": "Spring 2029",
+                    "website_picture": "officer_imgs/JoseHernandezMundo.jpg",
                     "personal_website": ""
                 }
             ]
@@ -407,6 +422,14 @@
                     "position": "Events",
                     "grad_date": "Spring 2026",
                     "website_picture": "officer_imgs/alan chen.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Jaylene Tuazon",
+                    "handle": "jay.the.realest #0596",
+                    "position": "Events",
+                    "grad_date": "Spring 2028",
+                    "website_picture": "officer_imgs/jaylene tuazon.jpg",
                     "personal_website": ""
                 },
                 {
