@@ -21,15 +21,15 @@
       description: 'Join us for weekly events and become a general member!',
       link: '/events'
     },
-    { 
-      id: 3, 
-      src: 'assets/image/hero3.jpg',  
-      alt: 'Anime Destiny 2026',
-      title: 'UPCOMING EVENTS',
-      subtitle: 'Maid Cafe and Anime Destiny',
-      description: 'Stay tuned for our Anime convention Anime Destiny in the Fall, or our Maid cafe in the Spring.',
-      link: '/events'
-    },
+    // { 
+    //   id: 3, 
+    //   src: 'assets/image/hero3.jpg',  
+    //   alt: 'Anime Destiny 2026',
+    //   title: 'UPCOMING EVENTS',
+    //   subtitle: 'Maid Cafe and Anime Destiny',
+    //   description: 'Stay tuned for our Anime convention Anime Destiny in the Fall, or our Maid cafe in the Spring.',
+    //   link: '/events'
+    // },
   ];
   
   let currentIndex = 0;
