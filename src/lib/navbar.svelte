@@ -63,9 +63,9 @@
 </nav>
 
 <!-- Under Construction Indicator -->
-<div class="under-construction-indicator">
+<!-- <div class="under-construction-indicator">
     <span class="material-icons">construction</span>
-</div>
+</div> -->
 
 {#if menuOpened}
     <div
@@ -89,7 +89,7 @@
                 <a href="https://animedestiny.cal.moe/" class="flex items-center p-8"> Anime Destiny 2024 </a>
             </li> -->
             <li>
-                <!-- <a href="/maidcafe" class="flex items-center p-8">Maid Cafe 2025</a></li> -->
+                <a href="/maidcafe" class="flex items-center p-8">Maid Cafe 2026</a></li>
             <li>
                 <a href="/#get-involved" class="flex items-center p-8"> Discord </a>
             </li>

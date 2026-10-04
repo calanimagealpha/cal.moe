@@ -9,9 +9,16 @@
 
 let slideIndex = 0;
 const slides = [
-  "/assets/image/maidcafe/1.jpg",
-  "/assets/image/maidcafe/2.jpg",
-  "/assets/image/maidcafe/3.jpg"
+  "/assets/image/maidcafe2025/1.jpg",
+  "/assets/image/maidcafe2025/2.jpg",
+  "/assets/image/maidcafe2025/3.jpg",
+  "/assets/image/maidcafe2025/4.JPG",
+  "/assets/image/maidcafe2025/5.JPG",
+  "/assets/image/maidcafe2025/6.JPG",
+  "/assets/image/maidcafe2025/7.JPG",
+  "/assets/image/maidcafe2025/8.JPG",
+  "/assets/image/maidcafe2025/9.JPG",
+  
 ];
 
 const images = [
@@ -38,7 +45,7 @@ const images = [
     }
   };
 }
-  const maxImages = 8; // Limit the number of images to 8
+  const maxImages = 9; // Limit the number of images to 9
   function addImage() {
     const angle = Math.floor(Math.random() * 12) - 6; // -10 to +10
     const nextImage = {
@@ -66,14 +73,15 @@ setInterval(() => {
 }, 6000);
 </script>
   <Navbar />
+  <!--
   <div class="bg-yellow-200 text-yellow-900 text-center py-2 font-semibold">
     🚧 Maid Cafe 2025 is over! A big thanks to everyone who came and participated! Look forward to our large-scale events next academic year, starting with AD 2025! 🚧
   </div>
+  -->
   <div class="bg-gradient-to-br from-blue-100 to-pink-100 font-sans">
     <div class="px-6 py-14 max-w-5xl mx-auto text-center">
         <h1 class="text-pink-600 text-5xl font-bold mb-1 font-fun">Cal Animage Alpha presents</h1>
-        <h1 class="text-pink-500 text-8xl font-bold mb-8 font-fun">Maid Cafe 2025</h1>
-  
+        <h1 class="text-pink-500 text-8xl font-bold mb-8 font-fun">Maid Cafe 2026</h1>
       <!-- Slideshow Container -->
       <div class="slideshow-container relative mb-4">
         {#each slides as slide, index}
@@ -100,12 +108,12 @@ setInterval(() => {
         >
       </div>
       <p class="text-center text-gray-600 text-sm mb-8">
-        Photos from Maid Cafe 2024
+        Photos from Maid Cafe 2025!
       </p>
 
       
         <a
-          href="https://forms.gle/3prmJgSKuX5AMqz46"
+          href="https://buy.stripe.com/8x200k4vS7P06xX9urbAs03"
           target="_blank"
           rel="noopener noreferrer"
           class="inline-block mb-8 rounded-full border border-pink-500 bg-white text-pink-500 px-6 py-2 text-lg hover:bg-pink-50 transition-colors duration-200"
@@ -119,23 +127,23 @@ setInterval(() => {
         <h2 class="font-fun text-blue-500 text-4xl font-bold mb-6">🎀 When & Where</h2>
 
         <p class="text-lg text-gray-700 leading-relaxed">
-            Join us on <strong>Friday, May 9th, 2025</strong> from <strong>5 PM – 9 PM</strong> at the 
-            <strong>North Berkeley Senior Center</strong> located at <strong>1901 Hearst Ave, Berkeley, CA</strong>! 💕
+            Join us on <strong>Sunday, April 26th, 2026</strong> from <strong>1 PM – 7 PM</strong> at the 
+            <strong>Plentea's Back Room</strong> located at <strong>2430 Durant Ave, Berkeley, CA</strong>! 💕
           </p>
         
           <p class="text-lg text-gray-700 leading-relaxed mt-4">
-            <strong>Walking Directions:</strong> From UC Berkeley campus, head north on Oxford Street until you reach the northwest corner of campus by Barker Hall. 
-            Turn left on Hearst Avenue and continue west for 5 minutes — the Senior Center will be on your right!
+            <strong>Walking Directions:</strong> From UC Berkeley's MLK building, head south on Telegraph Avenue until you reach Durant Avenue, 
+            then turn right and continue west for 2 minutes — Plentea will be on your left!
           </p>
 
           <p class="text-lg text-gray-700 leading-relaxed mt-4">
-            <strong>Transit Directions:</strong> AC Transit route 79 from the south side of campus takes you directly outside the North Berkeley Senior Center. From the Downtown Berkeley BART plaza, you can also take bus 51B or 52 to University Ave.
-            at Martin Luther King Jr. Way (by Trader Joe's), and walk 2 blocks north.
+             <strong>Transit Directions:</strong> AC Transit route 52 from the north side of campus takes you directly outside the Plantea. 
+             From the Downtown Berkeley BART plaza, you can also take bus 51B, 27, and 22 at Shattuck at Allston to Durant Ave. and walk 3 minutes East to Plantea.
           </p>
         
           <div class="mt-6 rounded-3xl overflow-hidden shadow-md">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2226.9894638571445!2d-122.27032306395039!3d37.87342194490234!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857e9897690f3b%3A0x32927cbae7ff54df!2sNorth%20Berkeley%20Senior%20Center!5e0!3m2!1sen!2sus!4v1745907712131!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.6897877150154!2d-122.26214692266542!3d37.867548306808125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857c2f357a5935%3A0x8b63f4b93a8290f5!2sPlentea!5e0!3m2!1sen!2sus!4v1775862463802!5m2!1sen!2sus"
               width="100%"
               height="350"
               style="border:0;"
@@ -143,10 +151,13 @@ setInterval(() => {
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade">
             </iframe>
+
           </div>
+          <!--
         <img src="/assets/image/maidcafe/senior_center.png" alt="Venue" class="rounded-3xl mt-8 object-cover mx-auto w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl" />
+        -->
       </div>
-  
+
       <!-- What's Happening Bubble -->
       <div class="bg-white border-4 border-dashed border-pink-300 rounded-3xl p-8 mb-14 shadow-xl shadow-pink-100 text-left">
         <h2 class="font-fun text-blue-500 text-4xl font-bold mb-6">☕ What’s Happening?</h2>
@@ -185,7 +196,7 @@ setInterval(() => {
 
       </div>
 
-    -->
+      -->
 
 
   
@@ -234,7 +245,7 @@ setInterval(() => {
         <h3 class="font-fun text-blue-500 text-2xl font-bold mb-2 mt-4">We look forward to your presence, ojou/goshujin-sama! (*´∀`)~♥</h3>
 
         <a
-          href="https://forms.gle/3prmJgSKuX5AMqz46"
+          href="https://buy.stripe.com/8x200k4vS7P06xX9urbAs03"
           target="_blank"
           rel="noopener noreferrer"
           class="inline-block my-4 rounded-full border border-pink-500 bg-white text-pink-500 px-6 py-2 text-lg hover:bg-pink-50 transition-colors duration-200"
