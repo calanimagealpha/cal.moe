@@ -98,35 +98,43 @@
             "description": "Konshuu is our club's own biweekly publication! Each issue includes information about future events and an assortment of articles on anime culture. Officers in this department handle their respective roles within Konshuu, whether it be writing the articles, drawing illustrations, or designing the layout of an issue.",
             "members": [
                 {
-                    "name": "Kai Kupper",
-                    "handle": "keyeballthebeholder",
+                    "name": "Dante Atiliano",
+                    "handle": "thecertifiedscholar",
                     "position": "Konshuu - Editor in Chief",
-                    "grad_date": "Spring 2026",
-                    "website_picture": "officer_imgs/Z1AMCUe1Fvmyrbeo7.jpg",
-                    "personal_website": "https://youtu.be/M8FLKLeoFng?si=UfbinRxz0zTAn_Aa"
+                    "grad_date": "Spring 2027",
+                    "website_picture": "https://imgur.com/a/3tZ1p7N",
+                    "personal_website": ""
                 },
                 {
                     "name": "Alex Munoz",
                     "handle": "Kneesore.",
                     "position": "Konshuu - Writer",
-                    "grad_date": "Fall 2028",
+                    "grad_date": "Spring 2028",
                     "website_picture": "officer_imgs/alex munoz.png",
                     "personal_website": ""
                 },
                 {
-                    "name": "Catherine Chen",
-                    "handle": "kitkat#0973",
-                    "position": "Konshuu - Artist",
-                    "grad_date": "Spring 2026",
-                    "website_picture": "officer_imgs/catherine chen.jpg",
+                    "name": "Emile Xiao",
+                    "handle": "EmtX",
+                    "position": "Konshuu - Writer",
+                    "grad_date": "Spring 2029",
+                    "website_picture": "https://ibb.co/XBF7rnQ",
                     "personal_website": ""
                 },
                 {
-                    "name": "Dante Atiliano",
-                    "handle": "thecertifiedscholar",
-                    "position": "Konshuu - Graphic Designer",
-                    "grad_date": "Spring 2027",
-                    "website_picture": "officer_imgs/dante atiliano.png",
+                    "name": "Eric Joh",
+                    "handle": "ericjoh.",
+                    "position": "Konshuu - Writer",
+                    "grad_date": "Spring 2028",
+                    "website_picture": "https://drive.google.com/file/d/1jf-UO8EFLKnrzcOixMJ-asJHyR5uh7X3/view?usp=sharing",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Haku Lao",
+                    "handle": "hakulon",
+                    "position": "Konshuu - Artist",
+                    "grad_date": "Spring 2028",
+                    "website_picture": "https://drive.google.com/file/d/1FPdUGqugYBzE3kUK-_H5Sukf7ZTR_22l/view?usp=sharing",
                     "personal_website": ""
                 },
                 {
@@ -134,15 +142,15 @@
                     "handle": ".refreeze",
                     "position": "Konshuu - Graphic Designer",
                     "grad_date": "Spring 2029",
-                    "website_picture": "officer_imgs/harry tran.webp",
+                    "website_picture": "https://wallpapers.com/wallpapers/fallen-kaneki-pfp-mmnua39fzmhyo2vm.html",
                     "personal_website": ""
                 },
                 {
                     "name": "Jamie Kim",
                     "handle": "snufkepo",
                     "position": "Konshuu - Artist",
-                    "grad_date": "Spring 2024",
-                    "website_picture": "officer_imgs/jamie kim.jpeg",
+                    "grad_date": "Spring 2028",
+                    "website_picture": "https://imgur.com/a/7gxvsZB",
                     "personal_website": ""
                 },
                 {
@@ -154,19 +162,19 @@
                     "personal_website": ""
                 },
                 {
+                    "name": "Judy Huang",
+                    "handle": "._.ragnarok._.",
+                    "position": "Konshuu - Artist",
+                    "grad_date": "Spring 202",
+                    "website_picture": "https://drive.google.com/file/d/1mWeE1eo9V7iRQ6Pr8h22spUia_ELILG6/view?usp=sharing",
+                    "personal_website": ""
+                },
+                {
                     "name": "Karina Hernandez",
                     "handle": "RandommRatt#3565",
                     "position": "Konshuu - Writer",
                     "grad_date": "Spring 2029",
                     "website_picture": "officer_imgs/karina hernandez.jpg",
-                    "personal_website": ""
-                },
-                {
-                    "name": "Kat Yi",
-                    "handle": "squeegs",
-                    "position": "Konshuu - Artist",
-                    "grad_date": "Spring 2029",
-                    "website_picture": "officer_imgs/kat yi.webp",
                     "personal_website": ""
                 },
                 {
@@ -178,19 +186,11 @@
                     "personal_website": ""
                 },
                 {
-                    "name": "Rachel Chen",
-                    "handle": "Shigezaki",
+                    "name": "Mia Rubalcava",
+                    "handle": "mezzomimi",
                     "position": "Konshuu - Artist",
-                    "grad_date": "Spring 2026",
-                    "website_picture": "officer_imgs/rachel chen.png",
-                    "personal_website": ""
-                },
-                {
-                    "name": "Teresa Kuang",
-                    "handle": "bxbal",
-                    "position": "Konshuu - Artist",
-                    "grad_date": "Spring 2026",
-                    "website_picture": "officer_imgs/teresa kuang.jpg",
+                    "grad_date": "Spring 2030",
+                    "website_picture": "https://i.pinimg.com/1200x/f6/e4/65/f6e465523dd77db4172d5ed6f8ed48a7.jpg",
                     "personal_website": ""
                 },
                 {
