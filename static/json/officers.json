@@ -1,5 +1,5 @@
 {
-    "semester": "Spring 2025",
+    "semester": "Fall 2026",
     "departments": [
         {
             "name": "Executive Leadership",
@@ -211,8 +211,16 @@
                     "name": "Shang Wu",
                     "handle": "oblivvion_23",
                     "position": "Anime Destiny - Head",
-                    "grad_date": "Spring 2027",
+                    "grad_date": "Fall 2027",
                     "website_picture": "officer_imgs/1FQ_16HFsEmDyDyfQ4FhHoO8sXigPlHER.jpg",
+                    "personal_website": ""
+                },
+                {
+                    "name": "Charlie Jong",
+                    "handle": "helius_001",
+                    "position": "Anime Destiny - Planner",
+                    "grad_date": "Spring 2027",
+                    "website_picture": "https://drive.google.com/file/d/1ziT_zuFt2jjJbceXzedTdg5wDarIGsW3/view?usp=sharing",
                     "personal_website": ""
                 },
                 {
@@ -240,19 +248,11 @@
                     "personal_website": ""
                 },
                 {
-                    "name": "Marissa Shoji",
-                    "handle": "Knightmare#8598",
+                    "name": "Scarlet Rahman",
+                    "handle": "drtictac",
                     "position": "Anime Destiny - Planner",
-                    "grad_date": "Spring 2026",
-                    "website_picture": "officer_imgs/marissa shoji.jpeg",
-                    "personal_website": ""
-                },
-                {
-                    "name": "Phoenix Nguyen",
-                    "handle": "wanderingflames",
-                    "position": "Anime Destiny - Planner",
-                    "grad_date": "Spring 2026",
-                    "website_picture": "officer_imgs/phoenix nguyen.jpg",
+                    "grad_date": "Spring 2029",
+                    "website_picture": "officer_imgs/ScarletRahman.jpeg",
                     "personal_website": ""
                 }
             ]
