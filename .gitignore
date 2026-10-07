@@ -10,3 +10,4 @@ node_modules
 **/*.pdf
 **/*.mp4
 .pnpm-store/**
+vite.config.ts.timestamp-*
