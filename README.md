@@ -16,6 +16,8 @@ Modernized cal.moe website built with svelte, tailwind and ❤️
      `cd cal.moe`
    - and run:  
      `npm install`
+     (the repo's `.npmrc` sets `legacy-peer-deps=true`, which works around a prettier peer-dependency conflict)  
+     requires Node `^20.19`, `^22.12` or `>=24` (see `.nvmrc`; with nvm: `nvm install && nvm use`)
    - then to run the website locally:
      `npm run dev`
    - click on the localhost link with ctrl / cmd to open it in your browser. refresh the page everytime you make a change.
