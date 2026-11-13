@@ -300,6 +300,14 @@
                     "grad_date": "Spring 2029",
                     "website_picture": "officer_imgs/OmokoOnogiede.jpg",
                     "personal_website": ""
+                },
+                {
+                    "name": "Lennox Fu",
+                    "handle": "Leno42",
+                    "position": "Technology - General",
+                    "grad_date": "Spring 2027",
+                    "website_picture": "officer_imgs/FuLennox.jpg",
+                    "personal_website": ""
                 }
             ]
         },
